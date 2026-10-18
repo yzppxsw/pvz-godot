@@ -1,0 +1,202 @@
+[gd_scene format=3 uid="uid://mksvqdw6ey8y"]
+
+[ext_resource type="Texture2D" uid="uid://bfp70fb50uu63" path="res://resources/graphics/Plants/GraveBuster/GraveBuster_0.png" id="1_lduq1"]
+[ext_resource type="Script" uid="uid://dhcedyn7jkwtv" path="res://Scripts/plants/gravebuster.gd" id="1_wqybj"]
+[ext_resource type="Texture2D" uid="uid://bhgvyskcs28w" path="res://resources/graphics/Plants/GraveBuster/GraveBuster_1.png" id="2_8qlv5"]
+[ext_resource type="Texture2D" uid="uid://dv53m3w28yuf2" path="res://resources/graphics/Plants/GraveBuster/GraveBuster_2.png" id="3_txkz9"]
+[ext_resource type="Texture2D" uid="uid://cojud7pydboc1" path="res://resources/graphics/Plants/GraveBuster/GraveBuster_3.png" id="4_wf27j"]
+[ext_resource type="Texture2D" uid="uid://cdwwyhx301qny" path="res://resources/graphics/Plants/GraveBuster/GraveBuster_4.png" id="5_20wmn"]
+[ext_resource type="Texture2D" uid="uid://7guhoijonm0" path="res://resources/graphics/Plants/GraveBuster/GraveBuster_5.png" id="6_th91w"]
+[ext_resource type="Texture2D" uid="uid://b45au7ua7awps" path="res://resources/graphics/Plants/GraveBuster/GraveBuster_6.png" id="7_bmpqp"]
+[ext_resource type="Texture2D" uid="uid://cxj43isvnxl2w" path="res://resources/graphics/Plants/GraveBuster/GraveBuster_7.png" id="8_80rzr"]
+[ext_resource type="Texture2D" uid="uid://sas8p5ws83w4" path="res://resources/graphics/Plants/GraveBuster/GraveBuster_8.png" id="9_bi2i9"]
+[ext_resource type="Texture2D" uid="uid://d4ma2cry03jvh" path="res://resources/graphics/Plants/GraveBuster/GraveBuster_9.png" id="10_uqgxa"]
+[ext_resource type="Texture2D" uid="uid://2a56a2hura8e" path="res://resources/graphics/Plants/GraveBuster/GraveBuster_10.png" id="11_ea6qc"]
+[ext_resource type="Texture2D" uid="uid://cx2s6p0wvsvj5" path="res://resources/graphics/Plants/GraveBuster/GraveBuster_11.png" id="12_ujx3l"]
+[ext_resource type="Texture2D" uid="uid://dewktf2ha5pum" path="res://resources/graphics/Plants/GraveBuster/GraveBuster_12.png" id="13_jiu0r"]
+[ext_resource type="Texture2D" uid="uid://cvlx8jk0er3c7" path="res://resources/graphics/Plants/GraveBuster/GraveBuster_13.png" id="14_d0ckb"]
+[ext_resource type="Texture2D" uid="uid://disrvopgegujf" path="res://resources/graphics/Plants/GraveBuster/GraveBuster_14.png" id="15_faw6h"]
+[ext_resource type="Texture2D" uid="uid://c6esk0afmo5aq" path="res://resources/graphics/Plants/GraveBuster/GraveBuster_15.png" id="16_46mu0"]
+[ext_resource type="Texture2D" uid="uid://c366vrypxgwh3" path="res://resources/graphics/Plants/GraveBuster/GraveBuster_16.png" id="17_lomh0"]
+[ext_resource type="Texture2D" uid="uid://bblm2gjg5533y" path="res://resources/graphics/Plants/GraveBuster/GraveBuster_17.png" id="18_3nk1y"]
+[ext_resource type="Texture2D" uid="uid://c5m1gcroxylpv" path="res://resources/graphics/Plants/GraveBuster/GraveBuster_18.png" id="19_lqd4w"]
+[ext_resource type="Texture2D" uid="uid://fw1ebmh6t34l" path="res://resources/graphics/Plants/GraveBuster/GraveBuster_19.png" id="20_qvvrz"]
+[ext_resource type="Texture2D" uid="uid://dkgfxlcucl1ar" path="res://resources/graphics/Plants/GraveBuster/GraveBuster_20.png" id="21_aqzej"]
+[ext_resource type="Texture2D" uid="uid://exs5mn0n25ys" path="res://resources/graphics/Plants/GraveBuster/GraveBuster_21.png" id="22_ga0va"]
+[ext_resource type="Texture2D" uid="uid://c13gdm234f2k4" path="res://resources/graphics/Plants/GraveBuster/GraveBuster_22.png" id="23_5eom1"]
+[ext_resource type="Texture2D" uid="uid://b8meoyqacoydb" path="res://resources/graphics/Plants/GraveBuster/GraveBuster_23.png" id="24_wr9r5"]
+[ext_resource type="Texture2D" uid="uid://bby4452ajtjfa" path="res://resources/graphics/Plants/GraveBuster/GraveBuster_24.png" id="25_xm8r1"]
+[ext_resource type="Texture2D" uid="uid://cxt370f1swdb0" path="res://resources/graphics/Plants/GraveBuster/GraveBuster_25.png" id="26_80q8b"]
+[ext_resource type="Texture2D" uid="uid://dak4nsqm58lsm" path="res://resources/graphics/Plants/GraveBuster/GraveBuster_26.png" id="27_58ndd"]
+[ext_resource type="Texture2D" uid="uid://56chdukyyr44" path="res://resources/graphics/Plants/GraveBuster/GraveBuster_27.png" id="28_a84oa"]
+[ext_resource type="Texture2D" uid="uid://cjrcft4etta7" path="res://resources/graphics/Plants/GraveBuster/GraveBuster_28.png" id="29_kwoe9"]
+[ext_resource type="Texture2D" uid="uid://clhlkaihvhes" path="res://resources/graphics/Plants/GraveBuster/GraveBuster_29.png" id="30_ycco6"]
+[ext_resource type="Texture2D" uid="uid://cexvwhnhukbei" path="res://resources/graphics/Plants/GraveBuster/GraveBuster_30.png" id="31_gpdsk"]
+[ext_resource type="Texture2D" uid="uid://chojhiwnuxkeq" path="res://resources/graphics/Plants/GraveBuster/GraveBuster_31.png" id="32_ueyz0"]
+[ext_resource type="Texture2D" uid="uid://bgd3r0ngstha6" path="res://resources/graphics/Plants/GraveBuster/GraveBuster_32.png" id="33_y0jgn"]
+[ext_resource type="Texture2D" uid="uid://ccbo003sd6gx8" path="res://resources/graphics/Plants/GraveBuster/GraveBuster_33.png" id="34_upawk"]
+[ext_resource type="Texture2D" uid="uid://g8xebhmnbbci" path="res://resources/graphics/Plants/GraveBuster/GraveBuster_34.png" id="35_iibfs"]
+[ext_resource type="Texture2D" uid="uid://b4h28mmpxqlx3" path="res://resources/graphics/Plants/GraveBuster/GraveBuster_35.png" id="36_vayq7"]
+[ext_resource type="Texture2D" uid="uid://c4mjjfhlwscew" path="res://resources/graphics/Plants/GraveBuster/GraveBuster_36.png" id="37_kflop"]
+[ext_resource type="Texture2D" uid="uid://cvmu1wqruvgdw" path="res://resources/graphics/Plants/GraveBuster/GraveBuster_37.png" id="38_jfxpy"]
+[ext_resource type="Texture2D" uid="uid://diu8thw5egn6e" path="res://resources/graphics/Plants/GraveBuster/GraveBuster_38.png" id="39_z2xzb"]
+[ext_resource type="Texture2D" uid="uid://bptwv8re7xo3w" path="res://resources/graphics/Plants/GraveBuster/GraveBuster_39.png" id="40_b6pw7"]
+[ext_resource type="Texture2D" uid="uid://b8wk78jswtev8" path="res://resources/graphics/Plants/GraveBuster/GraveBuster_40.png" id="41_gw8pp"]
+[ext_resource type="Texture2D" uid="uid://bc31f84iakgmd" path="res://resources/graphics/Plants/GraveBuster/GraveBuster_41.png" id="42_onchz"]
+[ext_resource type="Texture2D" uid="uid://lf24r22ep52p" path="res://resources/graphics/Plants/GraveBuster/GraveBuster_42.png" id="43_q9qo4"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_enssq"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_lduq1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_8qlv5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_txkz9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_wf27j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_20wmn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_th91w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_bmpqp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_80rzr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_bi2i9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_uqgxa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_ea6qc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_ujx3l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_jiu0r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_d0ckb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_faw6h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_46mu0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_lomh0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_3nk1y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_lqd4w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_qvvrz")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_aqzej")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_ga0va")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_5eom1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_wr9r5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_xm8r1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_80q8b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_58ndd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_a84oa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_kwoe9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_ycco6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_gpdsk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_ueyz0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_y0jgn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_upawk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_iibfs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_vayq7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_kflop")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_jfxpy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_z2xzb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_b6pw7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_gw8pp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_onchz")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_q9qo4")
+}],
+"loop": 0,
+"name": &"GraveBuster",
+"speed": 10.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_aptvu"]
+size = Vector2(95, 77.5)
+
+[node name="GraveBuster" type="Area2D" unique_id=1602695683]
+script = ExtResource("1_wqybj")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=53639169]
+texture_filter = 1
+sprite_frames = SubResource("SpriteFrames_enssq")
+animation = &"GraveBuster"
+autoplay = "GraveBuster"
+frame = 42
+frame_progress = 1.0
+offset = Vector2(0, -53)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1140553753]
+position = Vector2(2, -38.25)
+shape = SubResource("RectangleShape2D_aptvu")

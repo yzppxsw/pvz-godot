@@ -1,0 +1,64 @@
+[gd_scene format=3 uid="uid://dq2s3semppq4j"]
+
+[ext_resource type="Script" uid="uid://dr6add15fdeq2" path="res://Scripts/plants/cherrybomb.gd" id="1_3kox8"]
+[ext_resource type="Texture2D" uid="uid://n4p4ayhtjy36" path="res://resources/graphics/Plants/CherryBomb/CherryBomb_0.png" id="1_c8swd"]
+[ext_resource type="Texture2D" uid="uid://be63a0gsghm62" path="res://resources/graphics/Plants/CherryBomb/CherryBomb_1.png" id="2_y754e"]
+[ext_resource type="Texture2D" uid="uid://dv0rk7wcqoflq" path="res://resources/graphics/Plants/CherryBomb/CherryBomb_2.png" id="3_x4t7j"]
+[ext_resource type="Texture2D" uid="uid://1s2qnybg21cu" path="res://resources/graphics/Plants/CherryBomb/CherryBomb_3.png" id="4_ilhhs"]
+[ext_resource type="Texture2D" uid="uid://cfgeqnpa1abn7" path="res://resources/graphics/Plants/CherryBomb/CherryBomb_4.png" id="5_lgcow"]
+[ext_resource type="Texture2D" uid="uid://c1go5uepf5qtl" path="res://resources/graphics/Plants/CherryBomb/CherryBomb_5.png" id="6_kq6gh"]
+[ext_resource type="Texture2D" uid="uid://bivqtdspdvny8" path="res://resources/graphics/Plants/CherryBomb/CherryBomb_6.png" id="7_g6g9h"]
+[ext_resource type="Texture2D" uid="uid://dfmq62i4v0lrl" path="res://resources/graphics/Screen/Boom.png" id="9_ptle8"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_7uoci"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_c8swd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_y754e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_x4t7j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_ilhhs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_lgcow")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_kq6gh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_g6g9h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_ptle8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_ptle8")
+}],
+"loop": 0,
+"name": &"CherryBomb",
+"speed": 6.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_wovsm"]
+size = Vector2(89, 68)
+
+[node name="CherryBomb" type="Area2D" unique_id=1287513198]
+script = ExtResource("1_3kox8")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=886274911]
+texture_filter = 1
+sprite_frames = SubResource("SpriteFrames_7uoci")
+animation = &"CherryBomb"
+frame = 8
+frame_progress = 1.0
+offset = Vector2(0, -40)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=379678043]
+position = Vector2(2, -34)
+shape = SubResource("RectangleShape2D_wovsm")

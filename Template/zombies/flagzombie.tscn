@@ -1,0 +1,229 @@
+[gd_scene format=3 uid="uid://8x53kdjaofhj9"]
+
+[ext_resource type="Texture2D" uid="uid://c0sr6jv2ltcxl" path="res://resources/graphics/Zombies/FlagZombie/FlagZombie/FlagZombie_0.png" id="f1"]
+[ext_resource type="Texture2D" uid="uid://b2nmt13cs3rv" path="res://resources/graphics/Zombies/FlagZombie/FlagZombie/FlagZombie_1.png" id="f2"]
+[ext_resource type="Texture2D" uid="uid://dabfwux7pqf2o" path="res://resources/graphics/Zombies/FlagZombie/FlagZombie/FlagZombie_2.png" id="f3"]
+[ext_resource type="Texture2D" uid="uid://dsfo6lxutocam" path="res://resources/graphics/Zombies/FlagZombie/FlagZombie/FlagZombie_3.png" id="f4"]
+[ext_resource type="Texture2D" uid="uid://5ytxgusgcg4n" path="res://resources/graphics/Zombies/FlagZombie/FlagZombie/FlagZombie_4.png" id="f5"]
+[ext_resource type="Texture2D" uid="uid://bhpurpibnmo1b" path="res://resources/graphics/Zombies/FlagZombie/FlagZombie/FlagZombie_5.png" id="f6"]
+[ext_resource type="Texture2D" uid="uid://dgmwkdguc13db" path="res://resources/graphics/Zombies/FlagZombie/FlagZombie/FlagZombie_6.png" id="f7"]
+[ext_resource type="Texture2D" uid="uid://di5gvwy68fy81" path="res://resources/graphics/Zombies/FlagZombie/FlagZombie/FlagZombie_7.png" id="f8"]
+[ext_resource type="Texture2D" uid="uid://o1d0o5algei8" path="res://resources/graphics/Zombies/FlagZombie/FlagZombie/FlagZombie_8.png" id="f9"]
+[ext_resource type="Texture2D" uid="uid://d4iu70fto6eby" path="res://resources/graphics/Zombies/FlagZombie/FlagZombie/FlagZombie_9.png" id="f10"]
+[ext_resource type="Texture2D" uid="uid://c51exxpcm2cwm" path="res://resources/graphics/Zombies/FlagZombie/FlagZombie/FlagZombie_10.png" id="f11"]
+[ext_resource type="Texture2D" uid="uid://q4ik884g4xa1" path="res://resources/graphics/Zombies/FlagZombie/FlagZombie/FlagZombie_11.png" id="f12"]
+[ext_resource type="Texture2D" uid="uid://bd1yhjbme8moo" path="res://resources/graphics/Zombies/FlagZombie/FlagZombieAttack/FlagZombieAttack_0.png" id="f13"]
+[ext_resource type="Texture2D" uid="uid://bufurbl2g4e55" path="res://resources/graphics/Zombies/FlagZombie/FlagZombieAttack/FlagZombieAttack_1.png" id="f14"]
+[ext_resource type="Texture2D" uid="uid://cxo7p2e02mb73" path="res://resources/graphics/Zombies/FlagZombie/FlagZombieAttack/FlagZombieAttack_2.png" id="f15"]
+[ext_resource type="Texture2D" uid="uid://0bdj2hg3axk1" path="res://resources/graphics/Zombies/FlagZombie/FlagZombieAttack/FlagZombieAttack_3.png" id="f16"]
+[ext_resource type="Texture2D" uid="uid://dy3jmwhs0teyx" path="res://resources/graphics/Zombies/FlagZombie/FlagZombieAttack/FlagZombieAttack_4.png" id="f17"]
+[ext_resource type="Texture2D" uid="uid://dcujhatjmngv1" path="res://resources/graphics/Zombies/FlagZombie/FlagZombieAttack/FlagZombieAttack_5.png" id="f18"]
+[ext_resource type="Texture2D" uid="uid://bjtyis41qidpf" path="res://resources/graphics/Zombies/FlagZombie/FlagZombieAttack/FlagZombieAttack_6.png" id="f19"]
+[ext_resource type="Texture2D" uid="uid://bsnisarsboi7h" path="res://resources/graphics/Zombies/FlagZombie/FlagZombieAttack/FlagZombieAttack_7.png" id="f20"]
+[ext_resource type="Texture2D" uid="uid://dsbnpnwjc138k" path="res://resources/graphics/Zombies/FlagZombie/FlagZombieAttack/FlagZombieAttack_8.png" id="f21"]
+[ext_resource type="Texture2D" uid="uid://cy84i6ha7ef2a" path="res://resources/graphics/Zombies/FlagZombie/FlagZombieAttack/FlagZombieAttack_9.png" id="f22"]
+[ext_resource type="Texture2D" uid="uid://b0j53de68pi0w" path="res://resources/graphics/Zombies/FlagZombie/FlagZombieAttack/FlagZombieAttack_10.png" id="f23"]
+[ext_resource type="Texture2D" uid="uid://dcksfa8q4ura6" path="res://resources/graphics/Zombies/FlagZombie/FlagZombieLostHead/FlagZombieLostHead_0.png" id="f24"]
+[ext_resource type="Texture2D" uid="uid://nauufelrulxg" path="res://resources/graphics/Zombies/FlagZombie/FlagZombieLostHead/FlagZombieLostHead_1.png" id="f25"]
+[ext_resource type="Texture2D" uid="uid://djbokmld1ykft" path="res://resources/graphics/Zombies/FlagZombie/FlagZombieLostHead/FlagZombieLostHead_2.png" id="f26"]
+[ext_resource type="Texture2D" uid="uid://dsocgt5t0f3j8" path="res://resources/graphics/Zombies/FlagZombie/FlagZombieLostHead/FlagZombieLostHead_3.png" id="f27"]
+[ext_resource type="Texture2D" uid="uid://1bia0jc7jsyh" path="res://resources/graphics/Zombies/FlagZombie/FlagZombieLostHead/FlagZombieLostHead_4.png" id="f28"]
+[ext_resource type="Texture2D" uid="uid://b4pwknfjvajbv" path="res://resources/graphics/Zombies/FlagZombie/FlagZombieLostHead/FlagZombieLostHead_5.png" id="f29"]
+[ext_resource type="Texture2D" uid="uid://ceq3hiut417vt" path="res://resources/graphics/Zombies/FlagZombie/FlagZombieLostHead/FlagZombieLostHead_6.png" id="f30"]
+[ext_resource type="Texture2D" uid="uid://bcmu066hiiurj" path="res://resources/graphics/Zombies/FlagZombie/FlagZombieLostHead/FlagZombieLostHead_7.png" id="f31"]
+[ext_resource type="Texture2D" uid="uid://u01nhaqxyac2" path="res://resources/graphics/Zombies/FlagZombie/FlagZombieLostHead/FlagZombieLostHead_8.png" id="f32"]
+[ext_resource type="Texture2D" uid="uid://xtob3d1q61xf" path="res://resources/graphics/Zombies/FlagZombie/FlagZombieLostHead/FlagZombieLostHead_9.png" id="f33"]
+[ext_resource type="Texture2D" uid="uid://cxi2ufv04fnmx" path="res://resources/graphics/Zombies/FlagZombie/FlagZombieLostHead/FlagZombieLostHead_10.png" id="f34"]
+[ext_resource type="Texture2D" uid="uid://c62ypbi764rf4" path="res://resources/graphics/Zombies/FlagZombie/FlagZombieLostHead/FlagZombieLostHead_11.png" id="f35"]
+[ext_resource type="Texture2D" uid="uid://dqxeoxxnnlro" path="res://resources/graphics/Zombies/FlagZombie/FlagZombieLostHeadAttack/FlagZombieLostHeadAttack_0.png" id="f36"]
+[ext_resource type="Texture2D" uid="uid://d3xfxqxg4hnot" path="res://resources/graphics/Zombies/FlagZombie/FlagZombieLostHeadAttack/FlagZombieLostHeadAttack_1.png" id="f37"]
+[ext_resource type="Texture2D" uid="uid://d1kkhfwnncr0i" path="res://resources/graphics/Zombies/FlagZombie/FlagZombieLostHeadAttack/FlagZombieLostHeadAttack_2.png" id="f38"]
+[ext_resource type="Texture2D" uid="uid://dlahh414vc2hy" path="res://resources/graphics/Zombies/FlagZombie/FlagZombieLostHeadAttack/FlagZombieLostHeadAttack_3.png" id="f39"]
+[ext_resource type="Texture2D" uid="uid://w2h8apunjguu" path="res://resources/graphics/Zombies/FlagZombie/FlagZombieLostHeadAttack/FlagZombieLostHeadAttack_4.png" id="f40"]
+[ext_resource type="Texture2D" uid="uid://c00sue6jg67t4" path="res://resources/graphics/Zombies/FlagZombie/FlagZombieLostHeadAttack/FlagZombieLostHeadAttack_5.png" id="f41"]
+[ext_resource type="Texture2D" uid="uid://cipb8r5gmh61y" path="res://resources/graphics/Zombies/FlagZombie/FlagZombieLostHeadAttack/FlagZombieLostHeadAttack_6.png" id="f42"]
+[ext_resource type="Texture2D" uid="uid://dk80nnaowcllf" path="res://resources/graphics/Zombies/FlagZombie/FlagZombieLostHeadAttack/FlagZombieLostHeadAttack_7.png" id="f43"]
+[ext_resource type="Texture2D" uid="uid://o3y6sm0siywj" path="res://resources/graphics/Zombies/FlagZombie/FlagZombieLostHeadAttack/FlagZombieLostHeadAttack_8.png" id="f44"]
+[ext_resource type="Texture2D" uid="uid://uk6s0h6n0wth" path="res://resources/graphics/Zombies/FlagZombie/FlagZombieLostHeadAttack/FlagZombieLostHeadAttack_9.png" id="f45"]
+[ext_resource type="Texture2D" uid="uid://b8rmjaqtxr3ht" path="res://resources/graphics/Zombies/FlagZombie/FlagZombieLostHeadAttack/FlagZombieLostHeadAttack_10.png" id="f46"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_1"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("f1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f12")
+}
+],
+"loop": 1,
+"name": &"FlagZombie",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("f13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f23")
+}
+],
+"loop": 1,
+"name": &"FlagZombieAttack",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("f24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f35")
+}
+],
+"loop": 1,
+"name": &"FlagZombieLostHead",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("f36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f38")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f39")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f40")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f41")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f42")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f43")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f44")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f45")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f46")
+}
+],
+"loop": 1,
+"name": &"FlagZombieLostHeadAttack",
+"speed": 10.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1"]
+size = Vector2(106, 138)
+
+[node name="FlagZombie" type="CharacterBody2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+sprite_frames = SubResource("SpriteFrames_1")
+animation = &"FlagZombie"
+autoplay = "FlagZombie"
+offset = Vector2(0, 0)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(28.0, 0.0)
+shape = SubResource("RectangleShape2D_1")

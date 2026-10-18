@@ -1,0 +1,94 @@
+[gd_scene format=3 uid="uid://by6ictjdbl06c"]
+
+[ext_resource type="Texture2D" uid="uid://bq66hj42sp6ai" path="res://resources/graphics/Plants/CoffeeBean/CoffeeBean_0.png" id="1_v2h76"]
+[ext_resource type="Texture2D" uid="uid://dc3gaeyea7od8" path="res://resources/graphics/Plants/CoffeeBean/CoffeeBean_1.png" id="2_dlk65"]
+[ext_resource type="Texture2D" uid="uid://cnrfveppf70f5" path="res://resources/graphics/Plants/CoffeeBean/CoffeeBean_2.png" id="3_k4gud"]
+[ext_resource type="Texture2D" uid="uid://1crxic3qy10q" path="res://resources/graphics/Plants/CoffeeBean/CoffeeBean_3.png" id="4_030m6"]
+[ext_resource type="Texture2D" uid="uid://bynbrjhdxide5" path="res://resources/graphics/Plants/CoffeeBean/CoffeeBean_4.png" id="5_xxd9d"]
+[ext_resource type="Texture2D" uid="uid://c3eclnixgeqxh" path="res://resources/graphics/Plants/CoffeeBean/CoffeeBean_5.png" id="6_39cto"]
+[ext_resource type="Texture2D" uid="uid://dsxcrj8mpb3rp" path="res://resources/graphics/Plants/CoffeeBean/CoffeeBean_6.png" id="7_b3w41"]
+[ext_resource type="Texture2D" uid="uid://xhpcijermhk6" path="res://resources/graphics/Plants/CoffeeBean/CoffeeBean_7.png" id="8_fxkav"]
+[ext_resource type="Texture2D" uid="uid://dxxbpwhffv6gs" path="res://resources/graphics/Plants/CoffeeBean/CoffeeBean_8.png" id="9_shass"]
+[ext_resource type="Texture2D" uid="uid://6t50jod6qkl7" path="res://resources/graphics/Plants/CoffeeBean/CoffeeBean_9.png" id="10_fwbk5"]
+[ext_resource type="Texture2D" uid="uid://crrtt064bqnth" path="res://resources/graphics/Plants/CoffeeBean/CoffeeBean_10.png" id="11_7u7e4"]
+[ext_resource type="Texture2D" uid="uid://cdct40xs6n6q3" path="res://resources/graphics/Plants/CoffeeBean/CoffeeBean_11.png" id="12_5f4y8"]
+[ext_resource type="Texture2D" uid="uid://usu0amaiavup" path="res://resources/graphics/Plants/CoffeeBean/CoffeeBean_12.png" id="13_yivds"]
+[ext_resource type="Texture2D" uid="uid://vgrjkxhoeo6y" path="res://resources/graphics/Plants/CoffeeBean/CoffeeBean_13.png" id="14_i68po"]
+[ext_resource type="Texture2D" uid="uid://bptas1uyfwnky" path="res://resources/graphics/Plants/CoffeeBean/CoffeeBean_14.png" id="15_o300e"]
+[ext_resource type="Texture2D" uid="uid://dcrdnt6da01w5" path="res://resources/graphics/Plants/CoffeeBean/CoffeeBean_15.png" id="16_sb5v1"]
+[ext_resource type="Texture2D" uid="uid://bcx05a8v4ikem" path="res://resources/graphics/Plants/CoffeeBean/CoffeeBean_16.png" id="17_gn1he"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_bd7o2"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_v2h76")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_dlk65")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_k4gud")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_030m6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_xxd9d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_39cto")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_b3w41")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_fxkav")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_shass")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_fwbk5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_7u7e4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_5f4y8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_yivds")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_i68po")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_o300e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_sb5v1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_gn1he")
+}],
+"loop": 1,
+"name": &"CoffeeBean",
+"speed": 10.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_57usv"]
+size = Vector2(37, 50)
+
+[node name="CoffeeBean" type="Area2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+sprite_frames = SubResource("SpriteFrames_bd7o2")
+animation = &"CoffeeBean"
+autoplay = "CoffeeBean"
+offset = Vector2(0, -48)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-1, -25)
+shape = SubResource("RectangleShape2D_57usv")

@@ -1,0 +1,102 @@
+[gd_scene format=3 uid="uid://bdydxnfviod2i"]
+
+[ext_resource type="Texture2D" uid="uid://dms0wnqc52nyi" path="res://resources/graphics/Plants/Spikeweed/Spikeweed/Spikeweed_0.png" id="1_iprap"]
+[ext_resource type="Texture2D" uid="uid://biasnkg0xjnrd" path="res://resources/graphics/Plants/Spikeweed/Spikeweed/Spikeweed_1.png" id="2_6cqng"]
+[ext_resource type="Texture2D" uid="uid://dhja16lg51e8y" path="res://resources/graphics/Plants/Spikeweed/Spikeweed/Spikeweed_2.png" id="3_afr4u"]
+[ext_resource type="Texture2D" uid="uid://db4t2ab3jq8al" path="res://resources/graphics/Plants/Spikeweed/Spikeweed/Spikeweed_3.png" id="4_nkgyt"]
+[ext_resource type="Texture2D" uid="uid://dee8n0h4mgp7k" path="res://resources/graphics/Plants/Spikeweed/Spikeweed/Spikeweed_4.png" id="5_v0jw9"]
+[ext_resource type="Texture2D" uid="uid://6up8y1v7fi7" path="res://resources/graphics/Plants/Spikeweed/Spikeweed/Spikeweed_5.png" id="6_bg3vo"]
+[ext_resource type="Texture2D" uid="uid://m4p2udo2ssvx" path="res://resources/graphics/Plants/Spikeweed/Spikeweed/Spikeweed_6.png" id="7_nqt8w"]
+[ext_resource type="Texture2D" uid="uid://ccn14nxq25x7t" path="res://resources/graphics/Plants/Spikeweed/Spikeweed/Spikeweed_7.png" id="8_dxbwb"]
+[ext_resource type="Texture2D" uid="uid://b1sye25np2bti" path="res://resources/graphics/Plants/Spikeweed/Spikeweed/Spikeweed_8.png" id="9_1xg6r"]
+[ext_resource type="Texture2D" uid="uid://d1nogi7jhpekr" path="res://resources/graphics/Plants/Spikeweed/Spikeweed/Spikeweed_9.png" id="10_j55tf"]
+[ext_resource type="Texture2D" uid="uid://b3jcttutmfihd" path="res://resources/graphics/Plants/Spikeweed/Spikeweed/Spikeweed_10.png" id="11_pqi3j"]
+[ext_resource type="Texture2D" uid="uid://3u3b0h84l87r" path="res://resources/graphics/Plants/Spikeweed/Spikeweed/Spikeweed_11.png" id="12_y4vdx"]
+[ext_resource type="Texture2D" uid="uid://byn5ha3agtjey" path="res://resources/graphics/Plants/Spikeweed/Spikeweed/Spikeweed_12.png" id="13_3mf98"]
+[ext_resource type="Texture2D" uid="uid://bm3foy4n3opxh" path="res://resources/graphics/Plants/Spikeweed/Spikeweed/Spikeweed_13.png" id="14_x6yf1"]
+[ext_resource type="Texture2D" uid="uid://dfnov4rneolw5" path="res://resources/graphics/Plants/Spikeweed/Spikeweed/Spikeweed_14.png" id="15_ib9oz"]
+[ext_resource type="Texture2D" uid="uid://bdo2ryfw6nay0" path="res://resources/graphics/Plants/Spikeweed/Spikeweed/Spikeweed_15.png" id="16_h46om"]
+[ext_resource type="Texture2D" uid="uid://b6pih57o3xm33" path="res://resources/graphics/Plants/Spikeweed/Spikeweed/Spikeweed_16.png" id="17_fom5o"]
+[ext_resource type="Texture2D" uid="uid://b1qxqtc615a0y" path="res://resources/graphics/Plants/Spikeweed/Spikeweed/Spikeweed_17.png" id="18_wfapo"]
+[ext_resource type="Texture2D" uid="uid://doh5751qaj100" path="res://resources/graphics/Plants/Spikeweed/Spikeweed/Spikeweed_18.png" id="19_6rtna"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_u027a"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_iprap")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_6cqng")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_afr4u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_nkgyt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_v0jw9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_bg3vo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_nqt8w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_dxbwb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_1xg6r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_j55tf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_pqi3j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_y4vdx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_3mf98")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_x6yf1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_ib9oz")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_h46om")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_fom5o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_wfapo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_6rtna")
+}],
+"loop": 1,
+"name": &"Spikeweed",
+"speed": 10.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_9k67x"]
+size = Vector2(82, 32)
+
+[node name="Spikeweed" type="Area2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+sprite_frames = SubResource("SpriteFrames_u027a")
+animation = &"Spikeweed"
+autoplay = "Spikeweed"
+offset = Vector2(0, -18)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -16)
+shape = SubResource("RectangleShape2D_9k67x")

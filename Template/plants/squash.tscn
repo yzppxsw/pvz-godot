@@ -1,0 +1,124 @@
+[gd_scene format=3 uid="uid://cnxpusylpieii"]
+
+[ext_resource type="Texture2D" uid="uid://cr6ak5rukhv3m" path="res://resources/graphics/Plants/Squash/Squash/Squash_0.png" id="1_57q80"]
+[ext_resource type="Texture2D" uid="uid://b8sbi0wy400qo" path="res://resources/graphics/Plants/Squash/Squash/Squash_1.png" id="2_gvm30"]
+[ext_resource type="Texture2D" uid="uid://cgciog66atwcb" path="res://resources/graphics/Plants/Squash/Squash/Squash_2.png" id="3_4cj53"]
+[ext_resource type="Texture2D" uid="uid://besxeybyc506t" path="res://resources/graphics/Plants/Squash/Squash/Squash_3.png" id="4_a3dri"]
+[ext_resource type="Texture2D" uid="uid://dyr62vu0r5uxk" path="res://resources/graphics/Plants/Squash/Squash/Squash_4.png" id="5_bn9g8"]
+[ext_resource type="Texture2D" uid="uid://c0p2khnmjrgrg" path="res://resources/graphics/Plants/Squash/Squash/Squash_5.png" id="6_0l0kk"]
+[ext_resource type="Texture2D" uid="uid://bcka0uf442d4c" path="res://resources/graphics/Plants/Squash/Squash/Squash_6.png" id="7_lqke0"]
+[ext_resource type="Texture2D" uid="uid://cpbxk2uafu74w" path="res://resources/graphics/Plants/Squash/Squash/Squash_7.png" id="8_1fol0"]
+[ext_resource type="Texture2D" uid="uid://cexmc704331po" path="res://resources/graphics/Plants/Squash/Squash/Squash_8.png" id="9_wvdau"]
+[ext_resource type="Texture2D" uid="uid://qlbok1kp733g" path="res://resources/graphics/Plants/Squash/Squash/Squash_9.png" id="10_h555o"]
+[ext_resource type="Texture2D" uid="uid://b3ktwqcmdnppq" path="res://resources/graphics/Plants/Squash/Squash/Squash_10.png" id="11_1wd29"]
+[ext_resource type="Texture2D" uid="uid://bcmm5xrx5tjp3" path="res://resources/graphics/Plants/Squash/Squash/Squash_11.png" id="12_6i7ef"]
+[ext_resource type="Texture2D" uid="uid://uskah7wcbp01" path="res://resources/graphics/Plants/Squash/Squash/Squash_12.png" id="13_2nsx0"]
+[ext_resource type="Texture2D" uid="uid://blt762oibbi5p" path="res://resources/graphics/Plants/Squash/Squash/Squash_13.png" id="14_ka1d3"]
+[ext_resource type="Texture2D" uid="uid://b0dynb3oeiq0p" path="res://resources/graphics/Plants/Squash/Squash/Squash_14.png" id="15_0rb9s"]
+[ext_resource type="Texture2D" uid="uid://dps4gl3mpfs04" path="res://resources/graphics/Plants/Squash/Squash/Squash_15.png" id="16_yfnf2"]
+[ext_resource type="Texture2D" uid="uid://cp72xt4q8j5fy" path="res://resources/graphics/Plants/Squash/Squash/Squash_16.png" id="17_zq7by"]
+[ext_resource type="Texture2D" uid="uid://bwb5ob77vyvxy" path="res://resources/graphics/Plants/Squash/SquashAim/SquashAim_0.png" id="18_460xb"]
+[ext_resource type="Texture2D" uid="uid://eip5i2nmwdqh" path="res://resources/graphics/Plants/Squash/SquashAttack/SquashAttack_0.png" id="19_0fvs3"]
+[ext_resource type="Texture2D" uid="uid://f8ljob36uog5" path="res://resources/graphics/Plants/Squash/SquashAttack/SquashAttack_1.png" id="20_7smj3"]
+[ext_resource type="Texture2D" uid="uid://dd1qehfakih1c" path="res://resources/graphics/Plants/Squash/SquashAttack/SquashAttack_2.png" id="21_ntb5p"]
+[ext_resource type="Texture2D" uid="uid://d3qsnq7gt1doa" path="res://resources/graphics/Plants/Squash/SquashAttack/SquashAttack_3.png" id="22_w529l"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_8rhqm"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_57q80")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_gvm30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_4cj53")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_a3dri")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_bn9g8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_0l0kk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_lqke0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_1fol0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_wvdau")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_h555o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_1wd29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_6i7ef")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_2nsx0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_ka1d3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_0rb9s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_yfnf2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_zq7by")
+}],
+"loop": 1,
+"name": &"Squash",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("18_460xb")
+}],
+"loop": 1,
+"name": &"SquashAim",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("19_0fvs3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_7smj3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_ntb5p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_w529l")
+}],
+"loop": 0,
+"name": &"SquashAttack",
+"speed": 10.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_cygzk"]
+size = Vector2(67, 84)
+
+[node name="Squash" type="Area2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+sprite_frames = SubResource("SpriteFrames_8rhqm")
+animation = &"Squash"
+autoplay = "Squash"
+offset = Vector2(0, -113)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -42)
+shape = SubResource("RectangleShape2D_cygzk")

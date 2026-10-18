@@ -1,0 +1,101 @@
+[gd_scene format=3 uid="uid://343dkk2ouwrn"]
+
+[ext_resource type="Texture2D" uid="uid://b4e40hou7r7le" path="res://resources/graphics/Plants/SunFlower/SunFlower_0.png" id="1_dnmji"]
+[ext_resource type="Script" uid="uid://g0jyrppkeekq" path="res://Scripts/plants/sunflower.gd" id="1_vgyin"]
+[ext_resource type="Texture2D" uid="uid://cl44cs8qo8but" path="res://resources/graphics/Plants/SunFlower/SunFlower_1.png" id="2_2wjo6"]
+[ext_resource type="Texture2D" uid="uid://4cv4xxddvwqy" path="res://resources/graphics/Plants/SunFlower/SunFlower_2.png" id="3_le31b"]
+[ext_resource type="Texture2D" uid="uid://wochcpcvfoxk" path="res://resources/graphics/Plants/SunFlower/SunFlower_3.png" id="4_wdxxk"]
+[ext_resource type="Texture2D" uid="uid://tp8kj8we244u" path="res://resources/graphics/Plants/SunFlower/SunFlower_4.png" id="5_lowut"]
+[ext_resource type="Texture2D" uid="uid://cbncsilgs1t8q" path="res://resources/graphics/Plants/SunFlower/SunFlower_5.png" id="6_pcbcq"]
+[ext_resource type="Texture2D" uid="uid://g8fnmk8mbd5p" path="res://resources/graphics/Plants/SunFlower/SunFlower_6.png" id="7_b5p0e"]
+[ext_resource type="Texture2D" uid="uid://kuffglh2uvx1" path="res://resources/graphics/Plants/SunFlower/SunFlower_7.png" id="8_7jgmc"]
+[ext_resource type="Texture2D" uid="uid://4xewq6lbpay7" path="res://resources/graphics/Plants/SunFlower/SunFlower_8.png" id="9_fos21"]
+[ext_resource type="Texture2D" uid="uid://fsuuu6m3hr0b" path="res://resources/graphics/Plants/SunFlower/SunFlower_9.png" id="10_tvc80"]
+[ext_resource type="Texture2D" uid="uid://cme5h2la6x4ak" path="res://resources/graphics/Plants/SunFlower/SunFlower_10.png" id="11_reibi"]
+[ext_resource type="Texture2D" uid="uid://biyjd4rbhdfgk" path="res://resources/graphics/Plants/SunFlower/SunFlower_11.png" id="12_1y1cm"]
+[ext_resource type="Texture2D" uid="uid://cx6c60chrpjvm" path="res://resources/graphics/Plants/SunFlower/SunFlower_12.png" id="13_8f2lt"]
+[ext_resource type="Texture2D" uid="uid://d1s8fxiufnrfy" path="res://resources/graphics/Plants/SunFlower/SunFlower_13.png" id="14_ebnr4"]
+[ext_resource type="Texture2D" uid="uid://3e3a188u5lru" path="res://resources/graphics/Plants/SunFlower/SunFlower_14.png" id="15_bo61w"]
+[ext_resource type="Texture2D" uid="uid://c5yso368wvk8v" path="res://resources/graphics/Plants/SunFlower/SunFlower_15.png" id="16_itfxn"]
+[ext_resource type="Texture2D" uid="uid://bmgpv2q4hw8j6" path="res://resources/graphics/Plants/SunFlower/SunFlower_16.png" id="17_fxps6"]
+[ext_resource type="Texture2D" uid="uid://dlgdrrjsfkqoa" path="res://resources/graphics/Plants/SunFlower/SunFlower_17.png" id="18_cmj2v"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_mgf14"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_dnmji")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_2wjo6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_le31b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_wdxxk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_lowut")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_pcbcq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_b5p0e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_7jgmc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_fos21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_tvc80")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_reibi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_1y1cm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_8f2lt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_ebnr4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_bo61w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_itfxn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_fxps6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_cmj2v")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 10.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_fff0a"]
+size = Vector2(59, 73)
+
+[node name="Sunflower" type="Area2D" unique_id=750364386]
+script = ExtResource("1_vgyin")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=593228245]
+texture_filter = 1
+sprite_frames = SubResource("SpriteFrames_mgf14")
+autoplay = "default"
+frame = 17
+frame_progress = 1.0
+offset = Vector2(0, -37)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1933020343]
+position = Vector2(-0.5, -36.5)
+shape = SubResource("RectangleShape2D_fff0a")

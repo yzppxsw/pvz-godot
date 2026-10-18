@@ -1,0 +1,219 @@
+[gd_scene format=3 uid="uid://cs87epsaag2c1"]
+
+[ext_resource type="Texture2D" uid="uid://cmbs0msg0syxc" path="res://resources/graphics/Plants/SeaShroom/SeaShroom/SeaShroom_0.png" id="1_q5ov6"]
+[ext_resource type="Texture2D" uid="uid://1rx8tt1e88pw" path="res://resources/graphics/Plants/SeaShroom/SeaShroom/SeaShroom_1.png" id="2_0hi7o"]
+[ext_resource type="Texture2D" uid="uid://c54toqn0aygv7" path="res://resources/graphics/Plants/SeaShroom/SeaShroom/SeaShroom_2.png" id="3_2gt9h"]
+[ext_resource type="Texture2D" uid="uid://d0k03jwq22wwx" path="res://resources/graphics/Plants/SeaShroom/SeaShroom/SeaShroom_3.png" id="4_q2qy5"]
+[ext_resource type="Texture2D" uid="uid://5e8xn45n52uy" path="res://resources/graphics/Plants/SeaShroom/SeaShroom/SeaShroom_4.png" id="5_no57k"]
+[ext_resource type="Texture2D" uid="uid://cex22fb0ulpjp" path="res://resources/graphics/Plants/SeaShroom/SeaShroom/SeaShroom_5.png" id="6_ebf3u"]
+[ext_resource type="Texture2D" uid="uid://ccgmr7txgpgbt" path="res://resources/graphics/Plants/SeaShroom/SeaShroom/SeaShroom_6.png" id="7_1ybz1"]
+[ext_resource type="Texture2D" uid="uid://bty7318smwvh" path="res://resources/graphics/Plants/SeaShroom/SeaShroom/SeaShroom_7.png" id="8_hsfso"]
+[ext_resource type="Texture2D" uid="uid://do2ovm4hfhke0" path="res://resources/graphics/Plants/SeaShroom/SeaShroom/SeaShroom_8.png" id="9_wtc2e"]
+[ext_resource type="Texture2D" uid="uid://isxx4sxqw5mr" path="res://resources/graphics/Plants/SeaShroom/SeaShroom/SeaShroom_9.png" id="10_iip0r"]
+[ext_resource type="Texture2D" uid="uid://bofkvk72s0d11" path="res://resources/graphics/Plants/SeaShroom/SeaShroom/SeaShroom_10.png" id="11_u1h64"]
+[ext_resource type="Texture2D" uid="uid://g4mkmk6p2jdu" path="res://resources/graphics/Plants/SeaShroom/SeaShroom/SeaShroom_11.png" id="12_ufkm2"]
+[ext_resource type="Texture2D" uid="uid://f7v0dnj5dpwu" path="res://resources/graphics/Plants/SeaShroom/SeaShroom/SeaShroom_12.png" id="13_gnva8"]
+[ext_resource type="Texture2D" uid="uid://cja3sfereagaa" path="res://resources/graphics/Plants/SeaShroom/SeaShroom/SeaShroom_13.png" id="14_9m6f3"]
+[ext_resource type="Texture2D" uid="uid://dv8ouqf04udsp" path="res://resources/graphics/Plants/SeaShroom/SeaShroom/SeaShroom_14.png" id="15_b8v6k"]
+[ext_resource type="Texture2D" uid="uid://262pwbst4o05" path="res://resources/graphics/Plants/SeaShroom/SeaShroom/SeaShroom_15.png" id="16_bp5vn"]
+[ext_resource type="Texture2D" uid="uid://c5tbk7kfkc228" path="res://resources/graphics/Plants/SeaShroom/SeaShroom/SeaShroom_16.png" id="17_uu4ty"]
+[ext_resource type="Texture2D" uid="uid://bssnlpehktw1a" path="res://resources/graphics/Plants/SeaShroom/SeaShroom/SeaShroom_17.png" id="18_v8z1d"]
+[ext_resource type="Texture2D" uid="uid://d1nhu8vvwatao" path="res://resources/graphics/Plants/SeaShroom/SeaShroom/SeaShroom_18.png" id="19_e5zyz"]
+[ext_resource type="Texture2D" uid="uid://brnavkitv3xfn" path="res://resources/graphics/Plants/SeaShroom/SeaShroom/SeaShroom_19.png" id="20_eehfz"]
+[ext_resource type="Texture2D" uid="uid://6y1mxnilanok" path="res://resources/graphics/Plants/SeaShroom/SeaShroom/SeaShroom_20.png" id="21_3qa8h"]
+[ext_resource type="Texture2D" uid="uid://bynsxlxiqestq" path="res://resources/graphics/Plants/SeaShroom/SeaShroom/SeaShroom_21.png" id="22_gdu7f"]
+[ext_resource type="Texture2D" uid="uid://d3eokl7ykxiyj" path="res://resources/graphics/Plants/SeaShroom/SeaShroom/SeaShroom_22.png" id="23_fpt6n"]
+[ext_resource type="Texture2D" uid="uid://244ti1jdrbrg" path="res://resources/graphics/Plants/SeaShroom/SeaShroom/SeaShroom_23.png" id="24_jhi2r"]
+[ext_resource type="Texture2D" uid="uid://h7xxe1ore0yu" path="res://resources/graphics/Plants/SeaShroom/SeaShroom/SeaShroom_24.png" id="25_oaw0d"]
+[ext_resource type="Texture2D" uid="uid://506pvnnh214r" path="res://resources/graphics/Plants/SeaShroom/SeaShroomSleep/SeaShroomSleep_0.png" id="26_o5876"]
+[ext_resource type="Texture2D" uid="uid://7y6rbo8sl1lc" path="res://resources/graphics/Plants/SeaShroom/SeaShroomSleep/SeaShroomSleep_1.png" id="27_yr7jy"]
+[ext_resource type="Texture2D" uid="uid://dlp7qk6vqiag8" path="res://resources/graphics/Plants/SeaShroom/SeaShroomSleep/SeaShroomSleep_2.png" id="28_useui"]
+[ext_resource type="Texture2D" uid="uid://djvdxgby52pya" path="res://resources/graphics/Plants/SeaShroom/SeaShroomSleep/SeaShroomSleep_3.png" id="29_znbqe"]
+[ext_resource type="Texture2D" uid="uid://d2482jiupw8vh" path="res://resources/graphics/Plants/SeaShroom/SeaShroomSleep/SeaShroomSleep_4.png" id="30_obpyp"]
+[ext_resource type="Texture2D" uid="uid://bstff0pslvnke" path="res://resources/graphics/Plants/SeaShroom/SeaShroomSleep/SeaShroomSleep_5.png" id="31_pxyra"]
+[ext_resource type="Texture2D" uid="uid://g2alqq273aj8" path="res://resources/graphics/Plants/SeaShroom/SeaShroomSleep/SeaShroomSleep_6.png" id="32_noq4u"]
+[ext_resource type="Texture2D" uid="uid://ovtgxqqtchfs" path="res://resources/graphics/Plants/SeaShroom/SeaShroomSleep/SeaShroomSleep_7.png" id="33_0o9dg"]
+[ext_resource type="Texture2D" uid="uid://cx1cejfokuww4" path="res://resources/graphics/Plants/SeaShroom/SeaShroomSleep/SeaShroomSleep_8.png" id="34_giu54"]
+[ext_resource type="Texture2D" uid="uid://fjepev2254us" path="res://resources/graphics/Plants/SeaShroom/SeaShroomSleep/SeaShroomSleep_9.png" id="35_sr9qy"]
+[ext_resource type="Texture2D" uid="uid://c1f7eld0m0nvc" path="res://resources/graphics/Plants/SeaShroom/SeaShroomSleep/SeaShroomSleep_10.png" id="36_ut08g"]
+[ext_resource type="Texture2D" uid="uid://b3pj7iq2ycvb5" path="res://resources/graphics/Plants/SeaShroom/SeaShroomSleep/SeaShroomSleep_11.png" id="37_7hnsg"]
+[ext_resource type="Texture2D" uid="uid://befqoru0uk7lc" path="res://resources/graphics/Plants/SeaShroom/SeaShroomSleep/SeaShroomSleep_12.png" id="38_exic4"]
+[ext_resource type="Texture2D" uid="uid://dn8t4ikfuhx35" path="res://resources/graphics/Plants/SeaShroom/SeaShroomSleep/SeaShroomSleep_13.png" id="39_4w6zz"]
+[ext_resource type="Texture2D" uid="uid://bd53dawwkgmha" path="res://resources/graphics/Plants/SeaShroom/SeaShroomSleep/SeaShroomSleep_14.png" id="40_fcgle"]
+[ext_resource type="Texture2D" uid="uid://b32meosbyhgo0" path="res://resources/graphics/Plants/SeaShroom/SeaShroomSleep/SeaShroomSleep_15.png" id="41_9hln6"]
+[ext_resource type="Texture2D" uid="uid://s7awvvflie1k" path="res://resources/graphics/Plants/SeaShroom/SeaShroomSleep/SeaShroomSleep_16.png" id="42_dc19y"]
+[ext_resource type="Texture2D" uid="uid://c6u2ut6lvl5vp" path="res://resources/graphics/Plants/SeaShroom/SeaShroomSleep/SeaShroomSleep_17.png" id="43_nakpw"]
+[ext_resource type="Texture2D" uid="uid://btiu7ppoy15o5" path="res://resources/graphics/Plants/SeaShroom/SeaShroomSleep/SeaShroomSleep_18.png" id="44_0tg2d"]
+[ext_resource type="Texture2D" uid="uid://vqqn8vqjppxg" path="res://resources/graphics/Plants/SeaShroom/SeaShroomSleep/SeaShroomSleep_19.png" id="45_h7sjj"]
+[ext_resource type="Texture2D" uid="uid://dat4xp4diyk17" path="res://resources/graphics/Plants/SeaShroom/SeaShroomSleep/SeaShroomSleep_20.png" id="46_dggq6"]
+[ext_resource type="Texture2D" uid="uid://dxbdidvwu8b4k" path="res://resources/graphics/Plants/SeaShroom/SeaShroomSleep/SeaShroomSleep_21.png" id="47_ipztc"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_svhbd"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_q5ov6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_0hi7o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_2gt9h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_q2qy5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_no57k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_ebf3u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_1ybz1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_hsfso")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_wtc2e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_iip0r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_u1h64")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_ufkm2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_gnva8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_9m6f3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_b8v6k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_bp5vn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_uu4ty")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_v8z1d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_e5zyz")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_eehfz")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_3qa8h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_gdu7f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_fpt6n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_jhi2r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_oaw0d")
+}],
+"loop": 1,
+"name": &"SeaShroom",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("26_o5876")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_yr7jy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_useui")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_znbqe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_obpyp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_pxyra")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_noq4u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_0o9dg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_giu54")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_sr9qy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_ut08g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_7hnsg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_exic4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_4w6zz")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_fcgle")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_9hln6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_dc19y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_nakpw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_0tg2d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_h7sjj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_dggq6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_ipztc")
+}],
+"loop": 1,
+"name": &"SeaShroomSleep",
+"speed": 10.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_u70mj"]
+size = Vector2(41, 55)
+
+[node name="SeaShroom" type="Area2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+sprite_frames = SubResource("SpriteFrames_svhbd")
+animation = &"SeaShroom"
+autoplay = "SeaShroom"
+offset = Vector2(0, -50)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -28)
+shape = SubResource("RectangleShape2D_u70mj")

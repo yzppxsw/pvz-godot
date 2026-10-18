@@ -1,0 +1,125 @@
+[gd_scene format=3 uid="uid://8f5nbwjq08hv"]
+
+[ext_resource type="Script" uid="uid://d2go6b051gwgu" path="res://Scripts/plants/iceshroom.gd" id="1_6qkft"]
+[ext_resource type="Texture2D" uid="uid://jfdh4vrl0orb" path="res://resources/graphics/Plants/IceShroom/IceShroom/IceShroom_0.png" id="1_8e8kb"]
+[ext_resource type="Texture2D" uid="uid://dmvrc7ur7xqpj" path="res://resources/graphics/Plants/IceShroom/IceShroom/IceShroom_1.png" id="2_mekhr"]
+[ext_resource type="Texture2D" uid="uid://c6njkvxdddffn" path="res://resources/graphics/Plants/IceShroom/IceShroom/IceShroom_2.png" id="3_ky19k"]
+[ext_resource type="Texture2D" uid="uid://dyahwrajhwg8v" path="res://resources/graphics/Plants/IceShroom/IceShroom/IceShroom_3.png" id="4_con32"]
+[ext_resource type="Texture2D" uid="uid://by384tm8wjked" path="res://resources/graphics/Plants/IceShroom/IceShroom/IceShroom_4.png" id="5_4oaps"]
+[ext_resource type="Texture2D" uid="uid://dbvfmpr6hco87" path="res://resources/graphics/Plants/IceShroom/IceShroom/IceShroom_5.png" id="6_ppe4b"]
+[ext_resource type="Texture2D" uid="uid://dvmy55pqlsowr" path="res://resources/graphics/Plants/IceShroom/IceShroom/IceShroom_6.png" id="7_22xne"]
+[ext_resource type="Texture2D" uid="uid://3iqkb14o3xcv" path="res://resources/graphics/Plants/IceShroom/IceShroom/IceShroom_7.png" id="8_w12tj"]
+[ext_resource type="Texture2D" uid="uid://pgsuwab2qwsm" path="res://resources/graphics/Plants/IceShroom/IceShroom/IceShroom_8.png" id="9_crppi"]
+[ext_resource type="Texture2D" uid="uid://bjmqdp8pouf85" path="res://resources/graphics/Plants/IceShroom/IceShroom/IceShroom_9.png" id="10_5ls16"]
+[ext_resource type="Texture2D" uid="uid://cxbgf8yi6tk6i" path="res://resources/graphics/Plants/IceShroom/IceShroom/IceShroom_10.png" id="11_r1jrs"]
+[ext_resource type="Texture2D" uid="uid://cvduiwvlogvkf" path="res://resources/graphics/Plants/IceShroom/IceShroomSleep/IceShroomSleep_0.png" id="12_aii7f"]
+[ext_resource type="Texture2D" uid="uid://da8thamf8oerp" path="res://resources/graphics/Plants/IceShroom/IceShroomSleep/IceShroomSleep_1.png" id="13_ntvnk"]
+[ext_resource type="Texture2D" uid="uid://c2yd535bqup3c" path="res://resources/graphics/Plants/IceShroom/IceShroomSleep/IceShroomSleep_2.png" id="14_441m5"]
+[ext_resource type="Texture2D" uid="uid://bkxlc7kj6vgtj" path="res://resources/graphics/Plants/IceShroom/IceShroomSleep/IceShroomSleep_3.png" id="15_brgjm"]
+[ext_resource type="Texture2D" uid="uid://dikdxqv5yimx6" path="res://resources/graphics/Plants/IceShroom/IceShroomSleep/IceShroomSleep_4.png" id="16_i8p1b"]
+[ext_resource type="Texture2D" uid="uid://bwm2u455pjnij" path="res://resources/graphics/Plants/IceShroom/IceShroomSleep/IceShroomSleep_5.png" id="17_93ca3"]
+[ext_resource type="Texture2D" uid="uid://et4jocwb43sw" path="res://resources/graphics/Plants/IceShroom/IceShroomSleep/IceShroomSleep_6.png" id="18_xy3pr"]
+[ext_resource type="Texture2D" uid="uid://b1qwafby4mah1" path="res://resources/graphics/Plants/IceShroom/IceShroomSleep/IceShroomSleep_7.png" id="19_jcpd6"]
+[ext_resource type="Texture2D" uid="uid://3magajxlt0h5" path="res://resources/graphics/Plants/IceShroom/IceShroomSleep/IceShroomSleep_8.png" id="20_s677u"]
+[ext_resource type="Texture2D" uid="uid://co8vexy5fe42q" path="res://resources/graphics/Plants/IceShroom/IceShroomSleep/IceShroomSleep_9.png" id="21_j0igg"]
+[ext_resource type="Texture2D" uid="uid://cklahsxnmafjq" path="res://resources/graphics/Plants/IceShroom/IceShroomSleep/IceShroomSleep_10.png" id="22_yvtbv"]
+[ext_resource type="Texture2D" uid="uid://drqmr75ne50db" path="res://resources/graphics/Plants/IceShroom/IceShroomSleep/IceShroomSleep_11.png" id="23_jhk3k"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_bjtzf"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_8e8kb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_mekhr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_ky19k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_con32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_4oaps")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_ppe4b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_22xne")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_w12tj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_crppi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_5ls16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_r1jrs")
+}],
+"loop": 0,
+"name": &"IceShroom",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("12_aii7f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_ntvnk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_441m5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_brgjm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_i8p1b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_93ca3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_xy3pr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_jcpd6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_s677u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_j0igg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_yvtbv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_jhk3k")
+}],
+"loop": 1,
+"name": &"IceShroomSleep",
+"speed": 10.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_dozdi"]
+size = Vector2(82, 74)
+
+[node name="IceShroom" type="Area2D" unique_id=1348402032]
+script = ExtResource("1_6qkft")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1943511259]
+texture_filter = 1
+sprite_frames = SubResource("SpriteFrames_bjtzf")
+animation = &"IceShroom"
+autoplay = "IceShroom"
+offset = Vector2(0, -38)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=813356983]
+position = Vector2(0, -37)
+shape = SubResource("RectangleShape2D_dozdi")

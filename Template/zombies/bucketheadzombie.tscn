@@ -1,0 +1,137 @@
+[gd_scene format=3 uid="uid://1qryaxvp76qzm"]
+
+[ext_resource type="Texture2D" uid="uid://bkdx6jgol6vx0" path="res://resources/graphics/Zombies/BucketheadZombie/BucketheadZombie/BucketheadZombie_0.png" id="f1"]
+[ext_resource type="Texture2D" uid="uid://ciapsf300wmek" path="res://resources/graphics/Zombies/BucketheadZombie/BucketheadZombie/BucketheadZombie_1.png" id="f2"]
+[ext_resource type="Texture2D" uid="uid://dxypa7syl5cit" path="res://resources/graphics/Zombies/BucketheadZombie/BucketheadZombie/BucketheadZombie_2.png" id="f3"]
+[ext_resource type="Texture2D" uid="uid://b5dkg4cc2udv6" path="res://resources/graphics/Zombies/BucketheadZombie/BucketheadZombie/BucketheadZombie_3.png" id="f4"]
+[ext_resource type="Texture2D" uid="uid://bw0njpnnjwhva" path="res://resources/graphics/Zombies/BucketheadZombie/BucketheadZombie/BucketheadZombie_4.png" id="f5"]
+[ext_resource type="Texture2D" uid="uid://dwjbf2bbpmd8c" path="res://resources/graphics/Zombies/BucketheadZombie/BucketheadZombie/BucketheadZombie_5.png" id="f6"]
+[ext_resource type="Texture2D" uid="uid://b033hkieegoxt" path="res://resources/graphics/Zombies/BucketheadZombie/BucketheadZombie/BucketheadZombie_6.png" id="f7"]
+[ext_resource type="Texture2D" uid="uid://bgpir66y6ajak" path="res://resources/graphics/Zombies/BucketheadZombie/BucketheadZombie/BucketheadZombie_7.png" id="f8"]
+[ext_resource type="Texture2D" uid="uid://dkrv84leq1rqr" path="res://resources/graphics/Zombies/BucketheadZombie/BucketheadZombie/BucketheadZombie_8.png" id="f9"]
+[ext_resource type="Texture2D" uid="uid://brv3xi67r373i" path="res://resources/graphics/Zombies/BucketheadZombie/BucketheadZombie/BucketheadZombie_9.png" id="f10"]
+[ext_resource type="Texture2D" uid="uid://c1hvv48wvc5b4" path="res://resources/graphics/Zombies/BucketheadZombie/BucketheadZombie/BucketheadZombie_10.png" id="f11"]
+[ext_resource type="Texture2D" uid="uid://wdby16lkrgdi" path="res://resources/graphics/Zombies/BucketheadZombie/BucketheadZombie/BucketheadZombie_11.png" id="f12"]
+[ext_resource type="Texture2D" uid="uid://0ekwdcx36td1" path="res://resources/graphics/Zombies/BucketheadZombie/BucketheadZombie/BucketheadZombie_12.png" id="f13"]
+[ext_resource type="Texture2D" uid="uid://y7hqinf86rp0" path="res://resources/graphics/Zombies/BucketheadZombie/BucketheadZombie/BucketheadZombie_13.png" id="f14"]
+[ext_resource type="Texture2D" uid="uid://b4gyb7tbx4ml4" path="res://resources/graphics/Zombies/BucketheadZombie/BucketheadZombie/BucketheadZombie_14.png" id="f15"]
+[ext_resource type="Texture2D" uid="uid://bmv263qmr8ri0" path="res://resources/graphics/Zombies/BucketheadZombie/BucketheadZombieAttack/BucketheadZombieAttack_0.png" id="f16"]
+[ext_resource type="Texture2D" uid="uid://bsye6nc6ag3u1" path="res://resources/graphics/Zombies/BucketheadZombie/BucketheadZombieAttack/BucketheadZombieAttack_1.png" id="f17"]
+[ext_resource type="Texture2D" uid="uid://bl43m5j6e8ubm" path="res://resources/graphics/Zombies/BucketheadZombie/BucketheadZombieAttack/BucketheadZombieAttack_2.png" id="f18"]
+[ext_resource type="Texture2D" uid="uid://ck0vrxbbxp1dq" path="res://resources/graphics/Zombies/BucketheadZombie/BucketheadZombieAttack/BucketheadZombieAttack_3.png" id="f19"]
+[ext_resource type="Texture2D" uid="uid://btj6lv6q37siu" path="res://resources/graphics/Zombies/BucketheadZombie/BucketheadZombieAttack/BucketheadZombieAttack_4.png" id="f20"]
+[ext_resource type="Texture2D" uid="uid://cobvfbafn1tg" path="res://resources/graphics/Zombies/BucketheadZombie/BucketheadZombieAttack/BucketheadZombieAttack_5.png" id="f21"]
+[ext_resource type="Texture2D" uid="uid://dgswpdnc1tg4y" path="res://resources/graphics/Zombies/BucketheadZombie/BucketheadZombieAttack/BucketheadZombieAttack_6.png" id="f22"]
+[ext_resource type="Texture2D" uid="uid://ckxmw5d1amy1u" path="res://resources/graphics/Zombies/BucketheadZombie/BucketheadZombieAttack/BucketheadZombieAttack_7.png" id="f23"]
+[ext_resource type="Texture2D" uid="uid://bc4d33i2hwwah" path="res://resources/graphics/Zombies/BucketheadZombie/BucketheadZombieAttack/BucketheadZombieAttack_8.png" id="f24"]
+[ext_resource type="Texture2D" uid="uid://ddcgkevqiot3w" path="res://resources/graphics/Zombies/BucketheadZombie/BucketheadZombieAttack/BucketheadZombieAttack_9.png" id="f25"]
+[ext_resource type="Texture2D" uid="uid://btr6624jo4g05" path="res://resources/graphics/Zombies/BucketheadZombie/BucketheadZombieAttack/BucketheadZombieAttack_10.png" id="f26"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_1"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("f1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f15")
+}
+],
+"loop": 1,
+"name": &"BucketheadZombie",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("f16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f26")
+}
+],
+"loop": 1,
+"name": &"BucketheadZombieAttack",
+"speed": 10.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1"]
+size = Vector2(64, 138)
+
+[node name="BucketheadZombie" type="CharacterBody2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+sprite_frames = SubResource("SpriteFrames_1")
+animation = &"BucketheadZombie"
+autoplay = "BucketheadZombie"
+offset = Vector2(0, 0)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(15.0, 2.0)
+shape = SubResource("RectangleShape2D_1")

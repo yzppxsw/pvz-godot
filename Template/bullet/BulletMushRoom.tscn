@@ -1,0 +1,47 @@
+[gd_scene format=3 uid="uid://ch2558r8elyhp"]
+
+[ext_resource type="Texture2D" uid="uid://ci2mhlwpilvgn" path="res://resources/graphics/Bullets/BulletMushRoom/BulletMushRoom_0.png" id="1_acvul"]
+[ext_resource type="Script" uid="uid://4famnqnw1607" path="res://Scripts/bullets/bullet_mush_room.gd" id="1_ib7hq"]
+[ext_resource type="Texture2D" uid="uid://bhaahul1hvyvd" path="res://resources/graphics/Bullets/BulletMushRoom/BulletMushRoom_1.png" id="2_ib7hq"]
+[ext_resource type="Texture2D" uid="uid://dvf4nse3bxar7" path="res://resources/graphics/Bullets/BulletMushRoom/BulletMushRoom_2.png" id="3_svfbr"]
+[ext_resource type="Texture2D" uid="uid://vkx3c3vk1qnl" path="res://resources/graphics/Bullets/BulletMushRoom/BulletMushRoom_3.png" id="4_7b2lu"]
+[ext_resource type="Texture2D" uid="uid://dgf3smoxo5xu5" path="res://resources/graphics/Bullets/BulletMushRoom/BulletMushRoom_4.png" id="5_r158w"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_mgf14"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_acvul")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_r158w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_svfbr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_7b2lu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_ib7hq")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_gfm8k"]
+radius = 3.0
+
+[node name="BulletMushRoom" type="Area2D" unique_id=1715927957]
+script = ExtResource("1_ib7hq")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1339791114]
+sprite_frames = SubResource("SpriteFrames_mgf14")
+frame_progress = 0.445197
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=976281549]
+position = Vector2(22, -16)
+shape = SubResource("CircleShape2D_gfm8k")
+
+[connection signal="body_entered" from="." to="." method="_on_Area2D_body_entered"]

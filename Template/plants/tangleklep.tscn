@@ -1,0 +1,99 @@
+[gd_scene format=3 uid="uid://bk6eubohsqx7j"]
+
+[ext_resource type="Texture2D" uid="uid://tlwf4n2o2rdx" path="res://resources/graphics/Plants/TangleKlep/TangleKlep/TangleKlep_0.png" id="1_ad9nb"]
+[ext_resource type="Texture2D" uid="uid://da8b4ucy3guwd" path="res://resources/graphics/Plants/TangleKlep/TangleKlep/TangleKlep_1.png" id="2_m2txe"]
+[ext_resource type="Texture2D" uid="uid://b3o5qoabx0mf2" path="res://resources/graphics/Plants/TangleKlep/TangleKlep/TangleKlep_2.png" id="3_5gwer"]
+[ext_resource type="Texture2D" uid="uid://d2saot3otpk6f" path="res://resources/graphics/Plants/TangleKlep/TangleKlep/TangleKlep_3.png" id="4_sxl3f"]
+[ext_resource type="Texture2D" uid="uid://cc3f8cbmkxyve" path="res://resources/graphics/Plants/TangleKlep/TangleKlep/TangleKlep_4.png" id="5_aqfnl"]
+[ext_resource type="Texture2D" uid="uid://d3sswc4xmpnx" path="res://resources/graphics/Plants/TangleKlep/TangleKlep/TangleKlep_5.png" id="6_jhxh3"]
+[ext_resource type="Texture2D" uid="uid://bcpsbx6553b8r" path="res://resources/graphics/Plants/TangleKlep/TangleKlep/TangleKlep_6.png" id="7_m23tq"]
+[ext_resource type="Texture2D" uid="uid://njk50f6g8v4b" path="res://resources/graphics/Plants/TangleKlep/TangleKlep/TangleKlep_7.png" id="8_d9h62"]
+[ext_resource type="Texture2D" uid="uid://b0qy1aacfi4q" path="res://resources/graphics/Plants/TangleKlep/TangleKlep/TangleKlep_8.png" id="9_r4v7f"]
+[ext_resource type="Texture2D" uid="uid://c8mpgg1hg1k33" path="res://resources/graphics/Plants/TangleKlep/TangleKlepSplash/TangleKlepSplash_0.png" id="10_n31za"]
+[ext_resource type="Texture2D" uid="uid://dq4osgdjpc6by" path="res://resources/graphics/Plants/TangleKlep/TangleKlepSplash/TangleKlepSplash_1.png" id="11_y8yox"]
+[ext_resource type="Texture2D" uid="uid://dbqkhaw7af0d6" path="res://resources/graphics/Plants/TangleKlep/TangleKlepSplash/TangleKlepSplash_2.png" id="12_3j8ck"]
+[ext_resource type="Texture2D" uid="uid://db0rao58dn5g8" path="res://resources/graphics/Plants/TangleKlep/TangleKlepSplash/TangleKlepSplash_3.png" id="13_bsrcx"]
+[ext_resource type="Texture2D" uid="uid://dvxepeppha20o" path="res://resources/graphics/Plants/TangleKlep/TangleKlepSplash/TangleKlepSplash_4.png" id="14_mr2mu"]
+[ext_resource type="Texture2D" uid="uid://kbnuab07ybrt" path="res://resources/graphics/Plants/TangleKlep/TangleKlepSplash/TangleKlepSplash_5.png" id="15_u5650"]
+[ext_resource type="Texture2D" uid="uid://bq0tu35gs785i" path="res://resources/graphics/Plants/TangleKlep/TangleKlepSplash/TangleKlepSplash_6.png" id="16_9ghvl"]
+[ext_resource type="Texture2D" uid="uid://dokrpkibsm1us" path="res://resources/graphics/Plants/TangleKlep/TangleKlepSplash/TangleKlepSplash_7.png" id="17_0kcuy"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_wzgs1"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_ad9nb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_m2txe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_5gwer")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_sxl3f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_aqfnl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_jhxh3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_m23tq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_d9h62")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_r4v7f")
+}],
+"loop": 1,
+"name": &"TangleKlep",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("10_n31za")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_y8yox")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_3j8ck")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_bsrcx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_mr2mu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_u5650")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_9ghvl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_0kcuy")
+}],
+"loop": 0,
+"name": &"TangleKlepSplash",
+"speed": 10.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_vazfq"]
+size = Vector2(84.5, 60)
+
+[node name="TangleKelp" type="Area2D" unique_id=851828185]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1814978398]
+texture_filter = 1
+sprite_frames = SubResource("SpriteFrames_wzgs1")
+animation = &"TangleKlep"
+autoplay = "TangleKlep"
+offset = Vector2(0, -36)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=571469601]
+position = Vector2(0.25, -30)
+shape = SubResource("RectangleShape2D_vazfq")

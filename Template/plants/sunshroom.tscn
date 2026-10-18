@@ -1,0 +1,175 @@
+[gd_scene format=3 uid="uid://dafdgl6ir2b7i"]
+
+[ext_resource type="Script" uid="uid://ch36es5x2ibl7" path="res://Scripts/plants/sunshroom.gd" id="1_l1xqx"]
+[ext_resource type="Texture2D" uid="uid://i5dhu57rdj3k" path="res://resources/graphics/Plants/SunShroom/SunShroom/SunShroom_0.png" id="1_ruyo4"]
+[ext_resource type="Texture2D" uid="uid://b6dc7pur2ju0k" path="res://resources/graphics/Plants/SunShroom/SunShroom/SunShroom_1.png" id="2_gq0df"]
+[ext_resource type="Texture2D" uid="uid://c11c1e1dlntxb" path="res://resources/graphics/Plants/SunShroom/SunShroom/SunShroom_2.png" id="3_i15k0"]
+[ext_resource type="Texture2D" uid="uid://damlywwkau05c" path="res://resources/graphics/Plants/SunShroom/SunShroom/SunShroom_3.png" id="4_rtej9"]
+[ext_resource type="Texture2D" uid="uid://c6ev37eb43sjk" path="res://resources/graphics/Plants/SunShroom/SunShroom/SunShroom_4.png" id="5_wrtq0"]
+[ext_resource type="Texture2D" uid="uid://2gi116ceeepp" path="res://resources/graphics/Plants/SunShroom/SunShroom/SunShroom_5.png" id="6_gw79k"]
+[ext_resource type="Texture2D" uid="uid://bd1i05lyr7tgc" path="res://resources/graphics/Plants/SunShroom/SunShroom/SunShroom_6.png" id="7_0ijvf"]
+[ext_resource type="Texture2D" uid="uid://b1qu0enobfojp" path="res://resources/graphics/Plants/SunShroom/SunShroom/SunShroom_7.png" id="8_750bc"]
+[ext_resource type="Texture2D" uid="uid://dkgn7obwsaieu" path="res://resources/graphics/Plants/SunShroom/SunShroom/SunShroom_8.png" id="9_h02g4"]
+[ext_resource type="Texture2D" uid="uid://dq5j83ktktu0k" path="res://resources/graphics/Plants/SunShroom/SunShroom/SunShroom_9.png" id="10_t2gt4"]
+[ext_resource type="Texture2D" uid="uid://de6bn1elsn0vr" path="res://resources/graphics/Plants/SunShroom/SunShroomBig/SunShroomBig_0.png" id="11_dp3wf"]
+[ext_resource type="Texture2D" uid="uid://dr1yihsdmh070" path="res://resources/graphics/Plants/SunShroom/SunShroomBig/SunShroomBig_1.png" id="12_c14oh"]
+[ext_resource type="Texture2D" uid="uid://cbro5v2035h71" path="res://resources/graphics/Plants/SunShroom/SunShroomBig/SunShroomBig_2.png" id="13_0c4y5"]
+[ext_resource type="Texture2D" uid="uid://q0vnq0sn8ae0" path="res://resources/graphics/Plants/SunShroom/SunShroomBig/SunShroomBig_3.png" id="14_h6ea2"]
+[ext_resource type="Texture2D" uid="uid://faui21422rnj" path="res://resources/graphics/Plants/SunShroom/SunShroomBig/SunShroomBig_4.png" id="15_x8xxo"]
+[ext_resource type="Texture2D" uid="uid://cpy0r3mfm7xlj" path="res://resources/graphics/Plants/SunShroom/SunShroomBig/SunShroomBig_5.png" id="16_z5z49"]
+[ext_resource type="Texture2D" uid="uid://7sweyys6p0v7" path="res://resources/graphics/Plants/SunShroom/SunShroomBig/SunShroomBig_6.png" id="17_i4dyr"]
+[ext_resource type="Texture2D" uid="uid://dntfptvekngro" path="res://resources/graphics/Plants/SunShroom/SunShroomBig/SunShroomBig_7.png" id="18_ci0r0"]
+[ext_resource type="Texture2D" uid="uid://r17usavm2kfx" path="res://resources/graphics/Plants/SunShroom/SunShroomBig/SunShroomBig_8.png" id="19_jqs8k"]
+[ext_resource type="Texture2D" uid="uid://bfvwluott7lra" path="res://resources/graphics/Plants/SunShroom/SunShroomBig/SunShroomBig_9.png" id="20_2zh1g"]
+[ext_resource type="Texture2D" uid="uid://ncowbfunjexv" path="res://resources/graphics/Plants/SunShroom/SunShroomSleep/SunShroomSleep_0.png" id="21_h9qrv"]
+[ext_resource type="Texture2D" uid="uid://coitxqdumuo5s" path="res://resources/graphics/Plants/SunShroom/SunShroomSleep/SunShroomSleep_1.png" id="22_w802p"]
+[ext_resource type="Texture2D" uid="uid://c0imie47rcna1" path="res://resources/graphics/Plants/SunShroom/SunShroomSleep/SunShroomSleep_2.png" id="23_gj2ca"]
+[ext_resource type="Texture2D" uid="uid://nbos3dv5js5e" path="res://resources/graphics/Plants/SunShroom/SunShroomSleep/SunShroomSleep_3.png" id="24_1yfb3"]
+[ext_resource type="Texture2D" uid="uid://b3bqmhvtwruvv" path="res://resources/graphics/Plants/SunShroom/SunShroomSleep/SunShroomSleep_4.png" id="25_cu2uj"]
+[ext_resource type="Texture2D" uid="uid://bmhhaf74ehjqp" path="res://resources/graphics/Plants/SunShroom/SunShroomSleep/SunShroomSleep_5.png" id="26_gksmc"]
+[ext_resource type="Texture2D" uid="uid://c5huaq5oavxgg" path="res://resources/graphics/Plants/SunShroom/SunShroomSleep/SunShroomSleep_6.png" id="27_j2a6w"]
+[ext_resource type="Texture2D" uid="uid://3vv0ijsx38fs" path="res://resources/graphics/Plants/SunShroom/SunShroomSleep/SunShroomSleep_7.png" id="28_fvfgv"]
+[ext_resource type="Texture2D" uid="uid://lqhadr4lqf3j" path="res://resources/graphics/Plants/SunShroom/SunShroomSleep/SunShroomSleep_8.png" id="29_qcoqx"]
+[ext_resource type="Texture2D" uid="uid://dsrlytfaq7tqm" path="res://resources/graphics/Plants/SunShroom/SunShroomSleep/SunShroomSleep_9.png" id="30_d7wbt"]
+[ext_resource type="Texture2D" uid="uid://d0sojnjfftcn6" path="res://resources/graphics/Plants/SunShroom/SunShroomSleep/SunShroomSleep_10.png" id="31_0tmoz"]
+[ext_resource type="Texture2D" uid="uid://bojq6b6fkewkf" path="res://resources/graphics/Plants/SunShroom/SunShroomSleep/SunShroomSleep_11.png" id="32_6q3h2"]
+[ext_resource type="Texture2D" uid="uid://drw432dhjwg2k" path="res://resources/graphics/Plants/SunShroom/SunShroomSleep/SunShroomSleep_12.png" id="33_qeo4n"]
+[ext_resource type="Texture2D" uid="uid://cm2s77tdcex65" path="res://resources/graphics/Plants/SunShroom/SunShroomSleep/SunShroomSleep_13.png" id="34_iuwdu"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_g3lym"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_ruyo4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_gq0df")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_i15k0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_rtej9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_wrtq0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_gw79k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_0ijvf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_750bc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_h02g4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_t2gt4")
+}],
+"loop": 1,
+"name": &"SunShroom",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("11_dp3wf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_c14oh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_0c4y5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_h6ea2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_x8xxo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_z5z49")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_i4dyr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_ci0r0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_jqs8k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_2zh1g")
+}],
+"loop": 1,
+"name": &"SunShroomBig",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("21_h9qrv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_w802p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_gj2ca")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_1yfb3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_cu2uj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_gksmc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_j2a6w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_fvfgv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_qcoqx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_d7wbt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_0tmoz")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_6q3h2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_qeo4n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_iuwdu")
+}],
+"loop": 1,
+"name": &"SunShroomSleep",
+"speed": 10.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_4o9nx"]
+size = Vector2(38, 36)
+
+[node name="SunShroom" type="Area2D" unique_id=2112133132]
+script = ExtResource("1_l1xqx")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1878405157]
+texture_filter = 1
+sprite_frames = SubResource("SpriteFrames_g3lym")
+animation = &"SunShroomSleep"
+autoplay = "SunShroom"
+frame_progress = 0.8742159
+offset = Vector2(0, -30)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=357875985]
+position = Vector2(0, -18)
+shape = SubResource("RectangleShape2D_4o9nx")

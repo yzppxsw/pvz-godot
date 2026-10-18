@@ -1,0 +1,75 @@
+[gd_scene format=3 uid="uid://dhiilybjhcjrc"]
+
+[ext_resource type="Script" uid="uid://o8a1kw080fku" path="res://Scripts/ui/menu.gd" id="1_3fib0"]
+[ext_resource type="Texture2D" uid="uid://dkeq2ek1gt1w8" path="res://resources/graphics/Screen/MainMenu.png" id="1_f2wen"]
+[ext_resource type="Script" uid="uid://o8i64igkvtt1" path="res://Scripts/ui/button.gd" id="2_ht5n1"]
+[ext_resource type="Texture2D" uid="uid://4d4hx1slxm0p" path="res://resources/graphics/Screen/Adventure_0.png" id="2_xlo3d"]
+[ext_resource type="Texture2D" uid="uid://5rui4m6oivn5" path="res://resources/graphics/Screen/Adventure_1.png" id="4_vyvwf"]
+[ext_resource type="Texture2D" uid="uid://cvpb4la4knp0d" path="res://resources/graphics/Screen/littleGameButton_0.png" id="5_kgn3v"]
+[ext_resource type="Texture2D" uid="uid://wtn130lt718d" path="res://resources/graphics/Screen/littleGameButton_1.png" id="5_v3x5y"]
+[ext_resource type="Texture2D" uid="uid://ci0ymgffvi4w1" path="res://resources/graphics/Screen/optionButton_0.png" id="6_au0h8"]
+[ext_resource type="Texture2D" uid="uid://jfdxbxv65t7h" path="res://resources/graphics/Screen/optionButton_1.png" id="7_vyvwf"]
+[ext_resource type="Texture2D" uid="uid://c03s4avu4xkej" path="res://resources/graphics/Screen/exit_0.png" id="8_3fib0"]
+[ext_resource type="Script" uid="uid://celoctxct5bc3" path="res://Scripts/ui/texturebutton.gd" id="8_spb87"]
+[ext_resource type="Texture2D" uid="uid://oru14fkb5kp1" path="res://resources/graphics/Screen/exit_1.png" id="9_spb87"]
+[ext_resource type="Texture2D" uid="uid://cp40rc1rxwm5w" path="res://resources/graphics/Screen/help_0.png" id="10_ytmj6"]
+[ext_resource type="Texture2D" uid="uid://ctgtf2vx450o7" path="res://resources/graphics/Screen/help_1.png" id="11_y71lt"]
+
+[node name="Main_new" type="Node2D" unique_id=1617589277]
+script = ExtResource("1_3fib0")
+
+[node name="TextureRect" type="Sprite2D" parent="." unique_id=995095808]
+texture = ExtResource("1_f2wen")
+centered = false
+
+[node name="Start" type="Area2D" parent="." unique_id=1608150338]
+script = ExtResource("2_ht5n1")
+texture_normal = ExtResource("2_xlo3d")
+texture_pressed = ExtResource("4_vyvwf")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Start" unique_id=1508640205]
+scale = Vector2(0.9935214, 1.0031028)
+polygon = PackedVector2Array(497.013, 102.99072, 542.013, 101.99072, 554.013, 83.99072, 578.013, 71.99072, 587.013, 75.99072, 601.013, 70.99072, 622.013, 70.99072, 636.013, 77.99072, 659.013, 71.99072, 684.013, 72.99072, 691.013, 72.99072, 698.013, 81.99072, 708.013, 83.99072, 722.013, 96.99072, 726.013, 110.99072, 741.013, 112.99072, 763.013, 114.99072, 775.013, 118.99072, 789.013, 117.99072, 809.013, 125.99073, 801.013, 201.99072, 789.013, 211.99072, 765.013, 211.99072, 739.013, 208.99072, 675.013, 197.99072, 667.013, 190.99072, 658.013, 192.99072, 613.013, 182.99072, 588.013, 183.99072, 565.013, 178.99072, 518.013, 176.99072, 510.013, 169.99072, 491.013, 170.99072, 481.013, 162.99072, 482.013, 134.99072, 481.013, 110.99072, 491.013, 100.99072)
+
+[node name="Sprite2D" type="Sprite2D" parent="Start" unique_id=159589801]
+position = Vector2(643, 140)
+texture = ExtResource("2_xlo3d")
+
+[node name="MiniGame" type="Area2D" parent="." unique_id=174421950]
+script = ExtResource("2_ht5n1")
+texture_normal = ExtResource("5_kgn3v")
+texture_pressed = ExtResource("5_v3x5y")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="MiniGame" unique_id=1520661095]
+polygon = PackedVector2Array(483, 205, 506, 213, 518, 208, 560, 214, 565, 217, 586, 217, 612, 224, 660, 231, 668, 228, 681, 235, 703, 236, 749, 247, 770, 244, 785, 251, 785, 291, 779, 298, 775, 327, 768, 333, 751, 325, 729, 326, 718, 319, 694, 316, 653, 308, 636, 306, 632, 301, 622, 303, 560, 290, 543, 290, 516, 283, 483, 279, 482, 249, 479, 233, 478, 213)
+
+[node name="Sprite2D" type="Sprite2D" parent="MiniGame" unique_id=1933996501]
+position = Vector2(633, 268)
+texture = ExtResource("5_kgn3v")
+
+[node name="Texturebutton" type="Node2D" parent="." unique_id=1071041843]
+script = ExtResource("8_spb87")
+
+[node name="Help" type="TextureButton" parent="Texturebutton" unique_id=827963111]
+offset_left = 734.0
+offset_top = 514.0
+offset_right = 782.0
+offset_bottom = 540.0
+texture_normal = ExtResource("10_ytmj6")
+texture_pressed = ExtResource("11_y71lt")
+
+[node name="Exit" type="TextureButton" parent="Texturebutton" unique_id=443440393]
+offset_left = 814.0
+offset_top = 506.0
+offset_right = 861.0
+offset_bottom = 536.0
+texture_normal = ExtResource("8_3fib0")
+texture_pressed = ExtResource("9_spb87")
+
+[node name="Options" type="TextureButton" parent="Texturebutton" unique_id=568759218]
+offset_left = 638.0
+offset_top = 488.0
+offset_right = 719.0
+offset_bottom = 519.0
+texture_normal = ExtResource("6_au0h8")
+texture_pressed = ExtResource("7_vyvwf")

@@ -1,0 +1,475 @@
+[gd_scene format=3 uid="uid://qqhkqoqo1k9th"]
+
+[ext_resource type="Texture2D" uid="uid://blfu1orbf7jy8" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombie/SnorkelZombie_0.png" id="f1"]
+[ext_resource type="Texture2D" uid="uid://hjlbddqkrhp5" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombie/SnorkelZombie_1.png" id="f2"]
+[ext_resource type="Texture2D" uid="uid://dj27pp53i0muk" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombie/SnorkelZombie_2.png" id="f3"]
+[ext_resource type="Texture2D" uid="uid://bwayevwu024i5" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombie/SnorkelZombie_3.png" id="f4"]
+[ext_resource type="Texture2D" uid="uid://ce4fa3j683qpq" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombie/SnorkelZombie_4.png" id="f5"]
+[ext_resource type="Texture2D" uid="uid://5u8xlb0bqrc7" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombie/SnorkelZombie_5.png" id="f6"]
+[ext_resource type="Texture2D" uid="uid://c7mmkgtpdgkqd" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombie/SnorkelZombie_6.png" id="f7"]
+[ext_resource type="Texture2D" uid="uid://m0slogtf0da7" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombie/SnorkelZombie_7.png" id="f8"]
+[ext_resource type="Texture2D" uid="uid://dlsan6ue4u1ff" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombie/SnorkelZombie_8.png" id="f9"]
+[ext_resource type="Texture2D" uid="uid://yuibkqoo8mke" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombie/SnorkelZombie_9.png" id="f10"]
+[ext_resource type="Texture2D" uid="uid://il0q3xb242la" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombie/SnorkelZombie_10.png" id="f11"]
+[ext_resource type="Texture2D" uid="uid://be1endykcgbwt" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombie/SnorkelZombie_11.png" id="f12"]
+[ext_resource type="Texture2D" uid="uid://2odhdxqhxdjx" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombie/SnorkelZombie_12.png" id="f13"]
+[ext_resource type="Texture2D" uid="uid://ciru5sn3jbja3" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombie/SnorkelZombie_13.png" id="f14"]
+[ext_resource type="Texture2D" uid="uid://cq81vtvmlx64w" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombie/SnorkelZombie_14.png" id="f15"]
+[ext_resource type="Texture2D" uid="uid://dqmpxk27dqhm0" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombie/SnorkelZombie_15.png" id="f16"]
+[ext_resource type="Texture2D" uid="uid://dshhb24qtvyen" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombie/SnorkelZombie_16.png" id="f17"]
+[ext_resource type="Texture2D" uid="uid://g07x35ha0fvl" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombie/SnorkelZombie_17.png" id="f18"]
+[ext_resource type="Texture2D" uid="uid://c3aewysn06edj" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombie/SnorkelZombie_18.png" id="f19"]
+[ext_resource type="Texture2D" uid="uid://in4d8k5df75x" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombie/SnorkelZombie_19.png" id="f20"]
+[ext_resource type="Texture2D" uid="uid://c78ph266yrnm1" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombieAttack/SnorkelZombieAttack_0.png" id="f21"]
+[ext_resource type="Texture2D" uid="uid://nrbh5j45uhvc" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombieAttack/SnorkelZombieAttack_1.png" id="f22"]
+[ext_resource type="Texture2D" uid="uid://didep6dtuiqer" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombieAttack/SnorkelZombieAttack_2.png" id="f23"]
+[ext_resource type="Texture2D" uid="uid://dpmqxitjw0fuc" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombieAttack/SnorkelZombieAttack_3.png" id="f24"]
+[ext_resource type="Texture2D" uid="uid://cuht3t4eqnwd6" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombieAttack/SnorkelZombieAttack_4.png" id="f25"]
+[ext_resource type="Texture2D" uid="uid://bwq5hjigo58vs" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombieAttack/SnorkelZombieAttack_5.png" id="f26"]
+[ext_resource type="Texture2D" uid="uid://bduqaq8wq8b0o" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombieAttack/SnorkelZombieAttack_6.png" id="f27"]
+[ext_resource type="Texture2D" uid="uid://116lsyr7b807" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombieAttack/SnorkelZombieAttack_7.png" id="f28"]
+[ext_resource type="Texture2D" uid="uid://dmhoxte8e2hui" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombieAttack/SnorkelZombieAttack_8.png" id="f29"]
+[ext_resource type="Texture2D" uid="uid://ctuj6d8y8mp3g" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombieAttack/SnorkelZombieAttack_9.png" id="f30"]
+[ext_resource type="Texture2D" uid="uid://nim7hatrsqrq" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombieAttack/SnorkelZombieAttack_10.png" id="f31"]
+[ext_resource type="Texture2D" uid="uid://dv0u4vx0ghidl" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombieAttack/SnorkelZombieAttack_11.png" id="f32"]
+[ext_resource type="Texture2D" uid="uid://1ur54pp3y658" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombieDie/SnorkelZombieDie_0.png" id="f33"]
+[ext_resource type="Texture2D" uid="uid://d2gixxmpeevru" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombieDie/SnorkelZombieDie_1.png" id="f34"]
+[ext_resource type="Texture2D" uid="uid://knlgxyl5esg5" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombieDie/SnorkelZombieDie_2.png" id="f35"]
+[ext_resource type="Texture2D" uid="uid://dtxsntrib76ob" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombieDie/SnorkelZombieDie_3.png" id="f36"]
+[ext_resource type="Texture2D" uid="uid://coyuywwgmsc7e" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombieDie/SnorkelZombieDie_4.png" id="f37"]
+[ext_resource type="Texture2D" uid="uid://bd4eus0hwrxmc" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombieDie/SnorkelZombieDie_5.png" id="f38"]
+[ext_resource type="Texture2D" uid="uid://c2numnxg7ynfy" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombieDie/SnorkelZombieDie_6.png" id="f39"]
+[ext_resource type="Texture2D" uid="uid://5gtphi2l1k5n" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombieDie/SnorkelZombieDie_7.png" id="f40"]
+[ext_resource type="Texture2D" uid="uid://bsm3xk6elyynn" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombieDive/SnorkelZombieDive_0.png" id="f41"]
+[ext_resource type="Texture2D" uid="uid://duk6y5eids1me" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombieDive/SnorkelZombieDive_1.png" id="f42"]
+[ext_resource type="Texture2D" uid="uid://cmbddttg7a84u" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombieDive/SnorkelZombieDive_2.png" id="f43"]
+[ext_resource type="Texture2D" uid="uid://4mky7w17xroj" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombieDive/SnorkelZombieDive_3.png" id="f44"]
+[ext_resource type="Texture2D" uid="uid://cu50osceeldsd" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombieDive/SnorkelZombieDive_4.png" id="f45"]
+[ext_resource type="Texture2D" uid="uid://cpvhphvtfw0bc" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombieDive/SnorkelZombieDive_5.png" id="f46"]
+[ext_resource type="Texture2D" uid="uid://c415rm6touge0" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombieDive/SnorkelZombieDive_6.png" id="f47"]
+[ext_resource type="Texture2D" uid="uid://62f1odwwxa4a" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombieDive/SnorkelZombieDive_7.png" id="f48"]
+[ext_resource type="Texture2D" uid="uid://m5ctfvsrgqdu" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombieDive/SnorkelZombieDive_8.png" id="f49"]
+[ext_resource type="Texture2D" uid="uid://cg3pfdorrwhie" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombieDive/SnorkelZombieDive_9.png" id="f50"]
+[ext_resource type="Texture2D" uid="uid://co6qush2aajhu" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombieFloat/SnorkelZombieFloat_0.png" id="f51"]
+[ext_resource type="Texture2D" uid="uid://cw4lhdlg6rdd5" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombieFloat/SnorkelZombieFloat_1.png" id="f52"]
+[ext_resource type="Texture2D" uid="uid://cbwce10ux3php" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombieFloat/SnorkelZombieFloat_2.png" id="f53"]
+[ext_resource type="Texture2D" uid="uid://c1xogquim6jyj" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombieFloat/SnorkelZombieFloat_3.png" id="f54"]
+[ext_resource type="Texture2D" uid="uid://u8dbf0ycebge" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombieFloat/SnorkelZombieFloat_4.png" id="f55"]
+[ext_resource type="Texture2D" uid="uid://ca3knea328mqj" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombieJump/SnorkelZombieJump_0.png" id="f56"]
+[ext_resource type="Texture2D" uid="uid://br0nnbf3bp0iv" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombieJump/SnorkelZombieJump_1.png" id="f57"]
+[ext_resource type="Texture2D" uid="uid://mq24ge0n0tr1" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombieJump/SnorkelZombieJump_2.png" id="f58"]
+[ext_resource type="Texture2D" uid="uid://3f0bvkajblwq" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombieJump/SnorkelZombieJump_3.png" id="f59"]
+[ext_resource type="Texture2D" uid="uid://6khwvgvje4tf" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombieJump/SnorkelZombieJump_4.png" id="f60"]
+[ext_resource type="Texture2D" uid="uid://bvga8c6l4ejvr" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombieJump/SnorkelZombieJump_5.png" id="f61"]
+[ext_resource type="Texture2D" uid="uid://djv427ansuvi6" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombieJump/SnorkelZombieJump_6.png" id="f62"]
+[ext_resource type="Texture2D" uid="uid://dnu4iwrim0ew0" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombieJump/SnorkelZombieJump_7.png" id="f63"]
+[ext_resource type="Texture2D" uid="uid://d32u7ioa4vaxy" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombieJump/SnorkelZombieJump_8.png" id="f64"]
+[ext_resource type="Texture2D" uid="uid://bomu6itdu1xs0" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombieJump/SnorkelZombieJump_9.png" id="f65"]
+[ext_resource type="Texture2D" uid="uid://bne15x13j1hi4" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombieJump/SnorkelZombieJump_10.png" id="f66"]
+[ext_resource type="Texture2D" uid="uid://ctdv8372jka1" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombieJump/SnorkelZombieJump_11.png" id="f67"]
+[ext_resource type="Texture2D" uid="uid://c75qp8mv638i0" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombieJump/SnorkelZombieJump_12.png" id="f68"]
+[ext_resource type="Texture2D" uid="uid://vkhe5uhncv1m" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombieJump/SnorkelZombieJump_13.png" id="f69"]
+[ext_resource type="Texture2D" uid="uid://djoirdhtg4ake" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombieJump/SnorkelZombieJump_14.png" id="f70"]
+[ext_resource type="Texture2D" uid="uid://cf08r5ni1aaad" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombieJump/SnorkelZombieJump_15.png" id="f71"]
+[ext_resource type="Texture2D" uid="uid://bbsydvagkv8rv" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombieLostHead/SnorkelZombieLostHead_0.png" id="f72"]
+[ext_resource type="Texture2D" uid="uid://b42tkijq5465o" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombieLostHead/SnorkelZombieLostHead_1.png" id="f73"]
+[ext_resource type="Texture2D" uid="uid://6hevcgnq4qd2" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombieLostHead/SnorkelZombieLostHead_2.png" id="f74"]
+[ext_resource type="Texture2D" uid="uid://b00p8d0mm2r76" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombieLostHead/SnorkelZombieLostHead_3.png" id="f75"]
+[ext_resource type="Texture2D" uid="uid://cu76gcd6qwj26" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombieLostHead/SnorkelZombieLostHead_4.png" id="f76"]
+[ext_resource type="Texture2D" uid="uid://ceep2w4e7pymf" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombieLostHead/SnorkelZombieLostHead_5.png" id="f77"]
+[ext_resource type="Texture2D" uid="uid://bv1aw2j3vw5p0" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombieLostHead/SnorkelZombieLostHead_6.png" id="f78"]
+[ext_resource type="Texture2D" uid="uid://cow5loa8v8chk" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombieLostHead/SnorkelZombieLostHead_7.png" id="f79"]
+[ext_resource type="Texture2D" uid="uid://vlqe2pr1t3xx" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombieLostHead/SnorkelZombieLostHead_8.png" id="f80"]
+[ext_resource type="Texture2D" uid="uid://dssol25duff8t" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombieLostHead/SnorkelZombieLostHead_9.png" id="f81"]
+[ext_resource type="Texture2D" uid="uid://drxpf2x10nyuk" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombieLostHead/SnorkelZombieLostHead_10.png" id="f82"]
+[ext_resource type="Texture2D" uid="uid://ihoxwblf8j0y" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombieLostHead/SnorkelZombieLostHead_11.png" id="f83"]
+[ext_resource type="Texture2D" uid="uid://bcgkbie5eiiig" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombieLostHead/SnorkelZombieLostHead_12.png" id="f84"]
+[ext_resource type="Texture2D" uid="uid://cg22rr14tn3ne" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombieLostHead/SnorkelZombieLostHead_13.png" id="f85"]
+[ext_resource type="Texture2D" uid="uid://bfldimxml56o5" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombieLostHead/SnorkelZombieLostHead_14.png" id="f86"]
+[ext_resource type="Texture2D" uid="uid://dblema0hkc8wv" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombieLostHeadAttack/SnorkelZombieLostHeadAttack_0.png" id="f87"]
+[ext_resource type="Texture2D" uid="uid://dr2xs81x0ledx" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombieLostHeadAttack/SnorkelZombieLostHeadAttack_1.png" id="f88"]
+[ext_resource type="Texture2D" uid="uid://biyp1yyqcp5ue" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombieLostHeadAttack/SnorkelZombieLostHeadAttack_2.png" id="f89"]
+[ext_resource type="Texture2D" uid="uid://csiexmxr1yvir" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombieLostHeadAttack/SnorkelZombieLostHeadAttack_3.png" id="f90"]
+[ext_resource type="Texture2D" uid="uid://bepgba4f76xhg" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombieLostHeadAttack/SnorkelZombieLostHeadAttack_4.png" id="f91"]
+[ext_resource type="Texture2D" uid="uid://6n6lht4khycy" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombieLostHeadAttack/SnorkelZombieLostHeadAttack_5.png" id="f92"]
+[ext_resource type="Texture2D" uid="uid://kdgm2xi7eqxy" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombieLostHeadAttack/SnorkelZombieLostHeadAttack_6.png" id="f93"]
+[ext_resource type="Texture2D" uid="uid://dykohnxkr3hn5" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombieSink/SnorkelZombieSink_0.png" id="f94"]
+[ext_resource type="Texture2D" uid="uid://bpahe7nxds6wj" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombieSink/SnorkelZombieSink_1.png" id="f95"]
+[ext_resource type="Texture2D" uid="uid://debwhb3ef2wq0" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombieSink/SnorkelZombieSink_2.png" id="f96"]
+[ext_resource type="Texture2D" uid="uid://ci3ebrr052qm2" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombieSink/SnorkelZombieSink_3.png" id="f97"]
+[ext_resource type="Texture2D" uid="uid://viww16lfagdk" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombieSink/SnorkelZombieSink_4.png" id="f98"]
+[ext_resource type="Texture2D" uid="uid://dfbjubhidjytb" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombieSink/SnorkelZombieSink_5.png" id="f99"]
+[ext_resource type="Texture2D" uid="uid://r4k2q2dtj1no" path="res://resources/graphics/Zombies/SnorkelZombie/SnorkelZombieSink/SnorkelZombieSink_6.png" id="f100"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_1"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("f1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f20")
+}
+],
+"loop": 1,
+"name": &"SnorkelZombie",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("f21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f32")
+}
+],
+"loop": 1,
+"name": &"SnorkelZombieAttack",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("f33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f38")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f39")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f40")
+}
+],
+"loop": 1,
+"name": &"SnorkelZombieDie",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("f41")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f42")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f43")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f44")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f45")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f46")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f47")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f48")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f49")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f50")
+}
+],
+"loop": 1,
+"name": &"SnorkelZombieDive",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("f51")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f52")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f53")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f54")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f55")
+}
+],
+"loop": 1,
+"name": &"SnorkelZombieFloat",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("f56")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f57")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f58")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f59")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f60")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f61")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f62")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f63")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f64")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f65")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f66")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f67")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f68")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f69")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f70")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f71")
+}
+],
+"loop": 1,
+"name": &"SnorkelZombieJump",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("f72")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f73")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f74")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f75")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f76")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f77")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f78")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f79")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f80")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f81")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f82")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f83")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f84")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f85")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f86")
+}
+],
+"loop": 1,
+"name": &"SnorkelZombieLostHead",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("f87")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f88")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f89")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f90")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f91")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f92")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f93")
+}
+],
+"loop": 1,
+"name": &"SnorkelZombieLostHeadAttack",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("f94")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f95")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f96")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f97")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f98")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f99")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f100")
+}
+],
+"loop": 1,
+"name": &"SnorkelZombieSink",
+"speed": 10.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1"]
+size = Vector2(84, 128)
+
+[node name="SnorkelZombie" type="CharacterBody2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+sprite_frames = SubResource("SpriteFrames_1")
+animation = &"SnorkelZombie"
+autoplay = "SnorkelZombie"
+offset = Vector2(0, 0)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(3.5, 15.0)
+shape = SubResource("RectangleShape2D_1")

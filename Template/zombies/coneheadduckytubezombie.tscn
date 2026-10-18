@@ -1,0 +1,267 @@
+[gd_scene format=3 uid="uid://zho2velj84iwl"]
+
+[ext_resource type="Texture2D" uid="uid://kt3v7v1wlr7g" path="res://resources/graphics/Zombies/ConeheadDuckyTubeZombie/ConeheadDuckyTubeZombie/ConeheadDuckyTubeZombie_0.png" id="f1"]
+[ext_resource type="Texture2D" uid="uid://68celm6squn0" path="res://resources/graphics/Zombies/ConeheadDuckyTubeZombie/ConeheadDuckyTubeZombie/ConeheadDuckyTubeZombie_1.png" id="f2"]
+[ext_resource type="Texture2D" uid="uid://ylkvp2dj06fa" path="res://resources/graphics/Zombies/ConeheadDuckyTubeZombie/ConeheadDuckyTubeZombie/ConeheadDuckyTubeZombie_2.png" id="f3"]
+[ext_resource type="Texture2D" uid="uid://qdonjhr0c716" path="res://resources/graphics/Zombies/ConeheadDuckyTubeZombie/ConeheadDuckyTubeZombie/ConeheadDuckyTubeZombie_3.png" id="f4"]
+[ext_resource type="Texture2D" uid="uid://cu27fiu6jft7q" path="res://resources/graphics/Zombies/ConeheadDuckyTubeZombie/ConeheadDuckyTubeZombie/ConeheadDuckyTubeZombie_4.png" id="f5"]
+[ext_resource type="Texture2D" uid="uid://bn85evq1kv2wl" path="res://resources/graphics/Zombies/ConeheadDuckyTubeZombie/ConeheadDuckyTubeZombie/ConeheadDuckyTubeZombie_5.png" id="f6"]
+[ext_resource type="Texture2D" uid="uid://dlhfvp46g12if" path="res://resources/graphics/Zombies/ConeheadDuckyTubeZombie/ConeheadDuckyTubeZombie/ConeheadDuckyTubeZombie_6.png" id="f7"]
+[ext_resource type="Texture2D" uid="uid://chqqjnena4m8j" path="res://resources/graphics/Zombies/ConeheadDuckyTubeZombie/ConeheadDuckyTubeZombie/ConeheadDuckyTubeZombie_7.png" id="f8"]
+[ext_resource type="Texture2D" uid="uid://b1hn2olnf5jpx" path="res://resources/graphics/Zombies/ConeheadDuckyTubeZombie/ConeheadDuckyTubeZombie/ConeheadDuckyTubeZombie_8.png" id="f9"]
+[ext_resource type="Texture2D" uid="uid://bnsyat1w1d4w5" path="res://resources/graphics/Zombies/ConeheadDuckyTubeZombie/ConeheadDuckyTubeZombie/ConeheadDuckyTubeZombie_9.png" id="f10"]
+[ext_resource type="Texture2D" uid="uid://ceqthnf714tyi" path="res://resources/graphics/Zombies/ConeheadDuckyTubeZombie/ConeheadDuckyTubeZombie/ConeheadDuckyTubeZombie_10.png" id="f11"]
+[ext_resource type="Texture2D" uid="uid://bnt8coyj0soq7" path="res://resources/graphics/Zombies/ConeheadDuckyTubeZombie/ConeheadDuckyTubeZombie/ConeheadDuckyTubeZombie_11.png" id="f12"]
+[ext_resource type="Texture2D" uid="uid://lr0j6pvq7fu1" path="res://resources/graphics/Zombies/ConeheadDuckyTubeZombie/ConeheadDuckyTubeZombie/ConeheadDuckyTubeZombie_12.png" id="f13"]
+[ext_resource type="Texture2D" uid="uid://cmtdjx0hkmsx8" path="res://resources/graphics/Zombies/ConeheadDuckyTubeZombie/ConeheadDuckyTubeZombie/ConeheadDuckyTubeZombie_13.png" id="f14"]
+[ext_resource type="Texture2D" uid="uid://4tridxm2gs8a" path="res://resources/graphics/Zombies/ConeheadDuckyTubeZombie/ConeheadDuckyTubeZombie/ConeheadDuckyTubeZombie_14.png" id="f15"]
+[ext_resource type="Texture2D" uid="uid://bgv8t0sb4tbcf" path="res://resources/graphics/Zombies/ConeheadDuckyTubeZombie/ConeheadDuckyTubeZombie/ConeheadDuckyTubeZombie_15.png" id="f16"]
+[ext_resource type="Texture2D" uid="uid://da02lr4qnno7a" path="res://resources/graphics/Zombies/ConeheadDuckyTubeZombie/ConeheadDuckyTubeZombieAttack/ConeheadDuckyTubeZombieAttack_0.png" id="f17"]
+[ext_resource type="Texture2D" uid="uid://bjqxrljv1nb5j" path="res://resources/graphics/Zombies/ConeheadDuckyTubeZombie/ConeheadDuckyTubeZombieAttack/ConeheadDuckyTubeZombieAttack_1.png" id="f18"]
+[ext_resource type="Texture2D" uid="uid://dkcg6cqoxu4lv" path="res://resources/graphics/Zombies/ConeheadDuckyTubeZombie/ConeheadDuckyTubeZombieAttack/ConeheadDuckyTubeZombieAttack_2.png" id="f19"]
+[ext_resource type="Texture2D" uid="uid://duclsjyopmph5" path="res://resources/graphics/Zombies/ConeheadDuckyTubeZombie/ConeheadDuckyTubeZombieAttack/ConeheadDuckyTubeZombieAttack_3.png" id="f20"]
+[ext_resource type="Texture2D" uid="uid://b1rbty7bc83au" path="res://resources/graphics/Zombies/ConeheadDuckyTubeZombie/ConeheadDuckyTubeZombieAttack/ConeheadDuckyTubeZombieAttack_4.png" id="f21"]
+[ext_resource type="Texture2D" uid="uid://dmlavdampe0rc" path="res://resources/graphics/Zombies/ConeheadDuckyTubeZombie/ConeheadDuckyTubeZombieAttack/ConeheadDuckyTubeZombieAttack_5.png" id="f22"]
+[ext_resource type="Texture2D" uid="uid://c0lcttdcvygc7" path="res://resources/graphics/Zombies/ConeheadDuckyTubeZombie/ConeheadDuckyTubeZombieAttack/ConeheadDuckyTubeZombieAttack_6.png" id="f23"]
+[ext_resource type="Texture2D" uid="uid://rtnp5w1i564f" path="res://resources/graphics/Zombies/ConeheadDuckyTubeZombie/ConeheadDuckyTubeZombieAttack/ConeheadDuckyTubeZombieAttack_7.png" id="f24"]
+[ext_resource type="Texture2D" uid="uid://l5r5kp3baonu" path="res://resources/graphics/Zombies/ConeheadDuckyTubeZombie/ConeheadDuckyTubeZombieAttack/ConeheadDuckyTubeZombieAttack_8.png" id="f25"]
+[ext_resource type="Texture2D" uid="uid://bn21e7vu8fpiy" path="res://resources/graphics/Zombies/ConeheadDuckyTubeZombie/ConeheadDuckyTubeZombieAttack/ConeheadDuckyTubeZombieAttack_9.png" id="f26"]
+[ext_resource type="Texture2D" uid="uid://xs57axeia53r" path="res://resources/graphics/Zombies/ConeheadDuckyTubeZombie/ConeheadDuckyTubeZombieAttack/ConeheadDuckyTubeZombieAttack_10.png" id="f27"]
+[ext_resource type="Texture2D" uid="uid://ckqeq3jsf7y53" path="res://resources/graphics/Zombies/ConeheadDuckyTubeZombie/ConeheadDuckyTubeZombieSwim/ConeheadDuckyTubeZombieSwim_0.png" id="f28"]
+[ext_resource type="Texture2D" uid="uid://w1vnlucubplc" path="res://resources/graphics/Zombies/ConeheadDuckyTubeZombie/ConeheadDuckyTubeZombieSwim/ConeheadDuckyTubeZombieSwim_1.png" id="f29"]
+[ext_resource type="Texture2D" uid="uid://2vla5xlyyckj" path="res://resources/graphics/Zombies/ConeheadDuckyTubeZombie/ConeheadDuckyTubeZombieSwim/ConeheadDuckyTubeZombieSwim_2.png" id="f30"]
+[ext_resource type="Texture2D" uid="uid://h2quhfjpcutx" path="res://resources/graphics/Zombies/ConeheadDuckyTubeZombie/ConeheadDuckyTubeZombieSwim/ConeheadDuckyTubeZombieSwim_3.png" id="f31"]
+[ext_resource type="Texture2D" uid="uid://cee3xpjq3ixpx" path="res://resources/graphics/Zombies/ConeheadDuckyTubeZombie/ConeheadDuckyTubeZombieSwim/ConeheadDuckyTubeZombieSwim_4.png" id="f32"]
+[ext_resource type="Texture2D" uid="uid://xur5tyckhyqh" path="res://resources/graphics/Zombies/ConeheadDuckyTubeZombie/ConeheadDuckyTubeZombieSwim/ConeheadDuckyTubeZombieSwim_5.png" id="f33"]
+[ext_resource type="Texture2D" uid="uid://bhb33b7jof1u" path="res://resources/graphics/Zombies/ConeheadDuckyTubeZombie/ConeheadDuckyTubeZombieSwim/ConeheadDuckyTubeZombieSwim_6.png" id="f34"]
+[ext_resource type="Texture2D" uid="uid://ct1buhd2lescp" path="res://resources/graphics/Zombies/ConeheadDuckyTubeZombie/ConeheadDuckyTubeZombieSwim/ConeheadDuckyTubeZombieSwim_7.png" id="f35"]
+[ext_resource type="Texture2D" uid="uid://6a7jgteahqe7" path="res://resources/graphics/Zombies/ConeheadDuckyTubeZombie/ConeheadDuckyTubeZombieSwim/ConeheadDuckyTubeZombieSwim_8.png" id="f36"]
+[ext_resource type="Texture2D" uid="uid://c1l7fpk667c6f" path="res://resources/graphics/Zombies/ConeheadDuckyTubeZombie/ConeheadDuckyTubeZombieSwim/ConeheadDuckyTubeZombieSwim_9.png" id="f37"]
+[ext_resource type="Texture2D" uid="uid://bg0ssnltmiwcn" path="res://resources/graphics/Zombies/ConeheadDuckyTubeZombie/ConeheadDuckyTubeZombieSwim/ConeheadDuckyTubeZombieSwim_10.png" id="f38"]
+[ext_resource type="Texture2D" uid="uid://c50ov221k3gka" path="res://resources/graphics/Zombies/ConeheadDuckyTubeZombie/ConeheadDuckyTubeZombieSwim/ConeheadDuckyTubeZombieSwim_11.png" id="f39"]
+[ext_resource type="Texture2D" uid="uid://cur4rqtg3obsm" path="res://resources/graphics/Zombies/ConeheadDuckyTubeZombie/ConeheadDuckyTubeZombieSwim/ConeheadDuckyTubeZombieSwim_12.png" id="f40"]
+[ext_resource type="Texture2D" uid="uid://50hrdj46eshi" path="res://resources/graphics/Zombies/ConeheadDuckyTubeZombie/ConeheadDuckyTubeZombieSwim/ConeheadDuckyTubeZombieSwim_13.png" id="f41"]
+[ext_resource type="Texture2D" uid="uid://c1jfbjb7ycfkb" path="res://resources/graphics/Zombies/ConeheadDuckyTubeZombie/ConeheadDuckyTubeZombieSwim/ConeheadDuckyTubeZombieSwim_14.png" id="f42"]
+[ext_resource type="Texture2D" uid="uid://jvjkcwwfkot" path="res://resources/graphics/Zombies/ConeheadDuckyTubeZombie/ConeheadDuckyTubeZombieSwim/ConeheadDuckyTubeZombieSwim_15.png" id="f43"]
+[ext_resource type="Texture2D" uid="uid://dpktg1qgmhm7n" path="res://resources/graphics/Zombies/ConeheadDuckyTubeZombie/ConeheadDuckyTubeZombieSwim/ConeheadDuckyTubeZombieSwim_16.png" id="f44"]
+[ext_resource type="Texture2D" uid="uid://cd2lbvpgnqg67" path="res://resources/graphics/Zombies/ConeheadDuckyTubeZombie/ConeheadDuckyTubeZombieSwim/ConeheadDuckyTubeZombieSwim_17.png" id="f45"]
+[ext_resource type="Texture2D" uid="uid://ddnecc4f85pxd" path="res://resources/graphics/Zombies/ConeheadDuckyTubeZombie/ConeheadDuckyTubeZombieSwim/ConeheadDuckyTubeZombieSwim_18.png" id="f46"]
+[ext_resource type="Texture2D" uid="uid://boksj0wwloqws" path="res://resources/graphics/Zombies/ConeheadDuckyTubeZombie/ConeheadDuckyTubeZombieSwim/ConeheadDuckyTubeZombieSwim_19.png" id="f47"]
+[ext_resource type="Texture2D" uid="uid://lxit1ftk3iqi" path="res://resources/graphics/Zombies/ConeheadDuckyTubeZombie/ConeheadDuckyTubeZombieSwim/ConeheadDuckyTubeZombieSwim_20.png" id="f48"]
+[ext_resource type="Texture2D" uid="uid://bi6s7uoo5yfu3" path="res://resources/graphics/Zombies/ConeheadDuckyTubeZombie/ConeheadDuckyTubeZombieSwim/ConeheadDuckyTubeZombieSwim_21.png" id="f49"]
+[ext_resource type="Texture2D" uid="uid://dtcqlo3kqw3y6" path="res://resources/graphics/Zombies/ConeheadDuckyTubeZombie/ConeheadDuckyTubeZombieSwim/ConeheadDuckyTubeZombieSwim_22.png" id="f50"]
+[ext_resource type="Texture2D" uid="uid://n1m7u6bmdm4m" path="res://resources/graphics/Zombies/ConeheadDuckyTubeZombie/ConeheadDuckyTubeZombieSwim/ConeheadDuckyTubeZombieSwim_23.png" id="f51"]
+[ext_resource type="Texture2D" uid="uid://duiocttiw6ky" path="res://resources/graphics/Zombies/ConeheadDuckyTubeZombie/ConeheadDuckyTubeZombieSwim/ConeheadDuckyTubeZombieSwim_24.png" id="f52"]
+[ext_resource type="Texture2D" uid="uid://dsi4qx0m2obos" path="res://resources/graphics/Zombies/ConeheadDuckyTubeZombie/ConeheadDuckyTubeZombieSwim/ConeheadDuckyTubeZombieSwim_25.png" id="f53"]
+[ext_resource type="Texture2D" uid="uid://dfku4ae2ww4ko" path="res://resources/graphics/Zombies/ConeheadDuckyTubeZombie/ConeheadDuckyTubeZombieSwim/ConeheadDuckyTubeZombieSwim_26.png" id="f54"]
+[ext_resource type="Texture2D" uid="uid://cyf723snppwoo" path="res://resources/graphics/Zombies/ConeheadDuckyTubeZombie/ConeheadDuckyTubeZombieSwim/ConeheadDuckyTubeZombieSwim_27.png" id="f55"]
+[ext_resource type="Texture2D" uid="uid://dsuaxqv0vyw5w" path="res://resources/graphics/Zombies/ConeheadDuckyTubeZombie/ConeheadDuckyTubeZombieSwim/ConeheadDuckyTubeZombieSwim_28.png" id="f56"]
+[ext_resource type="Texture2D" uid="uid://bri81kn6dlyko" path="res://resources/graphics/Zombies/ConeheadDuckyTubeZombie/ConeheadDuckyTubeZombieSwim/ConeheadDuckyTubeZombieSwim_29.png" id="f57"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_1"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("f1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f16")
+}
+],
+"loop": 1,
+"name": &"ConeheadDuckyTubeZombie",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("f17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f27")
+}
+],
+"loop": 1,
+"name": &"ConeheadDuckyTubeZombieAttack",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("f28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f38")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f39")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f40")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f41")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f42")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f43")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f44")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f45")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f46")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f47")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f48")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f49")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f50")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f51")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f52")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f53")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f54")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f55")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f56")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f57")
+}
+],
+"loop": 1,
+"name": &"ConeheadDuckyTubeZombieSwim",
+"speed": 10.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1"]
+size = Vector2(84, 139)
+
+[node name="ConeheadDuckyTubeZombie" type="CharacterBody2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+sprite_frames = SubResource("SpriteFrames_1")
+animation = &"ConeheadDuckyTubeZombie"
+autoplay = "ConeheadDuckyTubeZombie"
+offset = Vector2(0, 0)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(26.0, -1.5)
+shape = SubResource("RectangleShape2D_1")

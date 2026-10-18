@@ -1,0 +1,78 @@
+[gd_scene format=3 uid="uid://denolaxkcygwx"]
+
+[ext_resource type="Texture2D" uid="uid://bcafoycevwlev" path="res://resources/graphics/Plants/PotatoMine/PotatoMine/PotatoMine_0.png" id="1_1bgp6"]
+[ext_resource type="Script" uid="uid://h3cg78qy8fbx" path="res://Scripts/plants/potatomine.gd" id="1_3pe2a"]
+[ext_resource type="Texture2D" uid="uid://bvcrr0blanufd" path="res://resources/graphics/Plants/PotatoMine/PotatoMine/PotatoMine_1.png" id="2_wub5z"]
+[ext_resource type="Texture2D" uid="uid://bpvg7qilnetn3" path="res://resources/graphics/Plants/PotatoMine/PotatoMine/PotatoMine_2.png" id="3_wzcz4"]
+[ext_resource type="Texture2D" uid="uid://emj4kju8klwn" path="res://resources/graphics/Plants/PotatoMine/PotatoMine/PotatoMine_3.png" id="4_usddf"]
+[ext_resource type="Texture2D" uid="uid://bpbq0it1lfola" path="res://resources/graphics/Plants/PotatoMine/PotatoMine/PotatoMine_4.png" id="5_4zexm"]
+[ext_resource type="Texture2D" uid="uid://1xvkkghxv52c" path="res://resources/graphics/Plants/PotatoMine/PotatoMine/PotatoMine_5.png" id="6_tbr3b"]
+[ext_resource type="Texture2D" uid="uid://duhlnwvmy6gc1" path="res://resources/graphics/Plants/PotatoMine/PotatoMine/PotatoMine_6.png" id="7_uvoq0"]
+[ext_resource type="Texture2D" uid="uid://be7nx1xj1na63" path="res://resources/graphics/Plants/PotatoMine/PotatoMine/PotatoMine_7.png" id="8_5183h"]
+[ext_resource type="Texture2D" uid="uid://bnlpkx7m5qruo" path="res://resources/graphics/Plants/PotatoMine/PotatoMineInit/PotatoMineInit_0.png" id="9_h2ji8"]
+[ext_resource type="Texture2D" uid="uid://b6i1o1pqddf5j" path="res://resources/graphics/Plants/PotatoMine/PotatoMineExplode/PotatoMineExplode_0.png" id="10_c40sv"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_lpphs"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_1bgp6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_wub5z")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_wzcz4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_usddf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_4zexm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_tbr3b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_uvoq0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_5183h")
+}],
+"loop": 1,
+"name": &"PotatoMine",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("10_c40sv")
+}],
+"loop": 0,
+"name": &"PotatoMineExplode",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("9_h2ji8")
+}],
+"loop": 1,
+"name": &"PotatoMineInit",
+"speed": 10.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_dve4r"]
+size = Vector2(74, 53)
+
+[node name="PotatoMine" type="Area2D" unique_id=757101365]
+script = ExtResource("1_3pe2a")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=387524095]
+texture_filter = 1
+sprite_frames = SubResource("SpriteFrames_lpphs")
+animation = &"PotatoMineInit"
+autoplay = "PotatoMine"
+offset = Vector2(0, -28)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=850973313]
+position = Vector2(0, -26)
+shape = SubResource("RectangleShape2D_dve4r")

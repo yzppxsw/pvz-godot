@@ -1,0 +1,180 @@
+[gd_scene format=3 uid="uid://d1jp7lixjnpi1"]
+
+[ext_resource type="Texture2D" uid="uid://ddcmiur2lcg3h" path="res://resources/graphics/Plants/Garlic/Garlic/Garlic_0.png" id="1_dzxuk"]
+[ext_resource type="Texture2D" uid="uid://d31g7h4ifk6jc" path="res://resources/graphics/Plants/Garlic/Garlic/Garlic_1.png" id="2_azgh5"]
+[ext_resource type="Texture2D" uid="uid://blwepgqjrov1l" path="res://resources/graphics/Plants/Garlic/Garlic/Garlic_2.png" id="3_cj02c"]
+[ext_resource type="Texture2D" uid="uid://b3ax816h76jid" path="res://resources/graphics/Plants/Garlic/Garlic/Garlic_3.png" id="4_2vxrz"]
+[ext_resource type="Texture2D" uid="uid://davt1js0hwo0e" path="res://resources/graphics/Plants/Garlic/Garlic/Garlic_4.png" id="5_9msau"]
+[ext_resource type="Texture2D" uid="uid://crs2sbtretvuq" path="res://resources/graphics/Plants/Garlic/Garlic/Garlic_5.png" id="6_rtlpb"]
+[ext_resource type="Texture2D" uid="uid://cns738itmlpgt" path="res://resources/graphics/Plants/Garlic/Garlic/Garlic_6.png" id="7_jrm44"]
+[ext_resource type="Texture2D" uid="uid://cvirspjwegji5" path="res://resources/graphics/Plants/Garlic/Garlic/Garlic_7.png" id="8_ryoov"]
+[ext_resource type="Texture2D" uid="uid://bphitrm6n124v" path="res://resources/graphics/Plants/Garlic/Garlic/Garlic_8.png" id="9_u92qo"]
+[ext_resource type="Texture2D" uid="uid://b2bulitqfun70" path="res://resources/graphics/Plants/Garlic/Garlic/Garlic_9.png" id="10_4bavw"]
+[ext_resource type="Texture2D" uid="uid://bj7bwkhljqsm6" path="res://resources/graphics/Plants/Garlic/Garlic/Garlic_10.png" id="11_9onss"]
+[ext_resource type="Texture2D" uid="uid://ctwytdgde7xvu" path="res://resources/graphics/Plants/Garlic/Garlic/Garlic_11.png" id="12_wtoyb"]
+[ext_resource type="Texture2D" uid="uid://co2e2b4mgloyy" path="res://resources/graphics/Plants/Garlic/Garlic_cracked1/Garlic_cracked1_0.png" id="13_1t4sh"]
+[ext_resource type="Texture2D" uid="uid://c4gb1s30cp735" path="res://resources/graphics/Plants/Garlic/Garlic_cracked1/Garlic_cracked1_1.png" id="14_e2za1"]
+[ext_resource type="Texture2D" uid="uid://2h1bsij7cxh6" path="res://resources/graphics/Plants/Garlic/Garlic_cracked1/Garlic_cracked1_2.png" id="15_fl7nx"]
+[ext_resource type="Texture2D" uid="uid://c5bopa74s4ves" path="res://resources/graphics/Plants/Garlic/Garlic_cracked1/Garlic_cracked1_3.png" id="16_xs14l"]
+[ext_resource type="Texture2D" uid="uid://cpv6kl0h32f3v" path="res://resources/graphics/Plants/Garlic/Garlic_cracked1/Garlic_cracked1_4.png" id="17_c7soh"]
+[ext_resource type="Texture2D" uid="uid://dix6sbl88avt2" path="res://resources/graphics/Plants/Garlic/Garlic_cracked1/Garlic_cracked1_5.png" id="18_jyzya"]
+[ext_resource type="Texture2D" uid="uid://da74a72573qyo" path="res://resources/graphics/Plants/Garlic/Garlic_cracked1/Garlic_cracked1_6.png" id="19_wr1le"]
+[ext_resource type="Texture2D" uid="uid://bv8b5vsws8sfh" path="res://resources/graphics/Plants/Garlic/Garlic_cracked1/Garlic_cracked1_7.png" id="20_t2yoh"]
+[ext_resource type="Texture2D" uid="uid://cyicel6u11w61" path="res://resources/graphics/Plants/Garlic/Garlic_cracked1/Garlic_cracked1_8.png" id="21_plza1"]
+[ext_resource type="Texture2D" uid="uid://wmc7rt1jste8" path="res://resources/graphics/Plants/Garlic/Garlic_cracked1/Garlic_cracked1_9.png" id="22_91jdt"]
+[ext_resource type="Texture2D" uid="uid://bw537fea30147" path="res://resources/graphics/Plants/Garlic/Garlic_cracked1/Garlic_cracked1_10.png" id="23_pi5et"]
+[ext_resource type="Texture2D" uid="uid://81d2dwxh0lcl" path="res://resources/graphics/Plants/Garlic/Garlic_cracked1/Garlic_cracked1_11.png" id="24_hvtvq"]
+[ext_resource type="Texture2D" uid="uid://cp6vchiijnsn2" path="res://resources/graphics/Plants/Garlic/Garlic_cracked2/Garlic_cracked2_0.png" id="25_r3gip"]
+[ext_resource type="Texture2D" uid="uid://mmowvb006cq8" path="res://resources/graphics/Plants/Garlic/Garlic_cracked2/Garlic_cracked2_1.png" id="26_1evvk"]
+[ext_resource type="Texture2D" uid="uid://whmb1wmdp8wv" path="res://resources/graphics/Plants/Garlic/Garlic_cracked2/Garlic_cracked2_2.png" id="27_sjuhl"]
+[ext_resource type="Texture2D" uid="uid://bf8qgtb31ppg6" path="res://resources/graphics/Plants/Garlic/Garlic_cracked2/Garlic_cracked2_3.png" id="28_jurkg"]
+[ext_resource type="Texture2D" uid="uid://bmwxht6d1buc1" path="res://resources/graphics/Plants/Garlic/Garlic_cracked2/Garlic_cracked2_4.png" id="29_y0ryw"]
+[ext_resource type="Texture2D" uid="uid://d3ragftnyji2s" path="res://resources/graphics/Plants/Garlic/Garlic_cracked2/Garlic_cracked2_5.png" id="30_38q7q"]
+[ext_resource type="Texture2D" uid="uid://dn0jcl4iksy6o" path="res://resources/graphics/Plants/Garlic/Garlic_cracked2/Garlic_cracked2_6.png" id="31_xvcu5"]
+[ext_resource type="Texture2D" uid="uid://dx5yxfdk2hn30" path="res://resources/graphics/Plants/Garlic/Garlic_cracked2/Garlic_cracked2_7.png" id="32_ivoau"]
+[ext_resource type="Texture2D" uid="uid://c6kyv55p0g4lt" path="res://resources/graphics/Plants/Garlic/Garlic_cracked2/Garlic_cracked2_8.png" id="33_m91hf"]
+[ext_resource type="Texture2D" uid="uid://crpkjimujavpf" path="res://resources/graphics/Plants/Garlic/Garlic_cracked2/Garlic_cracked2_9.png" id="34_9jkja"]
+[ext_resource type="Texture2D" uid="uid://dpdemac100mex" path="res://resources/graphics/Plants/Garlic/Garlic_cracked2/Garlic_cracked2_10.png" id="35_er3xu"]
+[ext_resource type="Texture2D" uid="uid://dcrsjcm4uojmu" path="res://resources/graphics/Plants/Garlic/Garlic_cracked2/Garlic_cracked2_11.png" id="36_tnhs3"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_jsce0"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_dzxuk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_azgh5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_cj02c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_2vxrz")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_9msau")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_rtlpb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_jrm44")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_ryoov")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_u92qo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_4bavw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_9onss")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_wtoyb")
+}],
+"loop": 1,
+"name": &"Garlic",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("13_1t4sh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_e2za1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_fl7nx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_xs14l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_c7soh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_jyzya")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_wr1le")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_t2yoh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_plza1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_91jdt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_pi5et")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_hvtvq")
+}],
+"loop": 1,
+"name": &"Garlic_cracked1",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("25_r3gip")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_1evvk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_sjuhl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_jurkg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_y0ryw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_38q7q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_xvcu5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_ivoau")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_m91hf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_9jkja")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_er3xu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_tnhs3")
+}],
+"loop": 1,
+"name": &"Garlic_cracked2",
+"speed": 10.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_59p8u"]
+size = Vector2(54, 55)
+
+[node name="Garlic" type="Area2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+sprite_frames = SubResource("SpriteFrames_jsce0")
+animation = &"Garlic"
+autoplay = "Garlic"
+offset = Vector2(0, -46)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -28)
+shape = SubResource("RectangleShape2D_59p8u")

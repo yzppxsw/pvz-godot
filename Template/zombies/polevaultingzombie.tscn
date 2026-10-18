@@ -1,0 +1,435 @@
+[gd_scene format=3 uid="uid://xuqsqwf4jmddf"]
+
+[ext_resource type="Texture2D" uid="uid://bwoygg1arrk7x" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombie/PoleVaultingZombie_0.png" id="f1"]
+[ext_resource type="Texture2D" uid="uid://3pkcqslbsvtp" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombie/PoleVaultingZombie_1.png" id="f2"]
+[ext_resource type="Texture2D" uid="uid://c0yld2w1wi2iu" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombie/PoleVaultingZombie_2.png" id="f3"]
+[ext_resource type="Texture2D" uid="uid://ddjjbrkdwpur4" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombie/PoleVaultingZombie_3.png" id="f4"]
+[ext_resource type="Texture2D" uid="uid://ciicgqn6o57b" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombie/PoleVaultingZombie_4.png" id="f5"]
+[ext_resource type="Texture2D" uid="uid://c3kr5y1oilgvg" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombie/PoleVaultingZombie_5.png" id="f6"]
+[ext_resource type="Texture2D" uid="uid://ds6d53v520bib" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombie/PoleVaultingZombie_6.png" id="f7"]
+[ext_resource type="Texture2D" uid="uid://bnp83ocvxfsjp" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombie/PoleVaultingZombie_7.png" id="f8"]
+[ext_resource type="Texture2D" uid="uid://bjwdyiig2rtvx" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombie/PoleVaultingZombie_8.png" id="f9"]
+[ext_resource type="Texture2D" uid="uid://ctlmh8pxej5hb" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombie/PoleVaultingZombie_9.png" id="f10"]
+[ext_resource type="Texture2D" uid="uid://3i6w33nqvw1b" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombieAttack/PoleVaultingZombieAttack_0.png" id="f11"]
+[ext_resource type="Texture2D" uid="uid://crk28gu0gm25o" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombieAttack/PoleVaultingZombieAttack_1.png" id="f12"]
+[ext_resource type="Texture2D" uid="uid://c6oopqppm7ayg" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombieAttack/PoleVaultingZombieAttack_2.png" id="f13"]
+[ext_resource type="Texture2D" uid="uid://g2u7yqosi6u0" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombieAttack/PoleVaultingZombieAttack_3.png" id="f14"]
+[ext_resource type="Texture2D" uid="uid://dinnlnkupka6x" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombieAttack/PoleVaultingZombieAttack_4.png" id="f15"]
+[ext_resource type="Texture2D" uid="uid://0ndjvuvn6513" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombieAttack/PoleVaultingZombieAttack_5.png" id="f16"]
+[ext_resource type="Texture2D" uid="uid://c7inscxe0y4wi" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombieAttack/PoleVaultingZombieAttack_6.png" id="f17"]
+[ext_resource type="Texture2D" uid="uid://dm8bjmw7soymq" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombieAttack/PoleVaultingZombieAttack_7.png" id="f18"]
+[ext_resource type="Texture2D" uid="uid://b6254uk8jhn4i" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombieAttack/PoleVaultingZombieAttack_8.png" id="f19"]
+[ext_resource type="Texture2D" uid="uid://cfgsf02oc1ho0" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombieAttack/PoleVaultingZombieAttack_9.png" id="f20"]
+[ext_resource type="Texture2D" uid="uid://7vpjayfrh71e" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombieAttack/PoleVaultingZombieAttack_10.png" id="f21"]
+[ext_resource type="Texture2D" uid="uid://dn3lrs1s6qbs3" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombieAttack/PoleVaultingZombieAttack_11.png" id="f22"]
+[ext_resource type="Texture2D" uid="uid://b5o2w33wjr3xa" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombieAttack/PoleVaultingZombieAttack_12.png" id="f23"]
+[ext_resource type="Texture2D" uid="uid://b6lfp6rbfym4w" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombieAttack/PoleVaultingZombieAttack_13.png" id="f24"]
+[ext_resource type="Texture2D" uid="uid://761qiyymkwk3" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombieDie/PoleVaultingZombieDie_0.png" id="f25"]
+[ext_resource type="Texture2D" uid="uid://i1ni7g5gala4" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombieDie/PoleVaultingZombieDie_1.png" id="f26"]
+[ext_resource type="Texture2D" uid="uid://d1j6erah7crgk" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombieDie/PoleVaultingZombieDie_2.png" id="f27"]
+[ext_resource type="Texture2D" uid="uid://2048ehcjxp6n" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombieDie/PoleVaultingZombieDie_3.png" id="f28"]
+[ext_resource type="Texture2D" uid="uid://c7rx4osbe4kee" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombieDie/PoleVaultingZombieDie_4.png" id="f29"]
+[ext_resource type="Texture2D" uid="uid://dq050njsukdx2" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombieDie/PoleVaultingZombieDie_5.png" id="f30"]
+[ext_resource type="Texture2D" uid="uid://bovdhmtnx3x0o" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombieDie/PoleVaultingZombieDie_6.png" id="f31"]
+[ext_resource type="Texture2D" uid="uid://coafnjduph0ql" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombieDie/PoleVaultingZombieDie_7.png" id="f32"]
+[ext_resource type="Texture2D" uid="uid://sy0i4067655i" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombieDie/PoleVaultingZombieDie_8.png" id="f33"]
+[ext_resource type="Texture2D" uid="uid://dc8r6sr05djpi" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombieJump/PoleVaultingZombieJump_0.png" id="f34"]
+[ext_resource type="Texture2D" uid="uid://okhop5qw5c1l" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombieJump/PoleVaultingZombieJump_1.png" id="f35"]
+[ext_resource type="Texture2D" uid="uid://43pc6o2u3n6y" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombieJump/PoleVaultingZombieJump_2.png" id="f36"]
+[ext_resource type="Texture2D" uid="uid://cd41d4egi7twf" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombieJump/PoleVaultingZombieJump_3.png" id="f37"]
+[ext_resource type="Texture2D" uid="uid://blln35i1rjetk" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombieJump/PoleVaultingZombieJump_4.png" id="f38"]
+[ext_resource type="Texture2D" uid="uid://br0ed31pwgxor" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombieJump/PoleVaultingZombieJump_5.png" id="f39"]
+[ext_resource type="Texture2D" uid="uid://dt8uigtmqdaws" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombieJump/PoleVaultingZombieJump_6.png" id="f40"]
+[ext_resource type="Texture2D" uid="uid://ceqxb20s2rnl8" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombieJump/PoleVaultingZombieJump_7.png" id="f41"]
+[ext_resource type="Texture2D" uid="uid://bjywv713erot5" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombieJump/PoleVaultingZombieJump_8.png" id="f42"]
+[ext_resource type="Texture2D" uid="uid://bydfa0fcxxsep" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombieJump/PoleVaultingZombieJump_9.png" id="f43"]
+[ext_resource type="Texture2D" uid="uid://by04n0kumbn10" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombieLostHead/PoleVaultingZombieLostHead_0.png" id="f44"]
+[ext_resource type="Texture2D" uid="uid://dufa7smdjd43i" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombieLostHead/PoleVaultingZombieLostHead_1.png" id="f45"]
+[ext_resource type="Texture2D" uid="uid://bfa2tdjyvev8x" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombieLostHead/PoleVaultingZombieLostHead_2.png" id="f46"]
+[ext_resource type="Texture2D" uid="uid://iocdryrxcdne" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombieLostHead/PoleVaultingZombieLostHead_3.png" id="f47"]
+[ext_resource type="Texture2D" uid="uid://rtctjmbnlslh" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombieLostHead/PoleVaultingZombieLostHead_4.png" id="f48"]
+[ext_resource type="Texture2D" uid="uid://d4mga7fkhtc85" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombieLostHead/PoleVaultingZombieLostHead_5.png" id="f49"]
+[ext_resource type="Texture2D" uid="uid://cpjeyva3lg0s" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombieLostHead/PoleVaultingZombieLostHead_6.png" id="f50"]
+[ext_resource type="Texture2D" uid="uid://c6beav170d5vi" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombieLostHead/PoleVaultingZombieLostHead_7.png" id="f51"]
+[ext_resource type="Texture2D" uid="uid://srgsu3sx03xn" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombieLostHead/PoleVaultingZombieLostHead_8.png" id="f52"]
+[ext_resource type="Texture2D" uid="uid://c8iejvu7vlf3p" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombieLostHead/PoleVaultingZombieLostHead_9.png" id="f53"]
+[ext_resource type="Texture2D" uid="uid://wxwt2wjvbjde" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombieLostHeadAttack/PoleVaultingZombieLostHeadAttack_0.png" id="f54"]
+[ext_resource type="Texture2D" uid="uid://dqu087xw56o05" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombieLostHeadAttack/PoleVaultingZombieLostHeadAttack_1.png" id="f55"]
+[ext_resource type="Texture2D" uid="uid://difjcrevhtbwi" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombieLostHeadAttack/PoleVaultingZombieLostHeadAttack_2.png" id="f56"]
+[ext_resource type="Texture2D" uid="uid://bs863e6jjcsot" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombieLostHeadAttack/PoleVaultingZombieLostHeadAttack_3.png" id="f57"]
+[ext_resource type="Texture2D" uid="uid://omvlcpchgup3" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombieLostHeadAttack/PoleVaultingZombieLostHeadAttack_4.png" id="f58"]
+[ext_resource type="Texture2D" uid="uid://bijjfnb60182q" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombieLostHeadAttack/PoleVaultingZombieLostHeadAttack_5.png" id="f59"]
+[ext_resource type="Texture2D" uid="uid://c61x83a627rq5" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombieLostHeadAttack/PoleVaultingZombieLostHeadAttack_6.png" id="f60"]
+[ext_resource type="Texture2D" uid="uid://cjpg6e83w5l7k" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombieLostHeadAttack/PoleVaultingZombieLostHeadAttack_7.png" id="f61"]
+[ext_resource type="Texture2D" uid="uid://cgf4f0678alo" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombieLostHeadAttack/PoleVaultingZombieLostHeadAttack_8.png" id="f62"]
+[ext_resource type="Texture2D" uid="uid://bte4k5ofrx45u" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombieLostHeadAttack/PoleVaultingZombieLostHeadAttack_9.png" id="f63"]
+[ext_resource type="Texture2D" uid="uid://jv6qadl6xqu6" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombieLostHeadAttack/PoleVaultingZombieLostHeadAttack_10.png" id="f64"]
+[ext_resource type="Texture2D" uid="uid://bv2jhif7xwni6" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombieLostHeadAttack/PoleVaultingZombieLostHeadAttack_11.png" id="f65"]
+[ext_resource type="Texture2D" uid="uid://b7kaqm8r7mpv8" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombieLostHeadAttack/PoleVaultingZombieLostHeadAttack_12.png" id="f66"]
+[ext_resource type="Texture2D" uid="uid://cjmdry403wdwg" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombieLostHeadAttack/PoleVaultingZombieLostHeadAttack_13.png" id="f67"]
+[ext_resource type="Texture2D" uid="uid://cd0dn74e8e3ka" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombieWalkAfterJump/PoleVaultingZombieWalkAfterJump_0.png" id="f68"]
+[ext_resource type="Texture2D" uid="uid://cteac25my3dh1" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombieWalkAfterJump/PoleVaultingZombieWalkAfterJump_1.png" id="f69"]
+[ext_resource type="Texture2D" uid="uid://c68u8wsrusxlx" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombieWalkAfterJump/PoleVaultingZombieWalkAfterJump_2.png" id="f70"]
+[ext_resource type="Texture2D" uid="uid://smuauauffdl2" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombieWalkAfterJump/PoleVaultingZombieWalkAfterJump_3.png" id="f71"]
+[ext_resource type="Texture2D" uid="uid://drdcyndw8pm5l" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombieWalkAfterJump/PoleVaultingZombieWalkAfterJump_4.png" id="f72"]
+[ext_resource type="Texture2D" uid="uid://c0daycr2pn64s" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombieWalkAfterJump/PoleVaultingZombieWalkAfterJump_5.png" id="f73"]
+[ext_resource type="Texture2D" uid="uid://cs3r3hr0vtwlh" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombieWalkAfterJump/PoleVaultingZombieWalkAfterJump_6.png" id="f74"]
+[ext_resource type="Texture2D" uid="uid://c8pvj23iuxt6k" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombieWalkAfterJump/PoleVaultingZombieWalkAfterJump_7.png" id="f75"]
+[ext_resource type="Texture2D" uid="uid://c1aibrlsl6wbj" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombieWalkAfterJump/PoleVaultingZombieWalkAfterJump_8.png" id="f76"]
+[ext_resource type="Texture2D" uid="uid://otneriqs1rni" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombieWalkAfterJump/PoleVaultingZombieWalkAfterJump_9.png" id="f77"]
+[ext_resource type="Texture2D" uid="uid://i5rggts2jtjy" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombieWalkAfterJump/PoleVaultingZombieWalkAfterJump_10.png" id="f78"]
+[ext_resource type="Texture2D" uid="uid://ctsf4bbkmfw4g" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombieWalkAfterJump/PoleVaultingZombieWalkAfterJump_11.png" id="f79"]
+[ext_resource type="Texture2D" uid="uid://dcywe3xbfhlhf" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombieWalkAfterJump/PoleVaultingZombieWalkAfterJump_12.png" id="f80"]
+[ext_resource type="Texture2D" uid="uid://d3ts7epc4t8of" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombieWalkAfterJump/PoleVaultingZombieWalkAfterJump_13.png" id="f81"]
+[ext_resource type="Texture2D" uid="uid://7m67j0xiaoot" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombieWalkAfterJump/PoleVaultingZombieWalkAfterJump_14.png" id="f82"]
+[ext_resource type="Texture2D" uid="uid://0dd1epxosgx1" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombieWalkAfterJump/PoleVaultingZombieWalkAfterJump_15.png" id="f83"]
+[ext_resource type="Texture2D" uid="uid://ubdwv607u247" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombieWalkAfterJump/PoleVaultingZombieWalkAfterJump_16.png" id="f84"]
+[ext_resource type="Texture2D" uid="uid://542shni88513" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombieWalkAfterJump/PoleVaultingZombieWalkAfterJump_17.png" id="f85"]
+[ext_resource type="Texture2D" uid="uid://bes1ikfqhgae" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombieWalkAfterJump/PoleVaultingZombieWalkAfterJump_18.png" id="f86"]
+[ext_resource type="Texture2D" uid="uid://b2e7dskrkeilx" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombieWalkAfterJump/PoleVaultingZombieWalkAfterJump_19.png" id="f87"]
+[ext_resource type="Texture2D" uid="uid://dg0vnodckg4qc" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombieWalkAfterJump/PoleVaultingZombieWalkAfterJump_20.png" id="f88"]
+[ext_resource type="Texture2D" uid="uid://b5oyx80cqdwre" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombieWalkAfterJump/PoleVaultingZombieWalkAfterJump_21.png" id="f89"]
+[ext_resource type="Texture2D" uid="uid://vclgwr3i261p" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombieWalkAfterJump/PoleVaultingZombieWalkAfterJump_22.png" id="f90"]
+[ext_resource type="Texture2D" uid="uid://cyfge4gmgr3ow" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombieWalkAfterJump/PoleVaultingZombieWalkAfterJump_23.png" id="f91"]
+[ext_resource type="Texture2D" uid="uid://y2afod5ojtgt" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombieWalkAfterJump/PoleVaultingZombieWalkAfterJump_24.png" id="f92"]
+[ext_resource type="Texture2D" uid="uid://c1675s6fwdevg" path="res://resources/graphics/Zombies/PoleVaultingZombie/PoleVaultingZombieWalkAfterJump/PoleVaultingZombieWalkAfterJump_25.png" id="f93"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_1"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("f1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f10")
+}
+],
+"loop": 1,
+"name": &"PoleVaultingZombie",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("f11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f24")
+}
+],
+"loop": 1,
+"name": &"PoleVaultingZombieAttack",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("f25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f33")
+}
+],
+"loop": 1,
+"name": &"PoleVaultingZombieDie",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("f34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f38")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f39")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f40")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f41")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f42")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f43")
+}
+],
+"loop": 1,
+"name": &"PoleVaultingZombieJump",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("f44")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f45")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f46")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f47")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f48")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f49")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f50")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f51")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f52")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f53")
+}
+],
+"loop": 1,
+"name": &"PoleVaultingZombieLostHead",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("f54")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f55")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f56")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f57")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f58")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f59")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f60")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f61")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f62")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f63")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f64")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f65")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f66")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f67")
+}
+],
+"loop": 1,
+"name": &"PoleVaultingZombieLostHeadAttack",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("f68")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f69")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f70")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f71")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f72")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f73")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f74")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f75")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f76")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f77")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f78")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f79")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f80")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f81")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f82")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f83")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f84")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f85")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f86")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f87")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f88")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f89")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f90")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f91")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f92")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f93")
+}
+],
+"loop": 1,
+"name": &"PoleVaultingZombieWalkAfterJump",
+"speed": 10.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1"]
+size = Vector2(85, 131)
+
+[node name="PoleVaultingZombie" type="CharacterBody2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+sprite_frames = SubResource("SpriteFrames_1")
+animation = &"PoleVaultingZombie"
+autoplay = "PoleVaultingZombie"
+offset = Vector2(0, 0)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(31.0, 5.5)
+shape = SubResource("RectangleShape2D_1")

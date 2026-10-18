@@ -1,0 +1,157 @@
+[gd_scene format=3 uid="uid://b8if4xixqkaxg"]
+
+[ext_resource type="Texture2D" uid="uid://ba56tnyjkr60v" path="res://resources/graphics/Plants/PuffShroom/PuffShroom/PuffShroom_0.png" id="1_5big2"]
+[ext_resource type="Script" uid="uid://b1jn7e423f5y3" path="res://Scripts/plants/puffshroom.gd" id="1_wryt5"]
+[ext_resource type="Texture2D" uid="uid://d2b0383gwmel2" path="res://resources/graphics/Plants/PuffShroom/PuffShroom/PuffShroom_1.png" id="2_0b7n5"]
+[ext_resource type="Texture2D" uid="uid://qypiquetoq3a" path="res://resources/graphics/Plants/PuffShroom/PuffShroom/PuffShroom_2.png" id="3_ltd7e"]
+[ext_resource type="Texture2D" uid="uid://d3yn0xfk1c7b2" path="res://resources/graphics/Plants/PuffShroom/PuffShroom/PuffShroom_3.png" id="4_zx84n"]
+[ext_resource type="Texture2D" uid="uid://2mbty0oea83v" path="res://resources/graphics/Plants/PuffShroom/PuffShroom/PuffShroom_4.png" id="5_ppt8v"]
+[ext_resource type="Texture2D" uid="uid://e6d7b3ylcdwy" path="res://resources/graphics/Plants/PuffShroom/PuffShroom/PuffShroom_5.png" id="6_mt42i"]
+[ext_resource type="Texture2D" uid="uid://bdlrlqdapl85y" path="res://resources/graphics/Plants/PuffShroom/PuffShroom/PuffShroom_6.png" id="7_mwxap"]
+[ext_resource type="Texture2D" uid="uid://clyhn24gmnurl" path="res://resources/graphics/Plants/PuffShroom/PuffShroom/PuffShroom_7.png" id="8_pfv9c"]
+[ext_resource type="Texture2D" uid="uid://bng5grycljhj2" path="res://resources/graphics/Plants/PuffShroom/PuffShroom/PuffShroom_8.png" id="9_clnl0"]
+[ext_resource type="Texture2D" uid="uid://d1tkdlj1kvorc" path="res://resources/graphics/Plants/PuffShroom/PuffShroom/PuffShroom_9.png" id="10_s3ecp"]
+[ext_resource type="Texture2D" uid="uid://bn0fk7yqp7s0c" path="res://resources/graphics/Plants/PuffShroom/PuffShroom/PuffShroom_10.png" id="11_jy9qx"]
+[ext_resource type="Texture2D" uid="uid://3qc0a1uvur7j" path="res://resources/graphics/Plants/PuffShroom/PuffShroom/PuffShroom_11.png" id="12_zp2p3"]
+[ext_resource type="Texture2D" uid="uid://be2na528va068" path="res://resources/graphics/Plants/PuffShroom/PuffShroom/PuffShroom_12.png" id="13_cay50"]
+[ext_resource type="Texture2D" uid="uid://c41vy513q2en2" path="res://resources/graphics/Plants/PuffShroom/PuffShroom/PuffShroom_13.png" id="14_lkr8l"]
+[ext_resource type="Texture2D" uid="uid://ddu3y8o6er4mo" path="res://resources/graphics/Plants/PuffShroom/PuffShroomSleep/PuffShroomSleep_0.png" id="15_hy31h"]
+[ext_resource type="Texture2D" uid="uid://crbn78g15ao53" path="res://resources/graphics/Plants/PuffShroom/PuffShroomSleep/PuffShroomSleep_1.png" id="16_at692"]
+[ext_resource type="Texture2D" uid="uid://cjwidn17x013" path="res://resources/graphics/Plants/PuffShroom/PuffShroomSleep/PuffShroomSleep_2.png" id="17_chpbl"]
+[ext_resource type="Texture2D" uid="uid://46csba8tehbj" path="res://resources/graphics/Plants/PuffShroom/PuffShroomSleep/PuffShroomSleep_3.png" id="18_rejau"]
+[ext_resource type="Texture2D" uid="uid://dkfgqy7aywxnb" path="res://resources/graphics/Plants/PuffShroom/PuffShroomSleep/PuffShroomSleep_4.png" id="19_o4iht"]
+[ext_resource type="Texture2D" uid="uid://cg1bmv8cwd4sm" path="res://resources/graphics/Plants/PuffShroom/PuffShroomSleep/PuffShroomSleep_5.png" id="20_tape0"]
+[ext_resource type="Texture2D" uid="uid://cgcjucm34p5in" path="res://resources/graphics/Plants/PuffShroom/PuffShroomSleep/PuffShroomSleep_6.png" id="21_q2pv3"]
+[ext_resource type="Texture2D" uid="uid://cv5bcfuodf8td" path="res://resources/graphics/Plants/PuffShroom/PuffShroomSleep/PuffShroomSleep_7.png" id="22_qz7ka"]
+[ext_resource type="Texture2D" uid="uid://ciyxf8mdj7lvi" path="res://resources/graphics/Plants/PuffShroom/PuffShroomSleep/PuffShroomSleep_8.png" id="23_ncnqg"]
+[ext_resource type="Texture2D" uid="uid://dipm6y7y2ke4e" path="res://resources/graphics/Plants/PuffShroom/PuffShroomSleep/PuffShroomSleep_9.png" id="24_299dw"]
+[ext_resource type="Texture2D" uid="uid://biq3xpuwtcpdc" path="res://resources/graphics/Plants/PuffShroom/PuffShroomSleep/PuffShroomSleep_10.png" id="25_m17ps"]
+[ext_resource type="Texture2D" uid="uid://bvjnsfrethmeg" path="res://resources/graphics/Plants/PuffShroom/PuffShroomSleep/PuffShroomSleep_11.png" id="26_3np6u"]
+[ext_resource type="Texture2D" uid="uid://csxf1hrqhd60l" path="res://resources/graphics/Plants/PuffShroom/PuffShroomSleep/PuffShroomSleep_12.png" id="27_vg20v"]
+[ext_resource type="Texture2D" uid="uid://ed2oj36ffjou" path="res://resources/graphics/Plants/PuffShroom/PuffShroomSleep/PuffShroomSleep_13.png" id="28_cdtoi"]
+[ext_resource type="Texture2D" uid="uid://cbxxerlve4q" path="res://resources/graphics/Plants/PuffShroom/PuffShroomSleep/PuffShroomSleep_14.png" id="29_3e33c"]
+[ext_resource type="Texture2D" uid="uid://cckh3ahd48m7o" path="res://resources/graphics/Plants/PuffShroom/PuffShroomSleep/PuffShroomSleep_15.png" id="30_x2sd0"]
+[ext_resource type="Texture2D" uid="uid://dm1icyppqm8jr" path="res://resources/graphics/Plants/PuffShroom/PuffShroomSleep/PuffShroomSleep_16.png" id="31_p7553"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_r3vyk"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_5big2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_0b7n5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_ltd7e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_zx84n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_ppt8v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_mt42i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_mwxap")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_pfv9c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_clnl0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_s3ecp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_jy9qx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_zp2p3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_cay50")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_lkr8l")
+}],
+"loop": 1,
+"name": &"PuffShroom",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("15_hy31h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_at692")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_chpbl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_rejau")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_o4iht")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_tape0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_q2pv3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_qz7ka")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_ncnqg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_299dw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_m17ps")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_3np6u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_vg20v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_cdtoi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_3e33c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_x2sd0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_p7553")
+}],
+"loop": 1,
+"name": &"PuffShroomSleep",
+"speed": 10.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_oxqd1"]
+size = Vector2(36, 33)
+
+[node name="PuffShroom" type="Area2D" unique_id=1943311610]
+script = ExtResource("1_wryt5")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1784209850]
+texture_filter = 1
+sprite_frames = SubResource("SpriteFrames_r3vyk")
+animation = &"PuffShroomSleep"
+autoplay = "PuffShroom"
+offset = Vector2(0, -33)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=776890068]
+position = Vector2(-2, -16.5)
+shape = SubResource("RectangleShape2D_oxqd1")

@@ -1,0 +1,88 @@
+[gd_scene format=3 uid="uid://0ylbc513nlrb"]
+
+[ext_resource type="Script" uid="uid://vdvxwh540vv7" path="res://Scripts/plants/snowpea.gd" id="1_3j3b4"]
+[ext_resource type="Texture2D" uid="uid://b50m81u83wemi" path="res://resources/graphics/Plants/SnowPea/SnowPea_0.png" id="1_eio9s"]
+[ext_resource type="Texture2D" uid="uid://do1f1c6tyo88y" path="res://resources/graphics/Plants/SnowPea/SnowPea_1.png" id="2_76slq"]
+[ext_resource type="Texture2D" uid="uid://s7n8o0h47frb" path="res://resources/graphics/Plants/SnowPea/SnowPea_2.png" id="3_rou7r"]
+[ext_resource type="Texture2D" uid="uid://bsas8cxv3gvk8" path="res://resources/graphics/Plants/SnowPea/SnowPea_3.png" id="4_0z5fm"]
+[ext_resource type="Texture2D" uid="uid://b65j3jno7f6ss" path="res://resources/graphics/Plants/SnowPea/SnowPea_4.png" id="5_bmb62"]
+[ext_resource type="Texture2D" uid="uid://bt4us0sihaxjx" path="res://resources/graphics/Plants/SnowPea/SnowPea_5.png" id="6_qoqrz"]
+[ext_resource type="Texture2D" uid="uid://cosihcrebd8nq" path="res://resources/graphics/Plants/SnowPea/SnowPea_6.png" id="7_4qu6z"]
+[ext_resource type="Texture2D" uid="uid://cj3cxgtm71kwb" path="res://resources/graphics/Plants/SnowPea/SnowPea_7.png" id="8_37ix5"]
+[ext_resource type="Texture2D" uid="uid://dmbcms5na5gsg" path="res://resources/graphics/Plants/SnowPea/SnowPea_8.png" id="9_y2xvy"]
+[ext_resource type="Texture2D" uid="uid://s4muff03q4fa" path="res://resources/graphics/Plants/SnowPea/SnowPea_9.png" id="10_38n5e"]
+[ext_resource type="Texture2D" uid="uid://cjbbnx7jtgajj" path="res://resources/graphics/Plants/SnowPea/SnowPea_10.png" id="11_gbp3q"]
+[ext_resource type="Texture2D" uid="uid://cl2qclcnxqfe3" path="res://resources/graphics/Plants/SnowPea/SnowPea_11.png" id="12_qy1yz"]
+[ext_resource type="Texture2D" uid="uid://bd4hmbn658i1h" path="res://resources/graphics/Plants/SnowPea/SnowPea_12.png" id="13_537v6"]
+[ext_resource type="Texture2D" uid="uid://fjs6osvvka3" path="res://resources/graphics/Plants/SnowPea/SnowPea_13.png" id="14_x8702"]
+[ext_resource type="Texture2D" uid="uid://cmkqismsaxj18" path="res://resources/graphics/Plants/SnowPea/SnowPea_14.png" id="15_s9eqh"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_gykte"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_eio9s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_76slq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_rou7r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_0z5fm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_bmb62")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_qoqrz")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_4qu6z")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_37ix5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_y2xvy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_38n5e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_gbp3q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_qy1yz")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_537v6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_x8702")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_s9eqh")
+}],
+"loop": 1,
+"name": &"SnowPea",
+"speed": 10.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_iq2jn"]
+size = Vector2(63, 69)
+
+[node name="SnowPea" type="Area2D" unique_id=1028000269]
+script = ExtResource("1_3j3b4")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=865632906]
+texture_filter = 1
+sprite_frames = SubResource("SpriteFrames_gykte")
+animation = &"SnowPea"
+autoplay = "SnowPea"
+offset = Vector2(0, -36)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1308138941]
+position = Vector2(2, -34)
+shape = SubResource("RectangleShape2D_iq2jn")

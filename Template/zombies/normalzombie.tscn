@@ -1,0 +1,514 @@
+[gd_scene format=3 uid="uid://ce2jyeuq4bv74"]
+
+[ext_resource type="Script" uid="uid://tfifq1b64kma" path="res://Scripts/zombies/normalzombie.gd" id="1_dpmnr"]
+[ext_resource type="Texture2D" uid="uid://chlgwemtulaof" path="res://resources/graphics/Zombies/NormalZombie/Zombie/Zombie_0.png" id="f1"]
+[ext_resource type="Texture2D" uid="uid://w11klxya3f6e" path="res://resources/graphics/Zombies/NormalZombie/Zombie/Zombie_1.png" id="f2"]
+[ext_resource type="Texture2D" uid="uid://d2uhl8jepqoex" path="res://resources/graphics/Zombies/NormalZombie/Zombie/Zombie_2.png" id="f3"]
+[ext_resource type="Texture2D" uid="uid://bu5nxv6nhtj1g" path="res://resources/graphics/Zombies/NormalZombie/Zombie/Zombie_3.png" id="f4"]
+[ext_resource type="Texture2D" uid="uid://bxsxl2kjjkduy" path="res://resources/graphics/Zombies/NormalZombie/Zombie/Zombie_4.png" id="f5"]
+[ext_resource type="Texture2D" uid="uid://csom1360hvd6q" path="res://resources/graphics/Zombies/NormalZombie/Zombie/Zombie_5.png" id="f6"]
+[ext_resource type="Texture2D" uid="uid://bm6nne4oj7sly" path="res://resources/graphics/Zombies/NormalZombie/Zombie/Zombie_6.png" id="f7"]
+[ext_resource type="Texture2D" uid="uid://bny5add3khtvk" path="res://resources/graphics/Zombies/NormalZombie/Zombie/Zombie_7.png" id="f8"]
+[ext_resource type="Texture2D" uid="uid://l2wsla0een7n" path="res://resources/graphics/Zombies/NormalZombie/Zombie/Zombie_8.png" id="f9"]
+[ext_resource type="Texture2D" uid="uid://v8tp56igy8q5" path="res://resources/graphics/Zombies/NormalZombie/Zombie/Zombie_9.png" id="f10"]
+[ext_resource type="Texture2D" uid="uid://cqht1p68v5u8i" path="res://resources/graphics/Zombies/NormalZombie/Zombie/Zombie_10.png" id="f11"]
+[ext_resource type="Texture2D" uid="uid://f21udw1kq83f" path="res://resources/graphics/Zombies/NormalZombie/Zombie/Zombie_11.png" id="f12"]
+[ext_resource type="Texture2D" uid="uid://cxv8qs4sa4lri" path="res://resources/graphics/Zombies/NormalZombie/Zombie/Zombie_12.png" id="f13"]
+[ext_resource type="Texture2D" uid="uid://cxwqhdc4wlw7o" path="res://resources/graphics/Zombies/NormalZombie/Zombie/Zombie_13.png" id="f14"]
+[ext_resource type="Texture2D" uid="uid://dq86lubgiibl6" path="res://resources/graphics/Zombies/NormalZombie/Zombie/Zombie_14.png" id="f15"]
+[ext_resource type="Texture2D" uid="uid://dt4fv6i6lxniv" path="res://resources/graphics/Zombies/NormalZombie/Zombie/Zombie_15.png" id="f16"]
+[ext_resource type="Texture2D" uid="uid://c4iu5hyuf22hx" path="res://resources/graphics/Zombies/NormalZombie/Zombie/Zombie_16.png" id="f17"]
+[ext_resource type="Texture2D" uid="uid://6gg8yaxxf7eg" path="res://resources/graphics/Zombies/NormalZombie/Zombie/Zombie_17.png" id="f18"]
+[ext_resource type="Texture2D" uid="uid://m1pp5a32f713" path="res://resources/graphics/Zombies/NormalZombie/Zombie/Zombie_18.png" id="f19"]
+[ext_resource type="Texture2D" uid="uid://bw7qrsaw10uh0" path="res://resources/graphics/Zombies/NormalZombie/Zombie/Zombie_19.png" id="f20"]
+[ext_resource type="Texture2D" uid="uid://dm6cly2xe1vok" path="res://resources/graphics/Zombies/NormalZombie/Zombie/Zombie_20.png" id="f21"]
+[ext_resource type="Texture2D" uid="uid://cbo6hyqapyjus" path="res://resources/graphics/Zombies/NormalZombie/Zombie/Zombie_21.png" id="f22"]
+[ext_resource type="Texture2D" uid="uid://3ojpxm404ut4" path="res://resources/graphics/Zombies/NormalZombie/BoomDie/BoomDie_0.png" id="f23"]
+[ext_resource type="Texture2D" uid="uid://diuaf1chlcq5b" path="res://resources/graphics/Zombies/NormalZombie/BoomDie/BoomDie_1.png" id="f24"]
+[ext_resource type="Texture2D" uid="uid://cp6rvaf1ed4jy" path="res://resources/graphics/Zombies/NormalZombie/BoomDie/BoomDie_2.png" id="f25"]
+[ext_resource type="Texture2D" uid="uid://w3d3tuhrtkvn" path="res://resources/graphics/Zombies/NormalZombie/BoomDie/BoomDie_3.png" id="f26"]
+[ext_resource type="Texture2D" uid="uid://c01fghm67faup" path="res://resources/graphics/Zombies/NormalZombie/BoomDie/BoomDie_4.png" id="f27"]
+[ext_resource type="Texture2D" uid="uid://ba6eban30gaas" path="res://resources/graphics/Zombies/NormalZombie/BoomDie/BoomDie_5.png" id="f28"]
+[ext_resource type="Texture2D" uid="uid://dyraigs640hgj" path="res://resources/graphics/Zombies/NormalZombie/BoomDie/BoomDie_6.png" id="f29"]
+[ext_resource type="Texture2D" uid="uid://cbrj3np7q7krr" path="res://resources/graphics/Zombies/NormalZombie/BoomDie/BoomDie_7.png" id="f30"]
+[ext_resource type="Texture2D" uid="uid://cvrdsafsfji4m" path="res://resources/graphics/Zombies/NormalZombie/BoomDie/BoomDie_8.png" id="f31"]
+[ext_resource type="Texture2D" uid="uid://ddp0dhafgg067" path="res://resources/graphics/Zombies/NormalZombie/BoomDie/BoomDie_9.png" id="f32"]
+[ext_resource type="Texture2D" uid="uid://cp7a3oqftxoft" path="res://resources/graphics/Zombies/NormalZombie/BoomDie/BoomDie_10.png" id="f33"]
+[ext_resource type="Texture2D" uid="uid://bds4amo4tj0rc" path="res://resources/graphics/Zombies/NormalZombie/BoomDie/BoomDie_11.png" id="f34"]
+[ext_resource type="Texture2D" uid="uid://dtc1g0daco6tv" path="res://resources/graphics/Zombies/NormalZombie/BoomDie/BoomDie_12.png" id="f35"]
+[ext_resource type="Texture2D" uid="uid://dqeq2a2r38okp" path="res://resources/graphics/Zombies/NormalZombie/BoomDie/BoomDie_13.png" id="f36"]
+[ext_resource type="Texture2D" uid="uid://b26tky3m5ysy3" path="res://resources/graphics/Zombies/NormalZombie/BoomDie/BoomDie_14.png" id="f37"]
+[ext_resource type="Texture2D" uid="uid://o8vxgnlqbv12" path="res://resources/graphics/Zombies/NormalZombie/BoomDie/BoomDie_15.png" id="f38"]
+[ext_resource type="Texture2D" uid="uid://by2b33qbmk58w" path="res://resources/graphics/Zombies/NormalZombie/BoomDie/BoomDie_16.png" id="f39"]
+[ext_resource type="Texture2D" uid="uid://cea0dmin0yr4q" path="res://resources/graphics/Zombies/NormalZombie/BoomDie/BoomDie_17.png" id="f40"]
+[ext_resource type="Texture2D" uid="uid://dtxch3lchwqob" path="res://resources/graphics/Zombies/NormalZombie/BoomDie/BoomDie_18.png" id="f41"]
+[ext_resource type="Texture2D" uid="uid://ciecx72f7io5i" path="res://resources/graphics/Zombies/NormalZombie/BoomDie/BoomDie_19.png" id="f42"]
+[ext_resource type="Texture2D" uid="uid://cotvba7bwmotu" path="res://resources/graphics/Zombies/NormalZombie/ZombieAttack/ZombieAttack_0.png" id="f43"]
+[ext_resource type="Texture2D" uid="uid://kdqo8euukatq" path="res://resources/graphics/Zombies/NormalZombie/ZombieAttack/ZombieAttack_1.png" id="f44"]
+[ext_resource type="Texture2D" uid="uid://f7xlk6in4vqx" path="res://resources/graphics/Zombies/NormalZombie/ZombieAttack/ZombieAttack_2.png" id="f45"]
+[ext_resource type="Texture2D" uid="uid://c5rd5y6ulbvcf" path="res://resources/graphics/Zombies/NormalZombie/ZombieAttack/ZombieAttack_3.png" id="f46"]
+[ext_resource type="Texture2D" uid="uid://dgdocvnjnwuv6" path="res://resources/graphics/Zombies/NormalZombie/ZombieAttack/ZombieAttack_4.png" id="f47"]
+[ext_resource type="Texture2D" uid="uid://d2iu8yl7yv8m1" path="res://resources/graphics/Zombies/NormalZombie/ZombieAttack/ZombieAttack_5.png" id="f48"]
+[ext_resource type="Texture2D" uid="uid://bhx11j1e8jx1k" path="res://resources/graphics/Zombies/NormalZombie/ZombieAttack/ZombieAttack_6.png" id="f49"]
+[ext_resource type="Texture2D" uid="uid://21kye0buhw43" path="res://resources/graphics/Zombies/NormalZombie/ZombieAttack/ZombieAttack_7.png" id="f50"]
+[ext_resource type="Texture2D" uid="uid://eoh8dl33lnm4" path="res://resources/graphics/Zombies/NormalZombie/ZombieAttack/ZombieAttack_8.png" id="f51"]
+[ext_resource type="Texture2D" uid="uid://hqb876cdy5a5" path="res://resources/graphics/Zombies/NormalZombie/ZombieAttack/ZombieAttack_9.png" id="f52"]
+[ext_resource type="Texture2D" uid="uid://cq20kdqiayp63" path="res://resources/graphics/Zombies/NormalZombie/ZombieAttack/ZombieAttack_10.png" id="f53"]
+[ext_resource type="Texture2D" uid="uid://dpn2iqqx47ku2" path="res://resources/graphics/Zombies/NormalZombie/ZombieAttack/ZombieAttack_11.png" id="f54"]
+[ext_resource type="Texture2D" uid="uid://bm7ehxbgpuwy7" path="res://resources/graphics/Zombies/NormalZombie/ZombieAttack/ZombieAttack_12.png" id="f55"]
+[ext_resource type="Texture2D" uid="uid://c3ttbuasxid2d" path="res://resources/graphics/Zombies/NormalZombie/ZombieAttack/ZombieAttack_13.png" id="f56"]
+[ext_resource type="Texture2D" uid="uid://ugoq4ugtsgic" path="res://resources/graphics/Zombies/NormalZombie/ZombieAttack/ZombieAttack_14.png" id="f57"]
+[ext_resource type="Texture2D" uid="uid://bohr5v43bb1go" path="res://resources/graphics/Zombies/NormalZombie/ZombieAttack/ZombieAttack_15.png" id="f58"]
+[ext_resource type="Texture2D" uid="uid://3enshw46ddua" path="res://resources/graphics/Zombies/NormalZombie/ZombieAttack/ZombieAttack_16.png" id="f59"]
+[ext_resource type="Texture2D" uid="uid://vnhd4716vrie" path="res://resources/graphics/Zombies/NormalZombie/ZombieAttack/ZombieAttack_17.png" id="f60"]
+[ext_resource type="Texture2D" uid="uid://co0up35oa2uy8" path="res://resources/graphics/Zombies/NormalZombie/ZombieAttack/ZombieAttack_18.png" id="f61"]
+[ext_resource type="Texture2D" uid="uid://fl2e7f4fqjhf" path="res://resources/graphics/Zombies/NormalZombie/ZombieAttack/ZombieAttack_19.png" id="f62"]
+[ext_resource type="Texture2D" uid="uid://x3pxn1lvabqd" path="res://resources/graphics/Zombies/NormalZombie/ZombieAttack/ZombieAttack_20.png" id="f63"]
+[ext_resource type="Texture2D" uid="uid://co3ih25e4dk5s" path="res://resources/graphics/Zombies/NormalZombie/ZombieDie/ZombieDie_0.png" id="f64"]
+[ext_resource type="Texture2D" uid="uid://d45xpmkagqwc" path="res://resources/graphics/Zombies/NormalZombie/ZombieDie/ZombieDie_1.png" id="f65"]
+[ext_resource type="Texture2D" uid="uid://bwqc30il3egj4" path="res://resources/graphics/Zombies/NormalZombie/ZombieDie/ZombieDie_2.png" id="f66"]
+[ext_resource type="Texture2D" uid="uid://dfk0toxnqdcr4" path="res://resources/graphics/Zombies/NormalZombie/ZombieDie/ZombieDie_3.png" id="f67"]
+[ext_resource type="Texture2D" uid="uid://buecytrmonsjl" path="res://resources/graphics/Zombies/NormalZombie/ZombieDie/ZombieDie_4.png" id="f68"]
+[ext_resource type="Texture2D" uid="uid://c811v8fk12ymo" path="res://resources/graphics/Zombies/NormalZombie/ZombieDie/ZombieDie_5.png" id="f69"]
+[ext_resource type="Texture2D" uid="uid://c3gqmfw1wcxbx" path="res://resources/graphics/Zombies/NormalZombie/ZombieDie/ZombieDie_6.png" id="f70"]
+[ext_resource type="Texture2D" uid="uid://s3by2f2lh57s" path="res://resources/graphics/Zombies/NormalZombie/ZombieDie/ZombieDie_7.png" id="f71"]
+[ext_resource type="Texture2D" uid="uid://cv3n1558unt8d" path="res://resources/graphics/Zombies/NormalZombie/ZombieDie/ZombieDie_8.png" id="f72"]
+[ext_resource type="Texture2D" uid="uid://ciwqooc5wepki" path="res://resources/graphics/Zombies/NormalZombie/ZombieDie/ZombieDie_9.png" id="f73"]
+[ext_resource type="Texture2D" uid="uid://c6nqdwmmuhh31" path="res://resources/graphics/Zombies/NormalZombie/ZombieHead/ZombieHead_0.png" id="f74"]
+[ext_resource type="Texture2D" uid="uid://btpdk0qjc7wf" path="res://resources/graphics/Zombies/NormalZombie/ZombieHead/ZombieHead_1.png" id="f75"]
+[ext_resource type="Texture2D" uid="uid://b82eqngmsxj7y" path="res://resources/graphics/Zombies/NormalZombie/ZombieHead/ZombieHead_2.png" id="f76"]
+[ext_resource type="Texture2D" uid="uid://cby11bikdnqyi" path="res://resources/graphics/Zombies/NormalZombie/ZombieHead/ZombieHead_3.png" id="f77"]
+[ext_resource type="Texture2D" uid="uid://k5bgnfvm00dg" path="res://resources/graphics/Zombies/NormalZombie/ZombieHead/ZombieHead_4.png" id="f78"]
+[ext_resource type="Texture2D" uid="uid://bofkbc7d4qmw2" path="res://resources/graphics/Zombies/NormalZombie/ZombieHead/ZombieHead_5.png" id="f79"]
+[ext_resource type="Texture2D" uid="uid://bqt5f0qmrpa57" path="res://resources/graphics/Zombies/NormalZombie/ZombieHead/ZombieHead_6.png" id="f80"]
+[ext_resource type="Texture2D" uid="uid://cegtdr61acsbn" path="res://resources/graphics/Zombies/NormalZombie/ZombieHead/ZombieHead_7.png" id="f81"]
+[ext_resource type="Texture2D" uid="uid://bk5s4lxe5i63p" path="res://resources/graphics/Zombies/NormalZombie/ZombieHead/ZombieHead_8.png" id="f82"]
+[ext_resource type="Texture2D" uid="uid://brbh4mjgu8x8n" path="res://resources/graphics/Zombies/NormalZombie/ZombieHead/ZombieHead_9.png" id="f83"]
+[ext_resource type="Texture2D" uid="uid://dr86qxf0ks7ci" path="res://resources/graphics/Zombies/NormalZombie/ZombieHead/ZombieHead_10.png" id="f84"]
+[ext_resource type="Texture2D" uid="uid://bwg8a6vl5rf7r" path="res://resources/graphics/Zombies/NormalZombie/ZombieHead/ZombieHead_11.png" id="f85"]
+[ext_resource type="Texture2D" uid="uid://btofauc2psqxi" path="res://resources/graphics/Zombies/NormalZombie/ZombieLostHead/ZombieLostHead_0.png" id="f86"]
+[ext_resource type="Texture2D" uid="uid://b4u23gx44jcix" path="res://resources/graphics/Zombies/NormalZombie/ZombieLostHead/ZombieLostHead_1.png" id="f87"]
+[ext_resource type="Texture2D" uid="uid://voar8kmtk6r1" path="res://resources/graphics/Zombies/NormalZombie/ZombieLostHead/ZombieLostHead_2.png" id="f88"]
+[ext_resource type="Texture2D" uid="uid://dtrd1ftd2wek0" path="res://resources/graphics/Zombies/NormalZombie/ZombieLostHead/ZombieLostHead_3.png" id="f89"]
+[ext_resource type="Texture2D" uid="uid://c775gdx4b05fk" path="res://resources/graphics/Zombies/NormalZombie/ZombieLostHead/ZombieLostHead_4.png" id="f90"]
+[ext_resource type="Texture2D" uid="uid://x5vlqpgtar6c" path="res://resources/graphics/Zombies/NormalZombie/ZombieLostHead/ZombieLostHead_5.png" id="f91"]
+[ext_resource type="Texture2D" uid="uid://dlf8x1oscpwfk" path="res://resources/graphics/Zombies/NormalZombie/ZombieLostHead/ZombieLostHead_6.png" id="f92"]
+[ext_resource type="Texture2D" uid="uid://igbpy2epae5a" path="res://resources/graphics/Zombies/NormalZombie/ZombieLostHead/ZombieLostHead_7.png" id="f93"]
+[ext_resource type="Texture2D" uid="uid://b3cnd4s6ld3p" path="res://resources/graphics/Zombies/NormalZombie/ZombieLostHead/ZombieLostHead_8.png" id="f94"]
+[ext_resource type="Texture2D" uid="uid://5y7miwb6xsui" path="res://resources/graphics/Zombies/NormalZombie/ZombieLostHead/ZombieLostHead_9.png" id="f95"]
+[ext_resource type="Texture2D" uid="uid://dlykttfthpknb" path="res://resources/graphics/Zombies/NormalZombie/ZombieLostHead/ZombieLostHead_10.png" id="f96"]
+[ext_resource type="Texture2D" uid="uid://bvr5723yf3d8a" path="res://resources/graphics/Zombies/NormalZombie/ZombieLostHead/ZombieLostHead_11.png" id="f97"]
+[ext_resource type="Texture2D" uid="uid://d4bypop2n8trk" path="res://resources/graphics/Zombies/NormalZombie/ZombieLostHead/ZombieLostHead_12.png" id="f98"]
+[ext_resource type="Texture2D" uid="uid://dtj7bfnqew07p" path="res://resources/graphics/Zombies/NormalZombie/ZombieLostHead/ZombieLostHead_13.png" id="f99"]
+[ext_resource type="Texture2D" uid="uid://b2rff0y2058db" path="res://resources/graphics/Zombies/NormalZombie/ZombieLostHead/ZombieLostHead_14.png" id="f100"]
+[ext_resource type="Texture2D" uid="uid://vcyx8auhvw2e" path="res://resources/graphics/Zombies/NormalZombie/ZombieLostHead/ZombieLostHead_15.png" id="f101"]
+[ext_resource type="Texture2D" uid="uid://cvc525kyslpbi" path="res://resources/graphics/Zombies/NormalZombie/ZombieLostHead/ZombieLostHead_16.png" id="f102"]
+[ext_resource type="Texture2D" uid="uid://dfjjyd6y4k8j2" path="res://resources/graphics/Zombies/NormalZombie/ZombieLostHead/ZombieLostHead_17.png" id="f103"]
+[ext_resource type="Texture2D" uid="uid://d24l0tr6pu4o6" path="res://resources/graphics/Zombies/NormalZombie/ZombieLostHeadAttack/ZombieLostHeadAttack_0.png" id="f104"]
+[ext_resource type="Texture2D" uid="uid://8c7abqj4qnhg" path="res://resources/graphics/Zombies/NormalZombie/ZombieLostHeadAttack/ZombieLostHeadAttack_1.png" id="f105"]
+[ext_resource type="Texture2D" uid="uid://pi1hn2kvdvxt" path="res://resources/graphics/Zombies/NormalZombie/ZombieLostHeadAttack/ZombieLostHeadAttack_2.png" id="f106"]
+[ext_resource type="Texture2D" uid="uid://cqe8cup0yk75f" path="res://resources/graphics/Zombies/NormalZombie/ZombieLostHeadAttack/ZombieLostHeadAttack_3.png" id="f107"]
+[ext_resource type="Texture2D" uid="uid://ba0w3okyxux8x" path="res://resources/graphics/Zombies/NormalZombie/ZombieLostHeadAttack/ZombieLostHeadAttack_4.png" id="f108"]
+[ext_resource type="Texture2D" uid="uid://dium0ooalrbi6" path="res://resources/graphics/Zombies/NormalZombie/ZombieLostHeadAttack/ZombieLostHeadAttack_5.png" id="f109"]
+[ext_resource type="Texture2D" uid="uid://dqx3cdgm8i8ap" path="res://resources/graphics/Zombies/NormalZombie/ZombieLostHeadAttack/ZombieLostHeadAttack_6.png" id="f110"]
+[ext_resource type="Texture2D" uid="uid://b7du57mbeg0ku" path="res://resources/graphics/Zombies/NormalZombie/ZombieLostHeadAttack/ZombieLostHeadAttack_7.png" id="f111"]
+[ext_resource type="Texture2D" uid="uid://cginkmvhratlp" path="res://resources/graphics/Zombies/NormalZombie/ZombieLostHeadAttack/ZombieLostHeadAttack_8.png" id="f112"]
+[ext_resource type="Texture2D" uid="uid://dnqblmvxsghhj" path="res://resources/graphics/Zombies/NormalZombie/ZombieLostHeadAttack/ZombieLostHeadAttack_9.png" id="f113"]
+[ext_resource type="Texture2D" uid="uid://800gs1hrbtf1" path="res://resources/graphics/Zombies/NormalZombie/ZombieLostHeadAttack/ZombieLostHeadAttack_10.png" id="f114"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_1"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("f23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f38")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f39")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f40")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f41")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f42")
+}],
+"loop": 0,
+"name": &"BoomDie",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("f1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f22")
+}],
+"loop": 1,
+"name": &"Zombie",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("f43")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f44")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f45")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f46")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f47")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f48")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f49")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f50")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f51")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f52")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f53")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f54")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f55")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f56")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f57")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f58")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f59")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f60")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f61")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f62")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f63")
+}],
+"loop": 1,
+"name": &"ZombieAttack",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("f64")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f65")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f66")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f67")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f68")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f69")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f70")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f71")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f72")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f73")
+}],
+"loop": 0,
+"name": &"ZombieDie",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("f74")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f75")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f76")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f77")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f78")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f79")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f80")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f81")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f82")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f83")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f84")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f85")
+}],
+"loop": 1,
+"name": &"ZombieHead",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("f86")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f87")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f88")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f89")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f90")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f91")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f92")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f93")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f94")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f95")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f96")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f97")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f98")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f99")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f100")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f101")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f102")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f103")
+}],
+"loop": 1,
+"name": &"ZombieLostHead",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("f104")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f105")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f106")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f107")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f108")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f109")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f110")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f111")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f112")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f113")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f114")
+}],
+"loop": 1,
+"name": &"ZombieLostHeadAttack",
+"speed": 10.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1"]
+size = Vector2(61, 116)
+
+[node name="NormalZombie" type="CharacterBody2D" unique_id=2052657392]
+script = ExtResource("1_dpmnr")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1839084106]
+texture_filter = 1
+sprite_frames = SubResource("SpriteFrames_1")
+animation = &"Zombie"
+autoplay = "Zombie"
+offset = Vector2(-27, -65)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=263712168]
+position = Vector2(1, -58)
+shape = SubResource("RectangleShape2D_1")

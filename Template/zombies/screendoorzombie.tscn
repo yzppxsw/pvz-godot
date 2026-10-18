@@ -1,0 +1,221 @@
+[gd_scene format=3 uid="uid://rabr7v9ahf736"]
+
+[ext_resource type="Texture2D" uid="uid://d35eekgs6q2k" path="res://resources/graphics/Zombies/ScreenDoorZombie/ScreenDoorZombie/ScreenDoorZombie_0.png" id="f1"]
+[ext_resource type="Texture2D" uid="uid://f61gcfusl2ie" path="res://resources/graphics/Zombies/ScreenDoorZombie/ScreenDoorZombie/ScreenDoorZombie_1.png" id="f2"]
+[ext_resource type="Texture2D" uid="uid://pmc354srdhls" path="res://resources/graphics/Zombies/ScreenDoorZombie/ScreenDoorZombie/ScreenDoorZombie_2.png" id="f3"]
+[ext_resource type="Texture2D" uid="uid://d4d77ltfwk4vt" path="res://resources/graphics/Zombies/ScreenDoorZombie/ScreenDoorZombie/ScreenDoorZombie_3.png" id="f4"]
+[ext_resource type="Texture2D" uid="uid://c2m7xuv1t7jdd" path="res://resources/graphics/Zombies/ScreenDoorZombie/ScreenDoorZombie/ScreenDoorZombie_4.png" id="f5"]
+[ext_resource type="Texture2D" uid="uid://ccnv3ri3gea5o" path="res://resources/graphics/Zombies/ScreenDoorZombie/ScreenDoorZombie/ScreenDoorZombie_5.png" id="f6"]
+[ext_resource type="Texture2D" uid="uid://co75hi8wjokdt" path="res://resources/graphics/Zombies/ScreenDoorZombie/ScreenDoorZombie/ScreenDoorZombie_6.png" id="f7"]
+[ext_resource type="Texture2D" uid="uid://bbppd3wsh7owq" path="res://resources/graphics/Zombies/ScreenDoorZombie/ScreenDoorZombie/ScreenDoorZombie_7.png" id="f8"]
+[ext_resource type="Texture2D" uid="uid://c1ihcgsavat07" path="res://resources/graphics/Zombies/ScreenDoorZombie/ScreenDoorZombie/ScreenDoorZombie_8.png" id="f9"]
+[ext_resource type="Texture2D" uid="uid://pq2q1ctw1lsd" path="res://resources/graphics/Zombies/ScreenDoorZombie/ScreenDoorZombie/ScreenDoorZombie_9.png" id="f10"]
+[ext_resource type="Texture2D" uid="uid://5libpk2jwd4t" path="res://resources/graphics/Zombies/ScreenDoorZombie/ScreenDoorZombie/ScreenDoorZombie_10.png" id="f11"]
+[ext_resource type="Texture2D" uid="uid://3yscfscw05ju" path="res://resources/graphics/Zombies/ScreenDoorZombie/ScreenDoorZombie/ScreenDoorZombie_11.png" id="f12"]
+[ext_resource type="Texture2D" uid="uid://bt1avh7nkbcea" path="res://resources/graphics/Zombies/ScreenDoorZombie/ScreenDoorZombie/ScreenDoorZombie_12.png" id="f13"]
+[ext_resource type="Texture2D" uid="uid://b52lt717mff4n" path="res://resources/graphics/Zombies/ScreenDoorZombie/ScreenDoorZombie/ScreenDoorZombie_13.png" id="f14"]
+[ext_resource type="Texture2D" uid="uid://dw6aiywip7jx7" path="res://resources/graphics/Zombies/ScreenDoorZombie/ScreenDoorZombie/ScreenDoorZombie_14.png" id="f15"]
+[ext_resource type="Texture2D" uid="uid://cqqhofp6m8fdw" path="res://resources/graphics/Zombies/ScreenDoorZombie/ScreenDoorZombie/ScreenDoorZombie_15.png" id="f16"]
+[ext_resource type="Texture2D" uid="uid://b7tneirkucqou" path="res://resources/graphics/Zombies/ScreenDoorZombie/ScreenDoorZombie/ScreenDoorZombie_16.png" id="f17"]
+[ext_resource type="Texture2D" uid="uid://ohwutecntkgm" path="res://resources/graphics/Zombies/ScreenDoorZombie/ScreenDoorZombie/ScreenDoorZombie_17.png" id="f18"]
+[ext_resource type="Texture2D" uid="uid://bwyr0x50nylmr" path="res://resources/graphics/Zombies/ScreenDoorZombie/ScreenDoorZombie/ScreenDoorZombie_18.png" id="f19"]
+[ext_resource type="Texture2D" uid="uid://vwveb5of7074" path="res://resources/graphics/Zombies/ScreenDoorZombie/ScreenDoorZombie/ScreenDoorZombie_19.png" id="f20"]
+[ext_resource type="Texture2D" uid="uid://trm7n50ira26" path="res://resources/graphics/Zombies/ScreenDoorZombie/ScreenDoorZombie/ScreenDoorZombie_20.png" id="f21"]
+[ext_resource type="Texture2D" uid="uid://dbug7ofr4d31a" path="res://resources/graphics/Zombies/ScreenDoorZombie/ScreenDoorZombie/ScreenDoorZombie_21.png" id="f22"]
+[ext_resource type="Texture2D" uid="uid://7c6ddqpmhlgw" path="res://resources/graphics/Zombies/ScreenDoorZombie/ScreenDoorZombie/ScreenDoorZombie_22.png" id="f23"]
+[ext_resource type="Texture2D" uid="uid://bxb4ws8l66h3i" path="res://resources/graphics/Zombies/ScreenDoorZombie/ScreenDoorZombieAttack/ScreenDoorZombieAttack_0.png" id="f24"]
+[ext_resource type="Texture2D" uid="uid://rj7at0yxxewe" path="res://resources/graphics/Zombies/ScreenDoorZombie/ScreenDoorZombieAttack/ScreenDoorZombieAttack_1.png" id="f25"]
+[ext_resource type="Texture2D" uid="uid://bjf6dhlacw0gc" path="res://resources/graphics/Zombies/ScreenDoorZombie/ScreenDoorZombieAttack/ScreenDoorZombieAttack_2.png" id="f26"]
+[ext_resource type="Texture2D" uid="uid://wj77oy4jnm2x" path="res://resources/graphics/Zombies/ScreenDoorZombie/ScreenDoorZombieAttack/ScreenDoorZombieAttack_3.png" id="f27"]
+[ext_resource type="Texture2D" uid="uid://dddgdujfatncr" path="res://resources/graphics/Zombies/ScreenDoorZombie/ScreenDoorZombieAttack/ScreenDoorZombieAttack_4.png" id="f28"]
+[ext_resource type="Texture2D" uid="uid://cyhiiyunl2tmu" path="res://resources/graphics/Zombies/ScreenDoorZombie/ScreenDoorZombieAttack/ScreenDoorZombieAttack_5.png" id="f29"]
+[ext_resource type="Texture2D" uid="uid://qegbj7txdsj2" path="res://resources/graphics/Zombies/ScreenDoorZombie/ScreenDoorZombieAttack/ScreenDoorZombieAttack_6.png" id="f30"]
+[ext_resource type="Texture2D" uid="uid://cgxdbhkkk4w6h" path="res://resources/graphics/Zombies/ScreenDoorZombie/ScreenDoorZombieAttack/ScreenDoorZombieAttack_7.png" id="f31"]
+[ext_resource type="Texture2D" uid="uid://dmejhp1pr1q45" path="res://resources/graphics/Zombies/ScreenDoorZombie/ScreenDoorZombieAttack/ScreenDoorZombieAttack_8.png" id="f32"]
+[ext_resource type="Texture2D" uid="uid://bn11o736vsqer" path="res://resources/graphics/Zombies/ScreenDoorZombie/ScreenDoorZombieAttack/ScreenDoorZombieAttack_9.png" id="f33"]
+[ext_resource type="Texture2D" uid="uid://dda8vmj4k0dg" path="res://resources/graphics/Zombies/ScreenDoorZombie/ScreenDoorZombieAttack/ScreenDoorZombieAttack_10.png" id="f34"]
+[ext_resource type="Texture2D" uid="uid://cy4q8g588we7m" path="res://resources/graphics/Zombies/ScreenDoorZombie/ScreenDoorZombieAttack/ScreenDoorZombieAttack_11.png" id="f35"]
+[ext_resource type="Texture2D" uid="uid://o0dnjcg5rw12" path="res://resources/graphics/Zombies/ScreenDoorZombie/ScreenDoorZombieAttack/ScreenDoorZombieAttack_12.png" id="f36"]
+[ext_resource type="Texture2D" uid="uid://c00kb6nkye1bw" path="res://resources/graphics/Zombies/ScreenDoorZombie/ScreenDoorZombieAttack/ScreenDoorZombieAttack_13.png" id="f37"]
+[ext_resource type="Texture2D" uid="uid://cgxjx0l6vldht" path="res://resources/graphics/Zombies/ScreenDoorZombie/ScreenDoorZombieAttack/ScreenDoorZombieAttack_14.png" id="f38"]
+[ext_resource type="Texture2D" uid="uid://b3jnebdwdahp2" path="res://resources/graphics/Zombies/ScreenDoorZombie/ScreenDoorZombieAttack/ScreenDoorZombieAttack_15.png" id="f39"]
+[ext_resource type="Texture2D" uid="uid://cnxh3n3yrixv2" path="res://resources/graphics/Zombies/ScreenDoorZombie/ScreenDoorZombieAttack/ScreenDoorZombieAttack_16.png" id="f40"]
+[ext_resource type="Texture2D" uid="uid://bxu0f2nwmlxnf" path="res://resources/graphics/Zombies/ScreenDoorZombie/ScreenDoorZombieAttack/ScreenDoorZombieAttack_17.png" id="f41"]
+[ext_resource type="Texture2D" uid="uid://ctre21b1ahxx2" path="res://resources/graphics/Zombies/ScreenDoorZombie/ScreenDoorZombieAttack/ScreenDoorZombieAttack_18.png" id="f42"]
+[ext_resource type="Texture2D" uid="uid://johd47buh4tc" path="res://resources/graphics/Zombies/ScreenDoorZombie/ScreenDoorZombieAttack/ScreenDoorZombieAttack_19.png" id="f43"]
+[ext_resource type="Texture2D" uid="uid://bh36td0s7ono2" path="res://resources/graphics/Zombies/ScreenDoorZombie/ScreenDoorZombieAttack/ScreenDoorZombieAttack_20.png" id="f44"]
+[ext_resource type="Texture2D" uid="uid://bieb8timwhc6e" path="res://resources/graphics/Zombies/ScreenDoorZombie/ScreenDoorZombieAttack/ScreenDoorZombieAttack_21.png" id="f45"]
+[ext_resource type="Texture2D" uid="uid://cgppwf20m8hqe" path="res://resources/graphics/Zombies/ScreenDoorZombie/ScreenDoorZombieAttack/ScreenDoorZombieAttack_22.png" id="f46"]
+[ext_resource type="Texture2D" uid="uid://upsj17rotco5" path="res://resources/graphics/Zombies/ScreenDoorZombie/ScreenDoorZombieAttack/ScreenDoorZombieAttack_23.png" id="f47"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_1"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("f1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f23")
+}
+],
+"loop": 1,
+"name": &"ScreenDoorZombie",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("f24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f38")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f39")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f40")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f41")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f42")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f43")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f44")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f45")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f46")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f47")
+}
+],
+"loop": 1,
+"name": &"ScreenDoorZombieAttack",
+"speed": 10.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1"]
+size = Vector2(88, 116)
+
+[node name="ScreenDoorZombie" type="CharacterBody2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+sprite_frames = SubResource("SpriteFrames_1")
+animation = &"ScreenDoorZombie"
+autoplay = "ScreenDoorZombie"
+offset = Vector2(0, 0)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(7.0, 12.0)
+shape = SubResource("RectangleShape2D_1")

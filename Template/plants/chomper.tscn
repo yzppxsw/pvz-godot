@@ -1,0 +1,150 @@
+[gd_scene format=3 uid="uid://dcgovp0i5wwem"]
+
+[ext_resource type="Texture2D" uid="uid://xs4xbfhu6d7b" path="res://resources/graphics/Plants/Chomper/Chomper/Chomper_0.png" id="1_7w1u2"]
+[ext_resource type="Script" uid="uid://dihxmqodvn506" path="res://Scripts/plants/chomper.gd" id="1_scbxb"]
+[ext_resource type="Texture2D" uid="uid://gg7osufvtaw3" path="res://resources/graphics/Plants/Chomper/Chomper/Chomper_1.png" id="2_b9ehd"]
+[ext_resource type="Texture2D" uid="uid://bqh64jw4ul3j5" path="res://resources/graphics/Plants/Chomper/Chomper/Chomper_2.png" id="3_39ufn"]
+[ext_resource type="Texture2D" uid="uid://bqpinyaqercjv" path="res://resources/graphics/Plants/Chomper/Chomper/Chomper_3.png" id="4_e4lvq"]
+[ext_resource type="Texture2D" uid="uid://ceharfaudqybm" path="res://resources/graphics/Plants/Chomper/Chomper/Chomper_4.png" id="5_6utdn"]
+[ext_resource type="Texture2D" uid="uid://dmxi1m52y3t3" path="res://resources/graphics/Plants/Chomper/Chomper/Chomper_5.png" id="6_wodl7"]
+[ext_resource type="Texture2D" uid="uid://by8jt3faa57fr" path="res://resources/graphics/Plants/Chomper/Chomper/Chomper_6.png" id="7_399ug"]
+[ext_resource type="Texture2D" uid="uid://5ppafflvgur1" path="res://resources/graphics/Plants/Chomper/Chomper/Chomper_7.png" id="8_41q05"]
+[ext_resource type="Texture2D" uid="uid://dl3aauy8svr7m" path="res://resources/graphics/Plants/Chomper/Chomper/Chomper_8.png" id="9_9jlfz"]
+[ext_resource type="Texture2D" uid="uid://8yqcn00av8y0" path="res://resources/graphics/Plants/Chomper/Chomper/Chomper_9.png" id="10_zmre0"]
+[ext_resource type="Texture2D" uid="uid://det1ynx1go38t" path="res://resources/graphics/Plants/Chomper/Chomper/Chomper_10.png" id="11_eelzm"]
+[ext_resource type="Texture2D" uid="uid://bkycgdtasnims" path="res://resources/graphics/Plants/Chomper/Chomper/Chomper_11.png" id="12_0ryfh"]
+[ext_resource type="Texture2D" uid="uid://coetkyfax6vbv" path="res://resources/graphics/Plants/Chomper/Chomper/Chomper_12.png" id="13_olzw8"]
+[ext_resource type="Texture2D" uid="uid://i4y7yg6dfcsu" path="res://resources/graphics/Plants/Chomper/ChomperAttack/ChomperAttack_0.png" id="14_3o0vz"]
+[ext_resource type="Texture2D" uid="uid://cih8s4td7hoox" path="res://resources/graphics/Plants/Chomper/ChomperAttack/ChomperAttack_1.png" id="15_9w9p2"]
+[ext_resource type="Texture2D" uid="uid://bm7qwp0fdscyt" path="res://resources/graphics/Plants/Chomper/ChomperAttack/ChomperAttack_2.png" id="16_6ab7x"]
+[ext_resource type="Texture2D" uid="uid://desxgx3lc1c4y" path="res://resources/graphics/Plants/Chomper/ChomperAttack/ChomperAttack_3.png" id="17_pv4vn"]
+[ext_resource type="Texture2D" uid="uid://bdeao5c6vif27" path="res://resources/graphics/Plants/Chomper/ChomperAttack/ChomperAttack_4.png" id="18_l07b9"]
+[ext_resource type="Texture2D" uid="uid://bu1x5awuep0cf" path="res://resources/graphics/Plants/Chomper/ChomperAttack/ChomperAttack_5.png" id="19_z8uif"]
+[ext_resource type="Texture2D" uid="uid://b1axkercreite" path="res://resources/graphics/Plants/Chomper/ChomperAttack/ChomperAttack_6.png" id="20_el344"]
+[ext_resource type="Texture2D" uid="uid://bkvr2bgwktday" path="res://resources/graphics/Plants/Chomper/ChomperAttack/ChomperAttack_7.png" id="21_rsk4p"]
+[ext_resource type="Texture2D" uid="uid://crlvnbjojhn86" path="res://resources/graphics/Plants/Chomper/ChomperAttack/ChomperAttack_8.png" id="22_ipfbr"]
+[ext_resource type="Texture2D" uid="uid://bdu68xke4cf57" path="res://resources/graphics/Plants/Chomper/ChomperDigest/ChomperDigest_0.png" id="23_yndqa"]
+[ext_resource type="Texture2D" uid="uid://bftcnp1pj4s1h" path="res://resources/graphics/Plants/Chomper/ChomperDigest/ChomperDigest_1.png" id="24_t5wio"]
+[ext_resource type="Texture2D" uid="uid://dj33384vtn0r1" path="res://resources/graphics/Plants/Chomper/ChomperDigest/ChomperDigest_2.png" id="25_h4e5y"]
+[ext_resource type="Texture2D" uid="uid://csnbh6ja3vt3e" path="res://resources/graphics/Plants/Chomper/ChomperDigest/ChomperDigest_3.png" id="26_54hky"]
+[ext_resource type="Texture2D" uid="uid://dn6ftylj162kp" path="res://resources/graphics/Plants/Chomper/ChomperDigest/ChomperDigest_4.png" id="27_8x596"]
+[ext_resource type="Texture2D" uid="uid://bmhhym6hef15w" path="res://resources/graphics/Plants/Chomper/ChomperDigest/ChomperDigest_5.png" id="28_e6q37"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_d8odd"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_7w1u2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_b9ehd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_39ufn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_e4lvq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_6utdn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_wodl7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_399ug")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_41q05")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_9jlfz")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_zmre0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_eelzm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_0ryfh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_olzw8")
+}],
+"loop": 1,
+"name": &"Chomper",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("14_3o0vz")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_9w9p2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_6ab7x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_pv4vn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_l07b9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_z8uif")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_el344")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_rsk4p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_ipfbr")
+}],
+"loop": 0,
+"name": &"ChomperAttack",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("23_yndqa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_t5wio")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_h4e5y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_54hky")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_8x596")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_e6q37")
+}],
+"loop": 1,
+"name": &"ChomperDigest",
+"speed": 10.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_gngfu"]
+size = Vector2(74, 91.5)
+
+[node name="Chomper" type="Area2D" unique_id=603506615]
+script = ExtResource("1_scbxb")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=320995222]
+texture_filter = 1
+sprite_frames = SubResource("SpriteFrames_d8odd")
+animation = &"ChomperDigest"
+autoplay = "Chomper"
+offset = Vector2(25, -57)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=594797534]
+position = Vector2(0, -47)
+shape = SubResource("RectangleShape2D_gngfu")

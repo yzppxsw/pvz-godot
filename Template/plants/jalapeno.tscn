@@ -1,0 +1,95 @@
+[gd_scene format=3 uid="uid://cdyal62837b3o"]
+
+[ext_resource type="Texture2D" uid="uid://b11ytffmsaoj7" path="res://resources/graphics/Plants/Jalapeno/Jalapeno/Jalapeno_0.png" id="1_lhp6f"]
+[ext_resource type="Texture2D" uid="uid://c1owgvsn4d3sf" path="res://resources/graphics/Plants/Jalapeno/Jalapeno/Jalapeno_1.png" id="2_20lxo"]
+[ext_resource type="Texture2D" uid="uid://ckvm4t3pay50l" path="res://resources/graphics/Plants/Jalapeno/Jalapeno/Jalapeno_2.png" id="3_f6vl6"]
+[ext_resource type="Texture2D" uid="uid://bou4fc85iq7fg" path="res://resources/graphics/Plants/Jalapeno/Jalapeno/Jalapeno_3.png" id="4_ifcf9"]
+[ext_resource type="Texture2D" uid="uid://drw55f5on54m4" path="res://resources/graphics/Plants/Jalapeno/Jalapeno/Jalapeno_4.png" id="5_toqoj"]
+[ext_resource type="Texture2D" uid="uid://dometyg7kuysi" path="res://resources/graphics/Plants/Jalapeno/Jalapeno/Jalapeno_5.png" id="6_y0jqc"]
+[ext_resource type="Texture2D" uid="uid://bbshv3uvwxghq" path="res://resources/graphics/Plants/Jalapeno/Jalapeno/Jalapeno_6.png" id="7_420g8"]
+[ext_resource type="Texture2D" uid="uid://car448u3neovv" path="res://resources/graphics/Plants/Jalapeno/Jalapeno/Jalapeno_7.png" id="8_vi0tk"]
+[ext_resource type="Texture2D" uid="uid://dfnjlpd1choe5" path="res://resources/graphics/Plants/Jalapeno/JalapenoExplode/JalapenoExplode_0.png" id="9_0pscf"]
+[ext_resource type="Texture2D" uid="uid://d0pa32h4h70i4" path="res://resources/graphics/Plants/Jalapeno/JalapenoExplode/JalapenoExplode_1.png" id="10_jlfng"]
+[ext_resource type="Texture2D" uid="uid://cxacgpu51rec2" path="res://resources/graphics/Plants/Jalapeno/JalapenoExplode/JalapenoExplode_2.png" id="11_rjonb"]
+[ext_resource type="Texture2D" uid="uid://dq1g65pstwfdy" path="res://resources/graphics/Plants/Jalapeno/JalapenoExplode/JalapenoExplode_3.png" id="12_ihas1"]
+[ext_resource type="Texture2D" uid="uid://8667urlaxnev" path="res://resources/graphics/Plants/Jalapeno/JalapenoExplode/JalapenoExplode_4.png" id="13_xdzh0"]
+[ext_resource type="Texture2D" uid="uid://cujc16nbpjt7o" path="res://resources/graphics/Plants/Jalapeno/JalapenoExplode/JalapenoExplode_5.png" id="14_69mv5"]
+[ext_resource type="Texture2D" uid="uid://djn7q71fac1lm" path="res://resources/graphics/Plants/Jalapeno/JalapenoExplode/JalapenoExplode_6.png" id="15_nv3eb"]
+[ext_resource type="Texture2D" uid="uid://dj0cft34po6dp" path="res://resources/graphics/Plants/Jalapeno/JalapenoExplode/JalapenoExplode_7.png" id="16_nhjgh"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_m62bj"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_lhp6f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_20lxo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_f6vl6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_ifcf9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_toqoj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_y0jqc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_420g8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_vi0tk")
+}],
+"loop": 1,
+"name": &"Jalapeno",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("9_0pscf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_jlfng")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_rjonb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_ihas1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_xdzh0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_69mv5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_nv3eb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_nhjgh")
+}],
+"loop": 0,
+"name": &"JalapenoExplode",
+"speed": 10.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_mbgh4"]
+size = Vector2(52, 80)
+
+[node name="Jalapeno" type="Area2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+sprite_frames = SubResource("SpriteFrames_m62bj")
+animation = &"Jalapeno"
+autoplay = "Jalapeno"
+offset = Vector2(0, -44)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -40)
+shape = SubResource("RectangleShape2D_mbgh4")

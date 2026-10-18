@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://7k3xmyi7hpkf"]
+
+[ext_resource type="Texture2D" uid="uid://lfm7k40evjo4" path="res://resources/graphics/Bullets/PeaNormal/PeaNormal_0.png" id="1_lpfs7"]
+[ext_resource type="Script" uid="uid://4mvugjv7mfvm" path="res://Scripts/bullets/peanormal.gd" id="1_w0cxa"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_mgf14"]
+radius = 9.0
+
+[node name="Peanormal" type="Area2D" unique_id=1899741813]
+script = ExtResource("1_w0cxa")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=878101230]
+texture = ExtResource("1_lpfs7")
+offset = Vector2(-12, 0)
+
+[node name="Area2D" type="CollisionShape2D" parent="." unique_id=5157658]
+shape = SubResource("CircleShape2D_mgf14")
+
+[connection signal="body_entered" from="." to="." method="_on_Area2D_body_entered"]

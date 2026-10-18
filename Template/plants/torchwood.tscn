@@ -1,0 +1,63 @@
+[gd_scene format=3 uid="uid://bedhs8cl0jjau"]
+
+[ext_resource type="Texture2D" uid="uid://b3pijnis08374" path="res://resources/graphics/Plants/TorchWood/TorchWood_0.png" id="1_c6ggt"]
+[ext_resource type="Texture2D" uid="uid://bwev5y37d1sd6" path="res://resources/graphics/Plants/TorchWood/TorchWood_1.png" id="2_z7mbz"]
+[ext_resource type="Texture2D" uid="uid://d1xaocla0eq7y" path="res://resources/graphics/Plants/TorchWood/TorchWood_2.png" id="3_3f977"]
+[ext_resource type="Texture2D" uid="uid://s0wup7wkw33w" path="res://resources/graphics/Plants/TorchWood/TorchWood_3.png" id="4_fmx9t"]
+[ext_resource type="Texture2D" uid="uid://dqudkt1731saq" path="res://resources/graphics/Plants/TorchWood/TorchWood_4.png" id="5_gbi67"]
+[ext_resource type="Texture2D" uid="uid://cgx5vmsnw2eti" path="res://resources/graphics/Plants/TorchWood/TorchWood_5.png" id="6_r6sy5"]
+[ext_resource type="Texture2D" uid="uid://cclnagsndfo2l" path="res://resources/graphics/Plants/TorchWood/TorchWood_6.png" id="7_1roht"]
+[ext_resource type="Texture2D" uid="uid://4d0aqa5d486o" path="res://resources/graphics/Plants/TorchWood/TorchWood_7.png" id="8_bmnjj"]
+[ext_resource type="Texture2D" uid="uid://cte05q7yx4snd" path="res://resources/graphics/Plants/TorchWood/TorchWood_8.png" id="9_jtbes"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_otecq"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_c6ggt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_z7mbz")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_3f977")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_fmx9t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_gbi67")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_r6sy5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_1roht")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_bmnjj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_jtbes")
+}],
+"loop": 1,
+"name": &"TorchWood",
+"speed": 10.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1jdio"]
+size = Vector2(57, 82)
+
+[node name="TorchWood" type="Area2D" unique_id=1111759206]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1376945886]
+texture_filter = 1
+sprite_frames = SubResource("SpriteFrames_otecq")
+animation = &"TorchWood"
+autoplay = "TorchWood"
+frame_progress = 0.58495194
+offset = Vector2(0, -44)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1286226594]
+position = Vector2(0.5, -41)
+shape = SubResource("RectangleShape2D_1jdio")

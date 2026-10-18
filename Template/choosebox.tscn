@@ -1,0 +1,32 @@
+[gd_scene format=3 uid="uid://r1a0wclqgxpj"]
+
+[ext_resource type="Script" uid="uid://47jx62rytbwl" path="res://Scripts/ui/choosebox.gd" id="1_v3msb"]
+[ext_resource type="Texture2D" uid="uid://duv0rx3dwnsf4" path="res://resources/choose/ChooserBackground_6.png" id="2_v3msb"]
+[ext_resource type="Texture2D" uid="uid://tmb3yccsce7r" path="res://resources/choose/ChooserBackground_7.png" id="3_sfnqw"]
+[ext_resource type="Texture2D" uid="uid://dhdoogwa5bunl" path="res://resources/choose/ChooserBackground_8.png" id="4_abu2w"]
+[ext_resource type="Texture2D" uid="uid://0q55ckkylbvh" path="res://resources/choose/ChooserBackground_9.png" id="5_mn0c7"]
+[ext_resource type="Texture2D" uid="uid://j26m570ybdkx" path="res://resources/choose/ChooserBackground_10.png" id="6_6ev82"]
+[ext_resource type="Texture2D" uid="uid://bpjevvtdqbraa" path="res://resources/choose/ChooserBackground.png" id="7_42nuc"]
+[ext_resource type="FontFile" uid="uid://b3aja38hu52t2" path="res://resources/DroidSansFallback.ttf" id="8_sfnqw"]
+
+[node name="Choosebox" type="Node2D" unique_id=658029569]
+script = ExtResource("1_v3msb")
+texture_6 = ExtResource("2_v3msb")
+texture_7 = ExtResource("3_sfnqw")
+texture_8 = ExtResource("4_abu2w")
+texture_9 = ExtResource("5_mn0c7")
+texture_10 = ExtResource("6_6ev82")
+
+[node name="bar" type="Sprite2D" parent="." unique_id=57307180]
+texture = ExtResource("7_42nuc")
+centered = false
+
+[node name="SlotContainer" type="Node2D" parent="." unique_id=2117886359]
+
+[node name="sun" type="Label" parent="." unique_id=281200222]
+offset_left = 18.0
+offset_top = 61.0
+offset_right = 57.0
+offset_bottom = 84.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("8_sfnqw")

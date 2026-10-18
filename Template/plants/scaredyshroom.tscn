@@ -1,0 +1,215 @@
+[gd_scene format=3 uid="uid://caux4ar0xk0ac"]
+
+[ext_resource type="Script" uid="uid://bx8jpudh0b8ha" path="res://Scripts/plants/scaredyshroom.gd" id="1_5ish4"]
+[ext_resource type="Texture2D" uid="uid://ohvxttekiqrp" path="res://resources/graphics/Plants/ScaredyShroom/ScaredyShroom/ScaredyShroom_0.png" id="1_lm220"]
+[ext_resource type="Texture2D" uid="uid://nbgubsicl74c" path="res://resources/graphics/Plants/ScaredyShroom/ScaredyShroom/ScaredyShroom_1.png" id="2_pvzhs"]
+[ext_resource type="Texture2D" uid="uid://dlyqwgkthufoo" path="res://resources/graphics/Plants/ScaredyShroom/ScaredyShroom/ScaredyShroom_2.png" id="3_bzkgv"]
+[ext_resource type="Texture2D" uid="uid://bhthil2ugsuq1" path="res://resources/graphics/Plants/ScaredyShroom/ScaredyShroom/ScaredyShroom_3.png" id="4_kdmrb"]
+[ext_resource type="Texture2D" uid="uid://jtsx2bichh87" path="res://resources/graphics/Plants/ScaredyShroom/ScaredyShroom/ScaredyShroom_4.png" id="5_dklxi"]
+[ext_resource type="Texture2D" uid="uid://c3ol0w4u0eg6y" path="res://resources/graphics/Plants/ScaredyShroom/ScaredyShroom/ScaredyShroom_5.png" id="6_0jw3s"]
+[ext_resource type="Texture2D" uid="uid://boiy45tt5ny77" path="res://resources/graphics/Plants/ScaredyShroom/ScaredyShroom/ScaredyShroom_6.png" id="7_5n1hp"]
+[ext_resource type="Texture2D" uid="uid://brgvfbgfiw43k" path="res://resources/graphics/Plants/ScaredyShroom/ScaredyShroom/ScaredyShroom_7.png" id="8_e12zw"]
+[ext_resource type="Texture2D" uid="uid://b25dgnigk6rhn" path="res://resources/graphics/Plants/ScaredyShroom/ScaredyShroom/ScaredyShroom_8.png" id="9_jnr2t"]
+[ext_resource type="Texture2D" uid="uid://dodd7wnit0w6m" path="res://resources/graphics/Plants/ScaredyShroom/ScaredyShroom/ScaredyShroom_9.png" id="10_lmv42"]
+[ext_resource type="Texture2D" uid="uid://b4t2ayhn054he" path="res://resources/graphics/Plants/ScaredyShroom/ScaredyShroom/ScaredyShroom_10.png" id="11_kmdwf"]
+[ext_resource type="Texture2D" uid="uid://c72swhouix2ff" path="res://resources/graphics/Plants/ScaredyShroom/ScaredyShroom/ScaredyShroom_11.png" id="12_og80u"]
+[ext_resource type="Texture2D" uid="uid://by4rkbqwoen32" path="res://resources/graphics/Plants/ScaredyShroom/ScaredyShroom/ScaredyShroom_12.png" id="13_84x8s"]
+[ext_resource type="Texture2D" uid="uid://lmfwbrdf00xw" path="res://resources/graphics/Plants/ScaredyShroom/ScaredyShroom/ScaredyShroom_13.png" id="14_fzyqc"]
+[ext_resource type="Texture2D" uid="uid://cvgwebkmyy2vc" path="res://resources/graphics/Plants/ScaredyShroom/ScaredyShroom/ScaredyShroom_14.png" id="15_ltlk5"]
+[ext_resource type="Texture2D" uid="uid://ry1foqnmxvmg" path="res://resources/graphics/Plants/ScaredyShroom/ScaredyShroom/ScaredyShroom_15.png" id="16_9ij9b"]
+[ext_resource type="Texture2D" uid="uid://ba01lbos1s0bd" path="res://resources/graphics/Plants/ScaredyShroom/ScaredyShroom/ScaredyShroom_16.png" id="17_bv0ww"]
+[ext_resource type="Texture2D" uid="uid://nbxb38mchv8j" path="res://resources/graphics/Plants/ScaredyShroom/ScaredyShroomCry/ScaredyShroomCry_0.png" id="18_zqcel"]
+[ext_resource type="Texture2D" uid="uid://bs3sngp3si747" path="res://resources/graphics/Plants/ScaredyShroom/ScaredyShroomCry/ScaredyShroomCry_1.png" id="19_alnhs"]
+[ext_resource type="Texture2D" uid="uid://bn7eykliybmpp" path="res://resources/graphics/Plants/ScaredyShroom/ScaredyShroomCry/ScaredyShroomCry_2.png" id="20_uivmz"]
+[ext_resource type="Texture2D" uid="uid://daclui1nq0xe4" path="res://resources/graphics/Plants/ScaredyShroom/ScaredyShroomCry/ScaredyShroomCry_3.png" id="21_7agkp"]
+[ext_resource type="Texture2D" uid="uid://bbe6ls5f5sukv" path="res://resources/graphics/Plants/ScaredyShroom/ScaredyShroomCry/ScaredyShroomCry_4.png" id="22_rpy2o"]
+[ext_resource type="Texture2D" uid="uid://dftp840pnqp62" path="res://resources/graphics/Plants/ScaredyShroom/ScaredyShroomCry/ScaredyShroomCry_5.png" id="23_3db5h"]
+[ext_resource type="Texture2D" uid="uid://cs74e8my3vpe1" path="res://resources/graphics/Plants/ScaredyShroom/ScaredyShroomCry/ScaredyShroomCry_6.png" id="24_hc5qu"]
+[ext_resource type="Texture2D" uid="uid://bqxgu7765vmdc" path="res://resources/graphics/Plants/ScaredyShroom/ScaredyShroomCry/ScaredyShroomCry_7.png" id="25_c3yqi"]
+[ext_resource type="Texture2D" uid="uid://cpvy7ewgq4sxx" path="res://resources/graphics/Plants/ScaredyShroom/ScaredyShroomCry/ScaredyShroomCry_8.png" id="26_wpr0i"]
+[ext_resource type="Texture2D" uid="uid://bxkrnh06nvox4" path="res://resources/graphics/Plants/ScaredyShroom/ScaredyShroomCry/ScaredyShroomCry_9.png" id="27_pqa8z"]
+[ext_resource type="Texture2D" uid="uid://d2vh22ye0uioc" path="res://resources/graphics/Plants/ScaredyShroom/ScaredyShroomCry/ScaredyShroomCry_10.png" id="28_a1gzz"]
+[ext_resource type="Texture2D" uid="uid://cpu7t0lphapjv" path="res://resources/graphics/Plants/ScaredyShroom/ScaredyShroomSleep/ScaredyShroomSleep_0.png" id="29_62can"]
+[ext_resource type="Texture2D" uid="uid://bi7xhvqs5gnss" path="res://resources/graphics/Plants/ScaredyShroom/ScaredyShroomSleep/ScaredyShroomSleep_1.png" id="30_9esx8"]
+[ext_resource type="Texture2D" uid="uid://coo1fhj35i3tr" path="res://resources/graphics/Plants/ScaredyShroom/ScaredyShroomSleep/ScaredyShroomSleep_2.png" id="31_l9g69"]
+[ext_resource type="Texture2D" uid="uid://bhxlnlc8487wm" path="res://resources/graphics/Plants/ScaredyShroom/ScaredyShroomSleep/ScaredyShroomSleep_3.png" id="32_qxu32"]
+[ext_resource type="Texture2D" uid="uid://cf1het4qfqqsf" path="res://resources/graphics/Plants/ScaredyShroom/ScaredyShroomSleep/ScaredyShroomSleep_4.png" id="33_c5rxb"]
+[ext_resource type="Texture2D" uid="uid://b1icochj85p1s" path="res://resources/graphics/Plants/ScaredyShroom/ScaredyShroomSleep/ScaredyShroomSleep_5.png" id="34_fw1sg"]
+[ext_resource type="Texture2D" uid="uid://c4ubm7u7epmfo" path="res://resources/graphics/Plants/ScaredyShroom/ScaredyShroomSleep/ScaredyShroomSleep_6.png" id="35_gcz12"]
+[ext_resource type="Texture2D" uid="uid://63tgiuaws6eu" path="res://resources/graphics/Plants/ScaredyShroom/ScaredyShroomSleep/ScaredyShroomSleep_7.png" id="36_n7n30"]
+[ext_resource type="Texture2D" uid="uid://ck20d20np5ebm" path="res://resources/graphics/Plants/ScaredyShroom/ScaredyShroomSleep/ScaredyShroomSleep_8.png" id="37_s3n58"]
+[ext_resource type="Texture2D" uid="uid://bo5l5hb14q5fb" path="res://resources/graphics/Plants/ScaredyShroom/ScaredyShroomSleep/ScaredyShroomSleep_9.png" id="38_78fug"]
+[ext_resource type="Texture2D" uid="uid://c6slklffkhxvg" path="res://resources/graphics/Plants/ScaredyShroom/ScaredyShroomSleep/ScaredyShroomSleep_10.png" id="39_xmw7a"]
+[ext_resource type="Texture2D" uid="uid://b2t2lls2wayr6" path="res://resources/graphics/Plants/ScaredyShroom/ScaredyShroomSleep/ScaredyShroomSleep_11.png" id="40_ysaau"]
+[ext_resource type="Texture2D" uid="uid://dcaixbscmvcqa" path="res://resources/graphics/Plants/ScaredyShroom/ScaredyShroomSleep/ScaredyShroomSleep_12.png" id="41_y1nz9"]
+[ext_resource type="Texture2D" uid="uid://b45drq2it6iul" path="res://resources/graphics/Plants/ScaredyShroom/ScaredyShroomSleep/ScaredyShroomSleep_13.png" id="42_f4xzi"]
+[ext_resource type="Texture2D" uid="uid://c1ernqh7nx2ya" path="res://resources/graphics/Plants/ScaredyShroom/ScaredyShroomSleep/ScaredyShroomSleep_14.png" id="43_6lw1d"]
+[ext_resource type="Texture2D" uid="uid://c35jeawtsfpoi" path="res://resources/graphics/Plants/ScaredyShroom/ScaredyShroomSleep/ScaredyShroomSleep_15.png" id="44_mhm1y"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_94fq4"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_lm220")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_pvzhs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_bzkgv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_kdmrb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_dklxi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_0jw3s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_5n1hp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_e12zw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_jnr2t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_lmv42")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_kmdwf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_og80u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_84x8s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_fzyqc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_ltlk5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_9ij9b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_bv0ww")
+}],
+"loop": 1,
+"name": &"ScaredyShroom",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("18_zqcel")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_alnhs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_uivmz")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_7agkp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_rpy2o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_3db5h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_hc5qu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_c3yqi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_wpr0i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_pqa8z")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_a1gzz")
+}],
+"loop": 1,
+"name": &"ScaredyShroomCry",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("29_62can")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_9esx8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_l9g69")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_qxu32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_c5rxb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_fw1sg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_gcz12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_n7n30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_s3n58")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_78fug")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_xmw7a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_ysaau")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_y1nz9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_f4xzi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_6lw1d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_mhm1y")
+}],
+"loop": 1,
+"name": &"ScaredyShroomSleep",
+"speed": 10.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_5et53"]
+size = Vector2(48, 68)
+
+[node name="ScaredyShroom" type="Area2D" unique_id=897365309]
+script = ExtResource("1_5ish4")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=270100291]
+texture_filter = 1
+sprite_frames = SubResource("SpriteFrames_94fq4")
+animation = &"ScaredyShroom"
+autoplay = "ScaredyShroom"
+frame_progress = 0.63246983
+offset = Vector2(0, -40)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1596820034]
+position = Vector2(-2, -34)
+shape = SubResource("RectangleShape2D_5et53")

@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__mcp-vision__analyze_image",
+      "WebSearch",
+      "WebFetch(domain:a.9game.cn)",
+      "WebFetch(domain:jspvz.fandom.com)",
+      "WebFetch(domain:pvz.huijiwiki.com)",
+      "WebFetch(domain:wiki.pvz1.com)",
+      "WebFetch(domain:plantsvszombies.wiki.gg)",
+      "WebFetch(domain:strategywiki.org)",
+      "WebFetch(domain:en.wikipedia.org)",
+      "Bash(mkdir -p ordered/special)",
+      "Bash(cp card_peashooter.png ordered/01_peashooter.png)",
+      "Bash(cp card_sunflower.png ordered/02_sunflower.png)",
+      "Bash(cp card_cherrybomb.png ordered/03_cherrybomb.png)",
+      "Bash(cp card_wallnut.png ordered/04_wallnut.png)",
+      "Bash(python -c \"import json; d=json.load\\(open\\('plants.json',encoding='utf-8'\\)\\); print\\('JSON OK, plants:',len\\(d['plants']\\),'special:',len\\(d['special']\\)\\); print\\('ids:', [p['id'] for p in d['plants']][:5],'...'\\)\")",
+      "Bash(node -e \"const d=require\\('./plants.json'\\); console.log\\('JSON OK, plants:',d.plants.length,'special:',d.special.length\\)\")",
+      "Bash(curl -s -o /dev/null -w \"fandom:%{http_code}\\\\n\" --max-time 15 \"https://plantsvszombies.fandom.com/wiki/Peashooter\")",
+      "Bash(curl -s -o /dev/null -w \"static.wikia:%{http_code}\\\\n\" --max-time 15 \"https://static.wikia.nocookie.net/plantsvszombies/images/thumb/1/16/Peashooter.png/160px-Peashooter.png\")",
+      "Bash(curl -s -o /dev/null -w \"wikipedia:%{http_code}\\\\n\" --max-time 15 \"https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Peashooter.png/160px-Peashooter.png\")",
+      "Bash(python -c \"import PIL; print\\('Pillow', PIL.__version__\\)\")",
+      "Read(//d/Godot/program/pvz-godot/**)",
+      "Bash(python -m py_compile \"Scripts/download_missing_cards.py\")",
+      "Bash(python Scripts/download_missing_cards.py)",
+      "Read(//tmp/**)"
+    ]
+  }
+}

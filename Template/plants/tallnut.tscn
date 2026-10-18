@@ -1,0 +1,220 @@
+[gd_scene format=3 uid="uid://bmpv1dy8rawh2"]
+
+[ext_resource type="Texture2D" uid="uid://qcwt2sgrfavf" path="res://resources/graphics/Plants/TallNut/TallNut/TallNut_0.png" id="1_nsqpw"]
+[ext_resource type="Texture2D" uid="uid://b2bo5xe6hu7ua" path="res://resources/graphics/Plants/TallNut/TallNut/TallNut_1.png" id="2_3knww"]
+[ext_resource type="Texture2D" uid="uid://du4bxefnh1exw" path="res://resources/graphics/Plants/TallNut/TallNut/TallNut_2.png" id="3_z8iqu"]
+[ext_resource type="Texture2D" uid="uid://4cd3xvdnk4ar" path="res://resources/graphics/Plants/TallNut/TallNut/TallNut_3.png" id="4_18gyi"]
+[ext_resource type="Texture2D" uid="uid://cfgpmnkhlc3hw" path="res://resources/graphics/Plants/TallNut/TallNut/TallNut_4.png" id="5_mhgf4"]
+[ext_resource type="Texture2D" uid="uid://d2d8qcu1itev8" path="res://resources/graphics/Plants/TallNut/TallNut/TallNut_5.png" id="6_e2mg0"]
+[ext_resource type="Texture2D" uid="uid://yb1hgu872s31" path="res://resources/graphics/Plants/TallNut/TallNut/TallNut_6.png" id="7_iex3x"]
+[ext_resource type="Texture2D" uid="uid://dcj24xewlwjm6" path="res://resources/graphics/Plants/TallNut/TallNut/TallNut_7.png" id="8_xcffj"]
+[ext_resource type="Texture2D" uid="uid://cp0f0ksfcddp8" path="res://resources/graphics/Plants/TallNut/TallNut/TallNut_8.png" id="9_mr60t"]
+[ext_resource type="Texture2D" uid="uid://bfrrq225v7g1h" path="res://resources/graphics/Plants/TallNut/TallNut/TallNut_9.png" id="10_pf0f8"]
+[ext_resource type="Texture2D" uid="uid://l3oyo8vln2tc" path="res://resources/graphics/Plants/TallNut/TallNut/TallNut_10.png" id="11_lcoxy"]
+[ext_resource type="Texture2D" uid="uid://clgdv43ein1v7" path="res://resources/graphics/Plants/TallNut/TallNut/TallNut_11.png" id="12_w5a2f"]
+[ext_resource type="Texture2D" uid="uid://cwrnyqt28vx5f" path="res://resources/graphics/Plants/TallNut/TallNut/TallNut_12.png" id="13_8l9ob"]
+[ext_resource type="Texture2D" uid="uid://dsgqc1wpnsadv" path="res://resources/graphics/Plants/TallNut/TallNut/TallNut_13.png" id="14_qi1x2"]
+[ext_resource type="Texture2D" uid="uid://crf4nggkryi5m" path="res://resources/graphics/Plants/TallNut/TallNut_cracked1/TallNut_cracked1_0.png" id="15_kqrut"]
+[ext_resource type="Texture2D" uid="uid://cwv1nvd40jam2" path="res://resources/graphics/Plants/TallNut/TallNut_cracked1/TallNut_cracked1_1.png" id="16_8bq88"]
+[ext_resource type="Texture2D" uid="uid://dabsdv6nic1f1" path="res://resources/graphics/Plants/TallNut/TallNut_cracked1/TallNut_cracked1_2.png" id="17_n5dv5"]
+[ext_resource type="Texture2D" uid="uid://buth6xg0imo27" path="res://resources/graphics/Plants/TallNut/TallNut_cracked1/TallNut_cracked1_3.png" id="18_nimtz"]
+[ext_resource type="Texture2D" uid="uid://dpne2xfnptgx4" path="res://resources/graphics/Plants/TallNut/TallNut_cracked1/TallNut_cracked1_4.png" id="19_4bjen"]
+[ext_resource type="Texture2D" uid="uid://0dgivu11by62" path="res://resources/graphics/Plants/TallNut/TallNut_cracked1/TallNut_cracked1_5.png" id="20_k9pvf"]
+[ext_resource type="Texture2D" uid="uid://c4iu478iirvcm" path="res://resources/graphics/Plants/TallNut/TallNut_cracked1/TallNut_cracked1_6.png" id="21_3bfig"]
+[ext_resource type="Texture2D" uid="uid://no0pb6pcftov" path="res://resources/graphics/Plants/TallNut/TallNut_cracked1/TallNut_cracked1_7.png" id="22_78kwq"]
+[ext_resource type="Texture2D" uid="uid://bclp7c5foyjch" path="res://resources/graphics/Plants/TallNut/TallNut_cracked1/TallNut_cracked1_8.png" id="23_7wjv7"]
+[ext_resource type="Texture2D" uid="uid://clg157cv7uwxn" path="res://resources/graphics/Plants/TallNut/TallNut_cracked1/TallNut_cracked1_9.png" id="24_yetaz"]
+[ext_resource type="Texture2D" uid="uid://b0m37y4vb651q" path="res://resources/graphics/Plants/TallNut/TallNut_cracked1/TallNut_cracked1_10.png" id="25_hs7a7"]
+[ext_resource type="Texture2D" uid="uid://b57vap6pn1htk" path="res://resources/graphics/Plants/TallNut/TallNut_cracked1/TallNut_cracked1_11.png" id="26_y29bc"]
+[ext_resource type="Texture2D" uid="uid://bse3figq12vt3" path="res://resources/graphics/Plants/TallNut/TallNut_cracked1/TallNut_cracked1_12.png" id="27_kbufv"]
+[ext_resource type="Texture2D" uid="uid://dxc1bosf8qi7v" path="res://resources/graphics/Plants/TallNut/TallNut_cracked1/TallNut_cracked1_13.png" id="28_odg6n"]
+[ext_resource type="Texture2D" uid="uid://2ub2l6qq2ulj" path="res://resources/graphics/Plants/TallNut/TallNut_cracked1/TallNut_cracked1_14.png" id="29_jwjsw"]
+[ext_resource type="Texture2D" uid="uid://dhbkhrns7b8i8" path="res://resources/graphics/Plants/TallNut/TallNut_cracked1/TallNut_cracked1_15.png" id="30_cai5h"]
+[ext_resource type="Texture2D" uid="uid://co63tr7rh2wsb" path="res://resources/graphics/Plants/TallNut/TallNut_cracked1/TallNut_cracked1_16.png" id="31_h2b72"]
+[ext_resource type="Texture2D" uid="uid://dfse06foaxwvk" path="res://resources/graphics/Plants/TallNut/TallNut_cracked2/TallNut_cracked2_0.png" id="32_tf2a6"]
+[ext_resource type="Texture2D" uid="uid://jnmimxdobbw5" path="res://resources/graphics/Plants/TallNut/TallNut_cracked2/TallNut_cracked2_1.png" id="33_8yoqz"]
+[ext_resource type="Texture2D" uid="uid://dlujwukdluxu0" path="res://resources/graphics/Plants/TallNut/TallNut_cracked2/TallNut_cracked2_2.png" id="34_9t3bh"]
+[ext_resource type="Texture2D" uid="uid://ckf1r551d4g23" path="res://resources/graphics/Plants/TallNut/TallNut_cracked2/TallNut_cracked2_3.png" id="35_9vbp5"]
+[ext_resource type="Texture2D" uid="uid://c22cy43brtr7o" path="res://resources/graphics/Plants/TallNut/TallNut_cracked2/TallNut_cracked2_4.png" id="36_j2a7i"]
+[ext_resource type="Texture2D" uid="uid://by33kd4o04edn" path="res://resources/graphics/Plants/TallNut/TallNut_cracked2/TallNut_cracked2_5.png" id="37_hbwfs"]
+[ext_resource type="Texture2D" uid="uid://c7xyhalgsagje" path="res://resources/graphics/Plants/TallNut/TallNut_cracked2/TallNut_cracked2_6.png" id="38_8u669"]
+[ext_resource type="Texture2D" uid="uid://cryvilnw8bda0" path="res://resources/graphics/Plants/TallNut/TallNut_cracked2/TallNut_cracked2_7.png" id="39_4to1t"]
+[ext_resource type="Texture2D" uid="uid://c8sfg2j2ppg0l" path="res://resources/graphics/Plants/TallNut/TallNut_cracked2/TallNut_cracked2_8.png" id="40_yn7vp"]
+[ext_resource type="Texture2D" uid="uid://c5pms5egmstd1" path="res://resources/graphics/Plants/TallNut/TallNut_cracked2/TallNut_cracked2_9.png" id="41_5mh11"]
+[ext_resource type="Texture2D" uid="uid://do54fltovxhnp" path="res://resources/graphics/Plants/TallNut/TallNut_cracked2/TallNut_cracked2_10.png" id="42_m35uv"]
+[ext_resource type="Texture2D" uid="uid://drl2b35h8hmhx" path="res://resources/graphics/Plants/TallNut/TallNut_cracked2/TallNut_cracked2_11.png" id="43_9aasv"]
+[ext_resource type="Texture2D" uid="uid://iwie8itqb22a" path="res://resources/graphics/Plants/TallNut/TallNut_cracked2/TallNut_cracked2_12.png" id="44_je261"]
+[ext_resource type="Texture2D" uid="uid://c0il0c41ya3ox" path="res://resources/graphics/Plants/TallNut/TallNut_cracked2/TallNut_cracked2_13.png" id="45_zz5hc"]
+[ext_resource type="Texture2D" uid="uid://dq8ljpq6qat4s" path="res://resources/graphics/Plants/TallNut/TallNut_cracked2/TallNut_cracked2_14.png" id="46_bb4tc"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_qmjr1"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_nsqpw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_3knww")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_z8iqu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_18gyi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_mhgf4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_e2mg0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_iex3x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_xcffj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_mr60t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_pf0f8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_lcoxy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_w5a2f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_8l9ob")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_qi1x2")
+}],
+"loop": 1,
+"name": &"TallNut",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("15_kqrut")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_8bq88")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_n5dv5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_nimtz")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_4bjen")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_k9pvf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_3bfig")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_78kwq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_7wjv7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_yetaz")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_hs7a7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_y29bc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_kbufv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_odg6n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_jwjsw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_cai5h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_h2b72")
+}],
+"loop": 1,
+"name": &"TallNut_cracked1",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("32_tf2a6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_8yoqz")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_9t3bh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_9vbp5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_j2a7i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_hbwfs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_8u669")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_4to1t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_yn7vp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_5mh11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_m35uv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_9aasv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_je261")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_zz5hc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_bb4tc")
+}],
+"loop": 1,
+"name": &"TallNut_cracked2",
+"speed": 10.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_eol8p"]
+size = Vector2(80, 118)
+
+[node name="TallNut" type="Area2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+sprite_frames = SubResource("SpriteFrames_qmjr1")
+animation = &"TallNut"
+autoplay = "TallNut"
+offset = Vector2(0, -60)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -59)
+shape = SubResource("RectangleShape2D_eol8p")

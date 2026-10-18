@@ -1,0 +1,76 @@
+[gd_scene format=3 uid="uid://k2q7x5cvh2km"]
+
+[ext_resource type="Texture2D" uid="uid://s28ju2pjkl3b" path="res://resources/graphics/Plants/PumpkinHead/PumpkinHead/PumpkinHead_0.png" id="1_gxdn9"]
+[ext_resource type="Texture2D" uid="uid://c1x4oukqgeqq7" path="res://resources/graphics/Plants/PumpkinHead/PumpkinHead/PumpkinHead_1.png" id="2_mzd3d"]
+[ext_resource type="Texture2D" uid="uid://dut1yifq0yby4" path="res://resources/graphics/Plants/PumpkinHead/PumpkinHead/PumpkinHead_2.png" id="3_dapw4"]
+[ext_resource type="Texture2D" uid="uid://bqvnpu6vntl0y" path="res://resources/graphics/Plants/PumpkinHead/PumpkinHead/PumpkinHead_3.png" id="4_qcbi8"]
+[ext_resource type="Texture2D" uid="uid://btmhts281px6t" path="res://resources/graphics/Plants/PumpkinHead/PumpkinHead/PumpkinHead_4.png" id="5_2gpef"]
+[ext_resource type="Texture2D" uid="uid://b6d255dtfgile" path="res://resources/graphics/Plants/PumpkinHead/PumpkinHead/PumpkinHead_5.png" id="6_38n9i"]
+[ext_resource type="Texture2D" uid="uid://dvaor3tivwmak" path="res://resources/graphics/Plants/PumpkinHead/PumpkinHead/PumpkinHead_6.png" id="7_n720j"]
+[ext_resource type="Texture2D" uid="uid://dgf71ebjipbh7" path="res://resources/graphics/Plants/PumpkinHead/PumpkinHead/PumpkinHead_7.png" id="8_4cp01"]
+[ext_resource type="Texture2D" uid="uid://312g1qnqktss" path="res://resources/graphics/Plants/PumpkinHead/PumpkinHead_cracked1/PumpkinHead_cracked1_0.png" id="9_loidr"]
+[ext_resource type="Texture2D" uid="uid://dqkqeyxpfovcn" path="res://resources/graphics/Plants/PumpkinHead/PumpkinHead_cracked2/PumpkinHead_cracked2_0.png" id="10_alczb"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_sc6ii"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_gxdn9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_mzd3d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_dapw4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_qcbi8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_2gpef")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_38n9i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_n720j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_4cp01")
+}],
+"loop": 1,
+"name": &"PumpkinHead",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("9_loidr")
+}],
+"loop": 1,
+"name": &"PumpkinHead_cracked1",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("10_alczb")
+}],
+"loop": 1,
+"name": &"PumpkinHead_cracked2",
+"speed": 10.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_5fh4v"]
+size = Vector2(93, 62)
+
+[node name="PumpkinHead" type="Area2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+sprite_frames = SubResource("SpriteFrames_sc6ii")
+animation = &"PumpkinHead"
+autoplay = "PumpkinHead"
+offset = Vector2(0, -34)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-1, -31)
+shape = SubResource("RectangleShape2D_5fh4v")

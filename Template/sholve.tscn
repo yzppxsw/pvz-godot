@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://dxi2p5jn3hu5n"]
+
+[ext_resource type="Texture2D" uid="uid://8oohplo5hehy" path="res://resources/graphics/Screen/shovel.png" id="2_4merr"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_mgf14"]
+size = Vector2(35, 32)
+
+[node name="Sholve" type="Node2D" unique_id=1221997501]
+
+[node name="Area2D" type="Area2D" parent="." unique_id=148100053]
+
+[node name="Sprite2D" type="Sprite2D" parent="Area2D" unique_id=1815585091]
+z_index = 10
+texture = ExtResource("2_4merr")
+offset = Vector2(25, -30)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=1421992597]
+position = Vector2(18.5, -17)
+shape = SubResource("RectangleShape2D_mgf14")

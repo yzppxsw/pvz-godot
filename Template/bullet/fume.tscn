@@ -1,0 +1,61 @@
+[gd_scene format=3 uid="uid://dhbewjn7mvxub"]
+
+[ext_resource type="Script" uid="uid://btywda3sbgjim" path="res://Scripts/bullets/fume.gd" id="1_7m6cq"]
+[ext_resource type="Texture2D" uid="uid://bau0cnqvhpljb" path="res://resources/graphics/Bullets/Fume/Fume_0.png" id="1_ahiqc"]
+[ext_resource type="Texture2D" uid="uid://dm4rhunthahyr" path="res://resources/graphics/Bullets/Fume/Fume_1.png" id="2_7m6cq"]
+[ext_resource type="Texture2D" uid="uid://cg53j0e4gu0gp" path="res://resources/graphics/Bullets/Fume/Fume_2.png" id="3_f64ia"]
+[ext_resource type="Texture2D" uid="uid://t6oyg1n82bul" path="res://resources/graphics/Bullets/Fume/Fume_3.png" id="4_7uk4w"]
+[ext_resource type="Texture2D" uid="uid://cr1tn1kwp86nh" path="res://resources/graphics/Bullets/Fume/Fume_4.png" id="5_1jxye"]
+[ext_resource type="Texture2D" uid="uid://bwt56xxpixfl1" path="res://resources/graphics/Bullets/Fume/Fume_5.png" id="6_3erhb"]
+[ext_resource type="Texture2D" uid="uid://dgm8i612qw3db" path="res://resources/graphics/Bullets/Fume/Fume_6.png" id="7_jeff5"]
+[ext_resource type="Texture2D" uid="uid://chcpuq5inqna4" path="res://resources/graphics/Bullets/Fume/Fume_7.png" id="8_ldxrf"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_mgf14"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_ahiqc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_7m6cq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_f64ia")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_7uk4w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_1jxye")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_3erhb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_jeff5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_ldxrf")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 7.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_gfm8k"]
+size = Vector2(341, 24)
+
+[node name="Fume" type="Area2D" unique_id=1753354341]
+script = ExtResource("1_7m6cq")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=358045388]
+position = Vector2(0.375, 1.125)
+sprite_frames = SubResource("SpriteFrames_mgf14")
+frame_progress = 0.80469453
+centered = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1609950720]
+position = Vector2(170, 24)
+shape = SubResource("RectangleShape2D_gfm8k")
+
+[connection signal="body_entered" from="." to="." method="_on_Area2D_body_entered"]

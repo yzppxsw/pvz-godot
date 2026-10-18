@@ -1,0 +1,78 @@
+[gd_scene format=3 uid="uid://cs04dacwwifpo"]
+
+[ext_resource type="Texture2D" uid="uid://bro6ekfejsplg" path="res://resources/graphics/Plants/StarFruit/StarFruit_0.png" id="1_qgm2n"]
+[ext_resource type="Texture2D" uid="uid://cdhvf5q663v2i" path="res://resources/graphics/Plants/StarFruit/StarFruit_1.png" id="2_zyxth"]
+[ext_resource type="Texture2D" uid="uid://brsml4qiihui0" path="res://resources/graphics/Plants/StarFruit/StarFruit_2.png" id="3_ef6zz"]
+[ext_resource type="Texture2D" uid="uid://byknu7k8selhv" path="res://resources/graphics/Plants/StarFruit/StarFruit_3.png" id="4_f3o0s"]
+[ext_resource type="Texture2D" uid="uid://byw043ey7e23e" path="res://resources/graphics/Plants/StarFruit/StarFruit_4.png" id="5_w9jn0"]
+[ext_resource type="Texture2D" uid="uid://c1h0tc3vob8on" path="res://resources/graphics/Plants/StarFruit/StarFruit_5.png" id="6_7zcir"]
+[ext_resource type="Texture2D" uid="uid://truicmijulvn" path="res://resources/graphics/Plants/StarFruit/StarFruit_6.png" id="7_enk7w"]
+[ext_resource type="Texture2D" uid="uid://d2cokoi8ntei0" path="res://resources/graphics/Plants/StarFruit/StarFruit_7.png" id="8_ulfjz"]
+[ext_resource type="Texture2D" uid="uid://upw0cnu6wko3" path="res://resources/graphics/Plants/StarFruit/StarFruit_8.png" id="9_rx3qu"]
+[ext_resource type="Texture2D" uid="uid://dgpa1mjxoj4py" path="res://resources/graphics/Plants/StarFruit/StarFruit_9.png" id="10_bsobn"]
+[ext_resource type="Texture2D" uid="uid://c3b73745obmgn" path="res://resources/graphics/Plants/StarFruit/StarFruit_10.png" id="11_vf90e"]
+[ext_resource type="Texture2D" uid="uid://d2xiwvd4yd040" path="res://resources/graphics/Plants/StarFruit/StarFruit_11.png" id="12_mu7ok"]
+[ext_resource type="Texture2D" uid="uid://t8qjwbyt1hfg" path="res://resources/graphics/Plants/StarFruit/StarFruit_12.png" id="13_ymk29"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_qsrlb"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_qgm2n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_zyxth")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_ef6zz")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_f3o0s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_w9jn0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_7zcir")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_enk7w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_ulfjz")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_rx3qu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_bsobn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_vf90e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_mu7ok")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_ymk29")
+}],
+"loop": 1,
+"name": &"StarFruit",
+"speed": 10.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_3rvba"]
+size = Vector2(71, 69)
+
+[node name="StarFruit" type="Area2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+sprite_frames = SubResource("SpriteFrames_qsrlb")
+animation = &"StarFruit"
+autoplay = "StarFruit"
+offset = Vector2(0, -35)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -34)
+shape = SubResource("RectangleShape2D_3rvba")

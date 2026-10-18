@@ -1,0 +1,90 @@
+[gd_scene format=3 uid="uid://dx0vukk2xcwh7"]
+
+[ext_resource type="Texture2D" uid="uid://b2kpuj2t3ai6q" path="res://resources/graphics/Plants/Threepeater/Threepeater_0.png" id="1_qb0p8"]
+[ext_resource type="Texture2D" uid="uid://c5jhkhaxtteml" path="res://resources/graphics/Plants/Threepeater/Threepeater_1.png" id="2_jq6wp"]
+[ext_resource type="Texture2D" uid="uid://dsu6adb2ec5lh" path="res://resources/graphics/Plants/Threepeater/Threepeater_2.png" id="3_6tbi0"]
+[ext_resource type="Texture2D" uid="uid://b4xa5opu05avg" path="res://resources/graphics/Plants/Threepeater/Threepeater_3.png" id="4_8zi0i"]
+[ext_resource type="Texture2D" uid="uid://bpqnomsaa43eq" path="res://resources/graphics/Plants/Threepeater/Threepeater_4.png" id="5_yezrk"]
+[ext_resource type="Texture2D" uid="uid://nlhqbgfm6ksx" path="res://resources/graphics/Plants/Threepeater/Threepeater_5.png" id="6_0niuo"]
+[ext_resource type="Texture2D" uid="uid://c5ebnknecwuu6" path="res://resources/graphics/Plants/Threepeater/Threepeater_6.png" id="7_47r29"]
+[ext_resource type="Texture2D" uid="uid://cya6v1fmkvuvd" path="res://resources/graphics/Plants/Threepeater/Threepeater_7.png" id="8_f57hp"]
+[ext_resource type="Texture2D" uid="uid://g83oyw108p5t" path="res://resources/graphics/Plants/Threepeater/Threepeater_8.png" id="9_izf3f"]
+[ext_resource type="Texture2D" uid="uid://cshbh5haauj2n" path="res://resources/graphics/Plants/Threepeater/Threepeater_9.png" id="10_7ssm0"]
+[ext_resource type="Texture2D" uid="uid://3073str77q75" path="res://resources/graphics/Plants/Threepeater/Threepeater_10.png" id="11_gv24g"]
+[ext_resource type="Texture2D" uid="uid://w7xt46atf6d7" path="res://resources/graphics/Plants/Threepeater/Threepeater_11.png" id="12_dm11e"]
+[ext_resource type="Texture2D" uid="uid://di5jnmnwcoha4" path="res://resources/graphics/Plants/Threepeater/Threepeater_12.png" id="13_s1dhw"]
+[ext_resource type="Texture2D" uid="uid://dhtgr0bm3e6h5" path="res://resources/graphics/Plants/Threepeater/Threepeater_13.png" id="14_6y10p"]
+[ext_resource type="Texture2D" uid="uid://nfvpyq0bmawc" path="res://resources/graphics/Plants/Threepeater/Threepeater_14.png" id="15_ehmn0"]
+[ext_resource type="Texture2D" uid="uid://dpgga28elqug2" path="res://resources/graphics/Plants/Threepeater/Threepeater_15.png" id="16_0eht0"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_7oa23"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_qb0p8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_jq6wp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_6tbi0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_8zi0i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_yezrk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_0niuo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_47r29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_f57hp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_izf3f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_7ssm0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_gv24g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_dm11e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_s1dhw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_6y10p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_ehmn0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_0eht0")
+}],
+"loop": 1,
+"name": &"Threepeater",
+"speed": 10.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_75df7"]
+size = Vector2(68, 79)
+
+[node name="Threepeater" type="Area2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+sprite_frames = SubResource("SpriteFrames_7oa23")
+animation = &"Threepeater"
+autoplay = "Threepeater"
+offset = Vector2(0, -40)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -40)
+shape = SubResource("RectangleShape2D_75df7")

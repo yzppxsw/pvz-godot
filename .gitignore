@@ -1,0 +1,21 @@
+# Godot 4+ 引擎缓存/导入数据(可重新生成,不要提交)
+.godot/
+*.translation
+
+# 导出产物
+/build/
+/export/
+*.exe
+*.pck
+*.zip
+
+# 系统
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+*~

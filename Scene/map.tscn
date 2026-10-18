@@ -1,0 +1,55 @@
+[gd_scene format=3 uid="uid://ci4tgwp47m26v"]
+
+[ext_resource type="Texture2D" uid="uid://3xlmw367s6ws" path="res://resources/graphics/Items/Background/Background_0.jpg" id="1_7ap1n"]
+[ext_resource type="Script" uid="uid://see6c2e50egu" path="res://Scripts/map/map.gd" id="1_81yfc"]
+[ext_resource type="Script" uid="uid://gy5cdjt00qn" path="res://Scripts/map/highlight.gd" id="3_ex5br"]
+[ext_resource type="Script" uid="uid://q5olh3ip1o6v" path="res://Scripts/map/camera_2d.gd" id="4_5mejs"]
+[ext_resource type="Script" uid="uid://tff4x2731gu5" path="res://Scripts/ui/plant_card.gd" id="5_s12we"]
+[ext_resource type="Script" uid="uid://d0ywrhwt7lw45" path="res://Scripts/zombies/zombiespawner.gd" id="6_54rcs"]
+[ext_resource type="Script" uid="uid://dqlsh0l3i84q0" path="res://Scripts/sun/sunspawner.gd" id="7_31wal"]
+[ext_resource type="Script" uid="uid://xe56h2xyk7ve" path="res://Scripts/map/home.gd" id="8_qftbs"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_mgf14"]
+size = Vector2(729, 493)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_gfm8k"]
+size = Vector2(55, 492)
+
+[node name="Map" type="Node2D" unique_id=2137622310]
+script = ExtResource("1_81yfc")
+level = 4
+
+[node name="Lawn" type="Area2D" parent="." unique_id=1692946844]
+
+[node name="Sprite2D" type="Sprite2D" parent="Lawn" unique_id=2105059883]
+position = Vector2(-200, 0)
+texture = ExtResource("1_7ap1n")
+centered = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Lawn" unique_id=1444273652]
+position = Vector2(418, 328)
+shape = SubResource("RectangleShape2D_mgf14")
+
+[node name="highlight" type="Node2D" parent="." unique_id=1930962211]
+z_index = 2
+script = ExtResource("3_ex5br")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1059413714]
+position = Vector2(250, 300)
+script = ExtResource("4_5mejs")
+
+[node name="Plants" type="Node2D" parent="." unique_id=448146946]
+script = ExtResource("5_s12we")
+
+[node name="Zombies" type="Node2D" parent="." unique_id=1530156787]
+script = ExtResource("6_54rcs")
+
+[node name="Sunspawner" type="Node2D" parent="." unique_id=1082904304]
+script = ExtResource("7_31wal")
+
+[node name="Home" type="Area2D" parent="." unique_id=1180054075]
+script = ExtResource("8_qftbs")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Home" unique_id=1384021057]
+position = Vector2(2.5, 328)
+shape = SubResource("RectangleShape2D_gfm8k")

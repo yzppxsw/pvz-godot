@@ -1,0 +1,251 @@
+[gd_scene format=3 uid="uid://bd6bao17v6ggf"]
+
+[ext_resource type="Texture2D" uid="uid://bvh6ve0tj1ym3" path="res://resources/graphics/Plants/FumeShroom/FumeShroom/FumeShroom_0.png" id="1_79dlw"]
+[ext_resource type="Script" uid="uid://c0fb5fkm8uwow" path="res://Scripts/plants/fumeshroom.gd" id="1_v5mef"]
+[ext_resource type="Texture2D" uid="uid://c2e6jqjmu1ku8" path="res://resources/graphics/Plants/FumeShroom/FumeShroom/FumeShroom_1.png" id="2_wv5jc"]
+[ext_resource type="Texture2D" uid="uid://cdmlwqb0dio8s" path="res://resources/graphics/Plants/FumeShroom/FumeShroom/FumeShroom_2.png" id="3_4ppyh"]
+[ext_resource type="Texture2D" uid="uid://bcqk6p8wi31uk" path="res://resources/graphics/Plants/FumeShroom/FumeShroom/FumeShroom_3.png" id="4_bos6e"]
+[ext_resource type="Texture2D" uid="uid://bneuke4cdb56p" path="res://resources/graphics/Plants/FumeShroom/FumeShroom/FumeShroom_4.png" id="5_4w2ty"]
+[ext_resource type="Texture2D" uid="uid://cqpm7qnr6nnk" path="res://resources/graphics/Plants/FumeShroom/FumeShroom/FumeShroom_5.png" id="6_39idy"]
+[ext_resource type="Texture2D" uid="uid://052hmsie1gen" path="res://resources/graphics/Plants/FumeShroom/FumeShroom/FumeShroom_6.png" id="7_nz6rp"]
+[ext_resource type="Texture2D" uid="uid://1v3nqfcspyji" path="res://resources/graphics/Plants/FumeShroom/FumeShroom/FumeShroom_7.png" id="8_nzdmh"]
+[ext_resource type="Texture2D" uid="uid://bwvxpav15xim" path="res://resources/graphics/Plants/FumeShroom/FumeShroom/FumeShroom_8.png" id="9_ot2ud"]
+[ext_resource type="Texture2D" uid="uid://ljekxajipmxj" path="res://resources/graphics/Plants/FumeShroom/FumeShroom/FumeShroom_9.png" id="10_7twa4"]
+[ext_resource type="Texture2D" uid="uid://cv64mlknpmwl3" path="res://resources/graphics/Plants/FumeShroom/FumeShroom/FumeShroom_10.png" id="11_nwyzx"]
+[ext_resource type="Texture2D" uid="uid://mnfskbkn0okb" path="res://resources/graphics/Plants/FumeShroom/FumeShroom/FumeShroom_11.png" id="12_ctpih"]
+[ext_resource type="Texture2D" uid="uid://lm4nw3veh2mm" path="res://resources/graphics/Plants/FumeShroom/FumeShroom/FumeShroom_12.png" id="13_lyoqq"]
+[ext_resource type="Texture2D" uid="uid://breeus43fdqsm" path="res://resources/graphics/Plants/FumeShroom/FumeShroom/FumeShroom_13.png" id="14_tvv7v"]
+[ext_resource type="Texture2D" uid="uid://2m1f5jas2nfi" path="res://resources/graphics/Plants/FumeShroom/FumeShroom/FumeShroom_14.png" id="15_8cuyy"]
+[ext_resource type="Texture2D" uid="uid://c1id4vmld6j0j" path="res://resources/graphics/Plants/FumeShroom/FumeShroom/FumeShroom_15.png" id="16_y3yoo"]
+[ext_resource type="Texture2D" uid="uid://bycfiyav3emr8" path="res://resources/graphics/Plants/FumeShroom/FumeShroomAttack/FumeShroomAttack_0.png" id="17_yzs8g"]
+[ext_resource type="Texture2D" uid="uid://b3j76wxhxdl5x" path="res://resources/graphics/Plants/FumeShroom/FumeShroomAttack/FumeShroomAttack_1.png" id="18_uwdol"]
+[ext_resource type="Texture2D" uid="uid://dsexl327ntn11" path="res://resources/graphics/Plants/FumeShroom/FumeShroomAttack/FumeShroomAttack_2.png" id="19_jezsf"]
+[ext_resource type="Texture2D" uid="uid://b1fkmhp784q0u" path="res://resources/graphics/Plants/FumeShroom/FumeShroomAttack/FumeShroomAttack_3.png" id="20_ffn6n"]
+[ext_resource type="Texture2D" uid="uid://cf4s4tpbkpkkg" path="res://resources/graphics/Plants/FumeShroom/FumeShroomAttack/FumeShroomAttack_4.png" id="21_ka9w9"]
+[ext_resource type="Texture2D" uid="uid://cykhntyl5o063" path="res://resources/graphics/Plants/FumeShroom/FumeShroomAttack/FumeShroomAttack_5.png" id="22_528ye"]
+[ext_resource type="Texture2D" uid="uid://rae3rmdb2v4a" path="res://resources/graphics/Plants/FumeShroom/FumeShroomAttack/FumeShroomAttack_6.png" id="23_zf04b"]
+[ext_resource type="Texture2D" uid="uid://di4tj4dyu3bqs" path="res://resources/graphics/Plants/FumeShroom/FumeShroomAttack/FumeShroomAttack_7.png" id="24_cdjvp"]
+[ext_resource type="Texture2D" uid="uid://b21qbsbmpafmb" path="res://resources/graphics/Plants/FumeShroom/FumeShroomAttack/FumeShroomAttack_8.png" id="25_eb75j"]
+[ext_resource type="Texture2D" uid="uid://chqjs77sxxpnj" path="res://resources/graphics/Plants/FumeShroom/FumeShroomAttack/FumeShroomAttack_9.png" id="26_1axgt"]
+[ext_resource type="Texture2D" uid="uid://6gw73egxwwq7" path="res://resources/graphics/Plants/FumeShroom/FumeShroomAttack/FumeShroomAttack_10.png" id="27_xm5vv"]
+[ext_resource type="Texture2D" uid="uid://bh77sxfmr43ln" path="res://resources/graphics/Plants/FumeShroom/FumeShroomAttack/FumeShroomAttack_11.png" id="28_hn53j"]
+[ext_resource type="Texture2D" uid="uid://de71aijg3h47n" path="res://resources/graphics/Plants/FumeShroom/FumeShroomAttack/FumeShroomAttack_12.png" id="29_2pwqs"]
+[ext_resource type="Texture2D" uid="uid://c443vamlto02" path="res://resources/graphics/Plants/FumeShroom/FumeShroomAttack/FumeShroomAttack_13.png" id="30_qa2vv"]
+[ext_resource type="Texture2D" uid="uid://djhuqd7afahxf" path="res://resources/graphics/Plants/FumeShroom/FumeShroomAttack/FumeShroomAttack_14.png" id="31_3ge4k"]
+[ext_resource type="Texture2D" uid="uid://diukqh3gn7kn6" path="res://resources/graphics/Plants/FumeShroom/FumeShroomAttack/FumeShroomAttack_15.png" id="32_sftg3"]
+[ext_resource type="Texture2D" uid="uid://dg66m2cnugvjo" path="res://resources/graphics/Plants/FumeShroom/FumeShroomAttack/FumeShroomAttack_16.png" id="33_unwgv"]
+[ext_resource type="Texture2D" uid="uid://cniriia88wsyy" path="res://resources/graphics/Plants/FumeShroom/FumeShroomAttack/FumeShroomAttack_17.png" id="34_woi3u"]
+[ext_resource type="Texture2D" uid="uid://depfb0h3ssup3" path="res://resources/graphics/Plants/FumeShroom/FumeShroomAttack/FumeShroomAttack_18.png" id="35_pm5n5"]
+[ext_resource type="Texture2D" uid="uid://c6w7yykko4rhb" path="res://resources/graphics/Plants/FumeShroom/FumeShroomAttack/FumeShroomAttack_19.png" id="36_f80ei"]
+[ext_resource type="Texture2D" uid="uid://bjnrnfs15h3rc" path="res://resources/graphics/Plants/FumeShroom/FumeShroomAttack/FumeShroomAttack_20.png" id="37_i30p7"]
+[ext_resource type="Texture2D" uid="uid://xwqdvs521drd" path="res://resources/graphics/Plants/FumeShroom/FumeShroomAttack/FumeShroomAttack_21.png" id="38_4ls3r"]
+[ext_resource type="Texture2D" uid="uid://cqoeqgyslk5un" path="res://resources/graphics/Plants/FumeShroom/FumeShroomAttack/FumeShroomAttack_22.png" id="39_shmw9"]
+[ext_resource type="Texture2D" uid="uid://fo0wde86b8xn" path="res://resources/graphics/Plants/FumeShroom/FumeShroomSleep/FumeShroomSleep_0.png" id="40_706qu"]
+[ext_resource type="Texture2D" uid="uid://cqas7rg62yetk" path="res://resources/graphics/Plants/FumeShroom/FumeShroomSleep/FumeShroomSleep_1.png" id="41_s9w87"]
+[ext_resource type="Texture2D" uid="uid://bd4cw3nak3lsx" path="res://resources/graphics/Plants/FumeShroom/FumeShroomSleep/FumeShroomSleep_2.png" id="42_fvl9u"]
+[ext_resource type="Texture2D" uid="uid://ce5dyqpbfeae2" path="res://resources/graphics/Plants/FumeShroom/FumeShroomSleep/FumeShroomSleep_3.png" id="43_e7r0m"]
+[ext_resource type="Texture2D" uid="uid://deguyj6kslx6r" path="res://resources/graphics/Plants/FumeShroom/FumeShroomSleep/FumeShroomSleep_4.png" id="44_3aa56"]
+[ext_resource type="Texture2D" uid="uid://bqc8hi1c1du1n" path="res://resources/graphics/Plants/FumeShroom/FumeShroomSleep/FumeShroomSleep_5.png" id="45_kgco9"]
+[ext_resource type="Texture2D" uid="uid://d0lcok3l25ylo" path="res://resources/graphics/Plants/FumeShroom/FumeShroomSleep/FumeShroomSleep_6.png" id="46_3kfxv"]
+[ext_resource type="Texture2D" uid="uid://n25oah4knedn" path="res://resources/graphics/Plants/FumeShroom/FumeShroomSleep/FumeShroomSleep_7.png" id="47_yckzf"]
+[ext_resource type="Texture2D" uid="uid://ojj7lxo88qhg" path="res://resources/graphics/Plants/FumeShroom/FumeShroomSleep/FumeShroomSleep_8.png" id="48_rkaw0"]
+[ext_resource type="Texture2D" uid="uid://cs6cdvrinbdv8" path="res://resources/graphics/Plants/FumeShroom/FumeShroomSleep/FumeShroomSleep_9.png" id="49_5p9n1"]
+[ext_resource type="Texture2D" uid="uid://cdsnb7o7b1qvx" path="res://resources/graphics/Plants/FumeShroom/FumeShroomSleep/FumeShroomSleep_10.png" id="50_pgeso"]
+[ext_resource type="Texture2D" uid="uid://jndj5iv717o1" path="res://resources/graphics/Plants/FumeShroom/FumeShroomSleep/FumeShroomSleep_11.png" id="51_aa359"]
+[ext_resource type="Texture2D" uid="uid://c4cjpspxt61vf" path="res://resources/graphics/Plants/FumeShroom/FumeShroomSleep/FumeShroomSleep_12.png" id="52_x78wb"]
+[ext_resource type="Texture2D" uid="uid://fq68075x6njr" path="res://resources/graphics/Plants/FumeShroom/FumeShroomSleep/FumeShroomSleep_13.png" id="53_x0s10"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_sdfd3"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_79dlw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_wv5jc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_4ppyh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_bos6e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_4w2ty")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_39idy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_nz6rp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_nzdmh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_ot2ud")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_7twa4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_nwyzx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_ctpih")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_lyoqq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_tvv7v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_8cuyy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_y3yoo")
+}],
+"loop": 1,
+"name": &"FumeShroom",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("17_yzs8g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_uwdol")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_jezsf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_ffn6n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_ka9w9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_528ye")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_zf04b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_cdjvp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_eb75j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_1axgt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_xm5vv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_hn53j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_2pwqs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_qa2vv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_3ge4k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_sftg3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_unwgv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_woi3u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_pm5n5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_f80ei")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_i30p7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_4ls3r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_shmw9")
+}],
+"loop": 0,
+"name": &"FumeShroomAttack",
+"speed": 22.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("40_706qu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_s9w87")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_fvl9u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_e7r0m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_3aa56")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_kgco9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_3kfxv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_yckzf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_rkaw0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_5p9n1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_pgeso")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_aa359")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_x78wb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_x0s10")
+}],
+"loop": 1,
+"name": &"FumeShroomSleep",
+"speed": 10.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_pnqe6"]
+size = Vector2(84, 76)
+
+[node name="FumeShroom" type="Area2D" unique_id=1932605393]
+script = ExtResource("1_v5mef")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1075015755]
+texture_filter = 1
+sprite_frames = SubResource("SpriteFrames_sdfd3")
+animation = &"FumeShroomAttack"
+autoplay = "FumeShroom"
+frame_progress = 0.8096287
+offset = Vector2(0, -44)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=506040347]
+position = Vector2(0, -38)
+shape = SubResource("RectangleShape2D_pnqe6")

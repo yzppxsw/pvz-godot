@@ -1,0 +1,199 @@
+[gd_scene format=3 uid="uid://bl5a5p6k6s2f3"]
+
+[ext_resource type="Script" uid="uid://b6t6aa6exlptb" path="res://Scripts/plants/doomshroom.gd" id="1_6frc7"]
+[ext_resource type="Texture2D" uid="uid://dd8vw57dxa5tr" path="res://resources/graphics/Plants/DoomShroom/DoomShroom/DoomShroom_0.png" id="1_j32j2"]
+[ext_resource type="Texture2D" uid="uid://bjgk6dcb2x63b" path="res://resources/dig_ellipse.png" id="2_fkl8k"]
+[ext_resource type="Texture2D" uid="uid://cvsxo35w8ofvf" path="res://resources/graphics/Plants/DoomShroom/DoomShroom/DoomShroom_1.png" id="2_m6j7h"]
+[ext_resource type="Texture2D" uid="uid://omkc7r40i1ju" path="res://resources/graphics/Plants/DoomShroom/DoomShroom/DoomShroom_2.png" id="3_g5olp"]
+[ext_resource type="Texture2D" uid="uid://cxs38qrnpv127" path="res://resources/graphics/Plants/DoomShroom/DoomShroom/DoomShroom_3.png" id="4_u1b6q"]
+[ext_resource type="Texture2D" uid="uid://b7h8wq3ekdw8r" path="res://resources/graphics/Plants/DoomShroom/DoomShroom/DoomShroom_4.png" id="5_i18lx"]
+[ext_resource type="Texture2D" uid="uid://b5njy3xi8b0bh" path="res://resources/graphics/Plants/DoomShroom/DoomShroom/DoomShroom_5.png" id="6_gpppm"]
+[ext_resource type="Texture2D" uid="uid://cvojwtxr5iwkq" path="res://resources/graphics/Plants/DoomShroom/DoomShroom/DoomShroom_6.png" id="7_6xe8b"]
+[ext_resource type="Texture2D" uid="uid://degpujno1hcmh" path="res://resources/graphics/Plants/DoomShroom/DoomShroom/DoomShroom_7.png" id="8_1i70q"]
+[ext_resource type="Texture2D" uid="uid://xjg3a0sg0cks" path="res://resources/graphics/Plants/DoomShroom/DoomShroom/DoomShroom_8.png" id="9_a0zsl"]
+[ext_resource type="Texture2D" uid="uid://dlwl4c4lo65wh" path="res://resources/graphics/Plants/DoomShroom/DoomShroom/DoomShroom_9.png" id="10_flxfq"]
+[ext_resource type="Texture2D" uid="uid://cpbqf0r4p750h" path="res://resources/graphics/Plants/DoomShroom/DoomShroomSleep/DoomShroomSleep_0.png" id="11_c889s"]
+[ext_resource type="Texture2D" uid="uid://bjjxv1pbia0pq" path="res://resources/graphics/Plants/DoomShroom/DoomShroomSleep/DoomShroomSleep_1.png" id="12_0a6w6"]
+[ext_resource type="Texture2D" uid="uid://dm3d7goppm2sj" path="res://resources/graphics/Plants/DoomShroom/DoomShroomSleep/DoomShroomSleep_2.png" id="13_hmift"]
+[ext_resource type="Texture2D" uid="uid://c5xahpfkbmngw" path="res://resources/graphics/Plants/DoomShroom/DoomShroomSleep/DoomShroomSleep_3.png" id="14_422v0"]
+[ext_resource type="Texture2D" uid="uid://cph48smvpclv" path="res://resources/graphics/Plants/DoomShroom/DoomShroomSleep/DoomShroomSleep_4.png" id="15_j1ow1"]
+[ext_resource type="Texture2D" uid="uid://ch5o7fgot2x65" path="res://resources/graphics/Plants/DoomShroom/DoomShroomSleep/DoomShroomSleep_5.png" id="16_1eokc"]
+[ext_resource type="Texture2D" uid="uid://so0kjdekwsue" path="res://resources/graphics/Plants/DoomShroom/DoomShroomSleep/DoomShroomSleep_6.png" id="17_3rz9c"]
+[ext_resource type="Texture2D" uid="uid://mu0plj7pty8e" path="res://resources/graphics/Plants/DoomShroom/DoomShroomSleep/DoomShroomSleep_7.png" id="18_xch3x"]
+[ext_resource type="Texture2D" uid="uid://cihnp7bgmrpkm" path="res://resources/graphics/Plants/DoomShroom/DoomShroomSleep/DoomShroomSleep_8.png" id="19_tle9v"]
+[ext_resource type="Texture2D" uid="uid://dcmv00ehuojla" path="res://resources/graphics/Plants/DoomShroom/DoomShroomSleep/DoomShroomSleep_9.png" id="20_5rjg4"]
+[ext_resource type="Texture2D" uid="uid://dv7hnanhrswvy" path="res://resources/graphics/Plants/DoomShroom/DoomShroomSleep/DoomShroomSleep_10.png" id="21_n7otg"]
+[ext_resource type="Texture2D" uid="uid://ccf6tyo0rdm7y" path="res://resources/graphics/Plants/DoomShroom/DoomShroomSleep/DoomShroomSleep_11.png" id="22_ku73y"]
+[ext_resource type="Texture2D" uid="uid://cmku0jhngu7wu" path="res://resources/graphics/Plants/DoomShroom/DoomShroomSleep/DoomShroomSleep_12.png" id="23_2pnzn"]
+[ext_resource type="Texture2D" uid="uid://bxnyp1ts8tiym" path="res://resources/graphics/Plants/DoomShroom/DoomShroomSleep/DoomShroomSleep_13.png" id="24_7bma0"]
+[ext_resource type="Texture2D" uid="uid://bpc2vo77v3fqk" path="res://resources/graphics/Plants/DoomShroom/DoomShroomSleep/DoomShroomSleep_14.png" id="25_l7kbe"]
+[ext_resource type="Texture2D" uid="uid://dfixg347jrtjw" path="res://resources/graphics/Plants/DoomShroom/DoomShroomSleep/DoomShroomSleep_15.png" id="26_0q1h7"]
+[ext_resource type="Texture2D" uid="uid://bttrjjen75g3r" path="res://resources/graphics/Plants/DoomShroom/DoomShroomSleep/DoomShroomSleep_16.png" id="27_p3unv"]
+[ext_resource type="Texture2D" uid="uid://npqhougc3y0r" path="res://resources/graphics/Plants/DoomShroom/DoomShroomSleep/DoomShroomSleep_17.png" id="28_zosym"]
+[ext_resource type="Texture2D" uid="uid://cbg8fe6ej15hh" path="res://resources/graphics/Plants/DoomShroom/DoomShroomBoom/DoomShroomBoom_0.png" id="29_70du4"]
+[ext_resource type="Texture2D" uid="uid://djsc1d088mmc8" path="res://resources/graphics/Plants/DoomShroom/DoomShroomBoom/DoomShroomBoom_1.png" id="30_o2z13"]
+[ext_resource type="Texture2D" uid="uid://cfamqp212qopf" path="res://resources/graphics/Plants/DoomShroom/DoomShroomBoom/DoomShroomBoom_2.png" id="31_ykuoc"]
+[ext_resource type="Texture2D" uid="uid://d10fjchxcjpk" path="res://resources/graphics/Plants/DoomShroom/DoomShroomBoom/DoomShroomBoom_3.png" id="32_loj9v"]
+[ext_resource type="Texture2D" uid="uid://cfvxbkcmglhdm" path="res://resources/graphics/Plants/DoomShroom/DoomShroomBoom/DoomShroomBoom_4.png" id="33_raid2"]
+[ext_resource type="Texture2D" uid="uid://dnc3pehwevf5e" path="res://resources/graphics/Plants/DoomShroom/DoomShroomBoom/DoomShroomBoom_5.png" id="34_s896u"]
+[ext_resource type="Texture2D" uid="uid://cvhg42s26sp5b" path="res://resources/graphics/Plants/DoomShroom/DoomShroomBoom/DoomShroomBoom_6.png" id="35_3cgh0"]
+[ext_resource type="Texture2D" uid="uid://dcwtlivuofsev" path="res://resources/graphics/Plants/DoomShroom/DoomShroomBoom/DoomShroomBoom_7.png" id="36_xb634"]
+[ext_resource type="Texture2D" uid="uid://cqpe4qcclifmm" path="res://resources/graphics/Plants/DoomShroom/DoomShroomBoom/DoomShroomBoom_8.png" id="37_rk9ws"]
+[ext_resource type="Texture2D" uid="uid://cc4ue8ostl827" path="res://resources/graphics/Plants/DoomShroom/DoomShroomBoom/DoomShroomBoom_9.png" id="38_ue578"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_1uenx"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_fkl8k")
+}],
+"loop": 1,
+"name": &"Dig",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_j32j2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_m6j7h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_g5olp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_u1b6q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_i18lx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_gpppm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_6xe8b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_1i70q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_a0zsl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_flxfq")
+}],
+"loop": 0,
+"name": &"DoomShroom",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("29_70du4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_o2z13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_ykuoc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_loj9v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_raid2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_s896u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_3cgh0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_xb634")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_rk9ws")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_ue578")
+}],
+"loop": 0,
+"name": &"DoomShroomBoom",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("11_c889s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_0a6w6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_hmift")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_422v0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_j1ow1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_1eokc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_3rz9c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_xch3x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_tle9v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_5rjg4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_n7otg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_ku73y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_2pnzn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_7bma0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_l7kbe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_0q1h7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_p3unv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_zosym")
+}],
+"loop": 1,
+"name": &"DoomShroomSleep",
+"speed": 10.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_a429v"]
+size = Vector2(81, 76)
+
+[node name="DoomShroom" type="Area2D" unique_id=1149630763]
+script = ExtResource("1_6frc7")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=622664263]
+texture_filter = 1
+sprite_frames = SubResource("SpriteFrames_1uenx")
+animation = &"Dig"
+autoplay = "DoomShroom"
+offset = Vector2(0, -46)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1897159341]
+position = Vector2(0, -38)
+shape = SubResource("RectangleShape2D_a429v")

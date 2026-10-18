@@ -1,0 +1,32 @@
+[gd_scene format=3 uid="uid://d3kg0myktc780"]
+
+[ext_resource type="Script" uid="uid://4ys2sq3ii1jg" path="res://Scripts/ui/card_select.gd" id="1_1xrhj"]
+[ext_resource type="Script" uid="uid://o8i64igkvtt1" path="res://Scripts/ui/button.gd" id="2_1xrhj"]
+[ext_resource type="Texture2D" uid="uid://cthcecqqq32cw" path="res://Scene/PanelBackground.png" id="2_a6yfc"]
+[ext_resource type="Texture2D" uid="uid://dq8lkilnos8sb" path="res://resources/graphics/Screen/StartButton.png" id="3_a6yfc"]
+[ext_resource type="Texture2D" uid="uid://dy1tgiia8hyt" path="res://resources/graphics/Screen/StartButton_pressed.png" id="4_381xc"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_mgf14"]
+size = Vector2(155, 36)
+
+[node name="CardSelect" type="Node2D" unique_id=131729014]
+script = ExtResource("1_1xrhj")
+unlock_card_id = 28
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=122573314]
+texture = ExtResource("2_a6yfc")
+centered = false
+
+[node name="StartButton" type="Area2D" parent="." unique_id=716437415]
+script = ExtResource("2_1xrhj")
+texture_normal = ExtResource("3_a6yfc")
+texture_pressed = ExtResource("4_381xc")
+
+[node name="Sprite2D" type="Sprite2D" parent="StartButton" unique_id=1140766346]
+position = Vector2(155, 461)
+texture = ExtResource("3_a6yfc")
+centered = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StartButton" unique_id=1354849274]
+position = Vector2(231, 479)
+shape = SubResource("RectangleShape2D_mgf14")

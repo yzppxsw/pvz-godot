@@ -1,0 +1,145 @@
+[gd_scene format=3 uid="uid://fjo718t3pwx2"]
+
+[ext_resource type="Script" uid="uid://c4gkl3n65cxdd" path="res://Scripts/plants/hypnoshroom.gd" id="1_nwmtu"]
+[ext_resource type="Texture2D" uid="uid://dvd8m246pmjgq" path="res://resources/graphics/Plants/HypnoShroom/HypnoShroom/HypnoShroom_0.png" id="1_pffpe"]
+[ext_resource type="Texture2D" uid="uid://dkai34t0rb1nx" path="res://resources/graphics/Plants/HypnoShroom/HypnoShroom/HypnoShroom_1.png" id="2_ijhyx"]
+[ext_resource type="Texture2D" uid="uid://d24emktypxlnw" path="res://resources/graphics/Plants/HypnoShroom/HypnoShroom/HypnoShroom_2.png" id="3_z1r8c"]
+[ext_resource type="Texture2D" uid="uid://6c12rjwud2ky" path="res://resources/graphics/Plants/HypnoShroom/HypnoShroom/HypnoShroom_3.png" id="4_kv09j"]
+[ext_resource type="Texture2D" uid="uid://cmtf22r4qaiok" path="res://resources/graphics/Plants/HypnoShroom/HypnoShroom/HypnoShroom_4.png" id="5_tl8og"]
+[ext_resource type="Texture2D" uid="uid://cn5jp7k7u8txp" path="res://resources/graphics/Plants/HypnoShroom/HypnoShroom/HypnoShroom_5.png" id="6_7vtme"]
+[ext_resource type="Texture2D" uid="uid://m1x8qahr6rke" path="res://resources/graphics/Plants/HypnoShroom/HypnoShroom/HypnoShroom_6.png" id="7_xhyen"]
+[ext_resource type="Texture2D" uid="uid://chf78csdmhmdg" path="res://resources/graphics/Plants/HypnoShroom/HypnoShroom/HypnoShroom_7.png" id="8_5rvyc"]
+[ext_resource type="Texture2D" uid="uid://1kxi3q0ppuqg" path="res://resources/graphics/Plants/HypnoShroom/HypnoShroom/HypnoShroom_8.png" id="9_o9vcz"]
+[ext_resource type="Texture2D" uid="uid://dqm1sfaaypik5" path="res://resources/graphics/Plants/HypnoShroom/HypnoShroom/HypnoShroom_9.png" id="10_gozma"]
+[ext_resource type="Texture2D" uid="uid://b376pl6k7wu3b" path="res://resources/graphics/Plants/HypnoShroom/HypnoShroom/HypnoShroom_10.png" id="11_iwph9"]
+[ext_resource type="Texture2D" uid="uid://cs8s4m8o4srdw" path="res://resources/graphics/Plants/HypnoShroom/HypnoShroom/HypnoShroom_11.png" id="12_hfcj2"]
+[ext_resource type="Texture2D" uid="uid://dmfngkc2ahs3u" path="res://resources/graphics/Plants/HypnoShroom/HypnoShroom/HypnoShroom_12.png" id="13_1wrby"]
+[ext_resource type="Texture2D" uid="uid://bfqaql3ocbu6e" path="res://resources/graphics/Plants/HypnoShroom/HypnoShroom/HypnoShroom_13.png" id="14_enu73"]
+[ext_resource type="Texture2D" uid="uid://ddjs5tpvsmecb" path="res://resources/graphics/Plants/HypnoShroom/HypnoShroom/HypnoShroom_14.png" id="15_ke1v0"]
+[ext_resource type="Texture2D" uid="uid://g1qp5bgsbq7b" path="res://resources/graphics/Plants/HypnoShroom/HypnoShroomSleep/HypnoShroomSleep_0.png" id="16_rfq2o"]
+[ext_resource type="Texture2D" uid="uid://ctouuma3pt3f0" path="res://resources/graphics/Plants/HypnoShroom/HypnoShroomSleep/HypnoShroomSleep_1.png" id="17_vjyat"]
+[ext_resource type="Texture2D" uid="uid://b3p3kgwk80ni0" path="res://resources/graphics/Plants/HypnoShroom/HypnoShroomSleep/HypnoShroomSleep_2.png" id="18_y3gc7"]
+[ext_resource type="Texture2D" uid="uid://dgwhmmx871i5i" path="res://resources/graphics/Plants/HypnoShroom/HypnoShroomSleep/HypnoShroomSleep_3.png" id="19_ivysf"]
+[ext_resource type="Texture2D" uid="uid://b2f1td4y1xg3q" path="res://resources/graphics/Plants/HypnoShroom/HypnoShroomSleep/HypnoShroomSleep_4.png" id="20_slo7y"]
+[ext_resource type="Texture2D" uid="uid://c5lanb8m50k0b" path="res://resources/graphics/Plants/HypnoShroom/HypnoShroomSleep/HypnoShroomSleep_5.png" id="21_c1np5"]
+[ext_resource type="Texture2D" uid="uid://cnrbd0k04re2b" path="res://resources/graphics/Plants/HypnoShroom/HypnoShroomSleep/HypnoShroomSleep_6.png" id="22_izigo"]
+[ext_resource type="Texture2D" uid="uid://dp1uefn3rxdhr" path="res://resources/graphics/Plants/HypnoShroom/HypnoShroomSleep/HypnoShroomSleep_7.png" id="23_5139x"]
+[ext_resource type="Texture2D" uid="uid://bj4p0foh1b7uf" path="res://resources/graphics/Plants/HypnoShroom/HypnoShroomSleep/HypnoShroomSleep_8.png" id="24_4l8e9"]
+[ext_resource type="Texture2D" uid="uid://um3l1ccipa7b" path="res://resources/graphics/Plants/HypnoShroom/HypnoShroomSleep/HypnoShroomSleep_9.png" id="25_5327u"]
+[ext_resource type="Texture2D" uid="uid://ch1oavdfoitjt" path="res://resources/graphics/Plants/HypnoShroom/HypnoShroomSleep/HypnoShroomSleep_10.png" id="26_jkdmg"]
+[ext_resource type="Texture2D" uid="uid://cee8sg8fngl7d" path="res://resources/graphics/Plants/HypnoShroom/HypnoShroomSleep/HypnoShroomSleep_11.png" id="27_tald6"]
+[ext_resource type="Texture2D" uid="uid://cyeu5vdlse1h0" path="res://resources/graphics/Plants/HypnoShroom/HypnoShroomSleep/HypnoShroomSleep_12.png" id="28_ssis1"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_k952c"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_pffpe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_ijhyx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_z1r8c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_kv09j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_tl8og")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_7vtme")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_xhyen")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_5rvyc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_o9vcz")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_gozma")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_iwph9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_hfcj2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_1wrby")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_enu73")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_ke1v0")
+}],
+"loop": 1,
+"name": &"HypnoShroom",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("16_rfq2o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_vjyat")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_y3gc7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_ivysf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_slo7y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_c1np5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_izigo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_5139x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_4l8e9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_5327u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_jkdmg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_tald6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_ssis1")
+}],
+"loop": 1,
+"name": &"HypnoShroomSleep",
+"speed": 10.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_pjgzd"]
+size = Vector2(56, 75)
+
+[node name="HypnoShroom" type="Area2D" unique_id=1837485442]
+script = ExtResource("1_nwmtu")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1229128611]
+texture_filter = 1
+sprite_frames = SubResource("SpriteFrames_k952c")
+animation = &"HypnoShroom"
+autoplay = "HypnoShroom"
+offset = Vector2(0, -38)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=149467750]
+position = Vector2(2, -38)
+shape = SubResource("RectangleShape2D_pjgzd")

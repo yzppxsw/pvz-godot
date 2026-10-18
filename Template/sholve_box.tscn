@@ -1,0 +1,27 @@
+[gd_scene format=3 uid="uid://oklr7jfu2m06"]
+
+[ext_resource type="Script" uid="uid://oklhga61l8kt" path="res://Scripts/ui/sholve.gd" id="1_4merr"]
+[ext_resource type="Texture2D" uid="uid://d4c71n5plpnpp" path="res://resources/graphics/Screen/shovelBox.png" id="1_5w4gh"]
+[ext_resource type="Texture2D" uid="uid://8oohplo5hehy" path="res://resources/graphics/Screen/shovel.png" id="2_4merr"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_mgf14"]
+size = Vector2(46, 47)
+
+[node name="Sholve" type="Node2D" unique_id=130461576]
+script = ExtResource("1_4merr")
+
+[node name="box" type="Sprite2D" parent="." unique_id=1696538555]
+texture = ExtResource("1_5w4gh")
+
+[node name="sholve_area" type="Area2D" parent="." unique_id=953044349]
+
+[node name="sholve" type="Sprite2D" parent="sholve_area" unique_id=1237254516]
+position = Vector2(-25, 30)
+texture = ExtResource("2_4merr")
+offset = Vector2(25, -30)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="sholve_area" unique_id=1394875672]
+position = Vector2(-1, -2.5)
+shape = SubResource("RectangleShape2D_mgf14")
+
+[connection signal="input_event" from="sholve_area" to="." method="_on_sholve_area_input_event"]

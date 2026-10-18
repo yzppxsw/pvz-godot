@@ -1,0 +1,545 @@
+[gd_scene format=3 uid="uid://ch7vw3328snqa"]
+
+[ext_resource type="Texture2D" uid="uid://bd4ys6os8htnv" path="res://resources/graphics/Zombies/FootballZombie/FootballZombie/FootballZombie_0.png" id="f1"]
+[ext_resource type="Texture2D" uid="uid://bx0hj3a74kjqj" path="res://resources/graphics/Zombies/FootballZombie/FootballZombie/FootballZombie_1.png" id="f2"]
+[ext_resource type="Texture2D" uid="uid://cudic1ylb6oje" path="res://resources/graphics/Zombies/FootballZombie/FootballZombie/FootballZombie_2.png" id="f3"]
+[ext_resource type="Texture2D" uid="uid://c3r8lkcxgf7p6" path="res://resources/graphics/Zombies/FootballZombie/FootballZombie/FootballZombie_3.png" id="f4"]
+[ext_resource type="Texture2D" uid="uid://dd33g117qtrqm" path="res://resources/graphics/Zombies/FootballZombie/FootballZombie/FootballZombie_4.png" id="f5"]
+[ext_resource type="Texture2D" uid="uid://b8pasa3ignp4x" path="res://resources/graphics/Zombies/FootballZombie/FootballZombie/FootballZombie_5.png" id="f6"]
+[ext_resource type="Texture2D" uid="uid://cypos4xdwlyms" path="res://resources/graphics/Zombies/FootballZombie/FootballZombie/FootballZombie_6.png" id="f7"]
+[ext_resource type="Texture2D" uid="uid://b0kuerr2sxhhm" path="res://resources/graphics/Zombies/FootballZombie/FootballZombie/FootballZombie_7.png" id="f8"]
+[ext_resource type="Texture2D" uid="uid://mxiaf084m6ve" path="res://resources/graphics/Zombies/FootballZombie/FootballZombie/FootballZombie_8.png" id="f9"]
+[ext_resource type="Texture2D" uid="uid://dovp4iwj1g416" path="res://resources/graphics/Zombies/FootballZombie/FootballZombie/FootballZombie_9.png" id="f10"]
+[ext_resource type="Texture2D" uid="uid://pkhbbwfgxcvd" path="res://resources/graphics/Zombies/FootballZombie/FootballZombie/FootballZombie_10.png" id="f11"]
+[ext_resource type="Texture2D" uid="uid://k26frwbtj71x" path="res://resources/graphics/Zombies/FootballZombie/FootballZombie/FootballZombie_11.png" id="f12"]
+[ext_resource type="Texture2D" uid="uid://kvatmbuefmcm" path="res://resources/graphics/Zombies/FootballZombie/FootballZombie/FootballZombie_12.png" id="f13"]
+[ext_resource type="Texture2D" uid="uid://bmdlcrwbd2mhm" path="res://resources/graphics/Zombies/FootballZombie/FootballZombie/FootballZombie_13.png" id="f14"]
+[ext_resource type="Texture2D" uid="uid://clx7vgtaypf2m" path="res://resources/graphics/Zombies/FootballZombie/FootballZombie/FootballZombie_14.png" id="f15"]
+[ext_resource type="Texture2D" uid="uid://sfil6vt01jqe" path="res://resources/graphics/Zombies/FootballZombie/FootballZombie/FootballZombie_15.png" id="f16"]
+[ext_resource type="Texture2D" uid="uid://coghf5h58wytq" path="res://resources/graphics/Zombies/FootballZombie/FootballZombie/FootballZombie_16.png" id="f17"]
+[ext_resource type="Texture2D" uid="uid://dv7co1ndiedle" path="res://resources/graphics/Zombies/FootballZombie/FootballZombie/FootballZombie_17.png" id="f18"]
+[ext_resource type="Texture2D" uid="uid://b8mjrqsq5er0h" path="res://resources/graphics/Zombies/FootballZombie/FootballZombie/FootballZombie_18.png" id="f19"]
+[ext_resource type="Texture2D" uid="uid://curqhxmwqagu0" path="res://resources/graphics/Zombies/FootballZombie/FootballZombie/FootballZombie_19.png" id="f20"]
+[ext_resource type="Texture2D" uid="uid://bovsldh6iyim1" path="res://resources/graphics/Zombies/FootballZombie/FootballZombie/FootballZombie_20.png" id="f21"]
+[ext_resource type="Texture2D" uid="uid://bgr2k2ld1xxml" path="res://resources/graphics/Zombies/FootballZombie/FootballZombie/FootballZombie_21.png" id="f22"]
+[ext_resource type="Texture2D" uid="uid://ddhacji2gh6nl" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieAttack/FootballZombieAttack_0.png" id="f23"]
+[ext_resource type="Texture2D" uid="uid://17q7kk84isat" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieAttack/FootballZombieAttack_1.png" id="f24"]
+[ext_resource type="Texture2D" uid="uid://2y3stv28ose7" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieAttack/FootballZombieAttack_2.png" id="f25"]
+[ext_resource type="Texture2D" uid="uid://1nfxq5p1yydu" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieAttack/FootballZombieAttack_3.png" id="f26"]
+[ext_resource type="Texture2D" uid="uid://by8j1p1dqvfw4" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieAttack/FootballZombieAttack_4.png" id="f27"]
+[ext_resource type="Texture2D" uid="uid://bh1y3lfvxramf" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieAttack/FootballZombieAttack_5.png" id="f28"]
+[ext_resource type="Texture2D" uid="uid://cxcj4pytylkhm" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieAttack/FootballZombieAttack_6.png" id="f29"]
+[ext_resource type="Texture2D" uid="uid://csll2pkdjrlkd" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieAttack/FootballZombieAttack_7.png" id="f30"]
+[ext_resource type="Texture2D" uid="uid://xmj1ghwk16k5" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieAttack/FootballZombieAttack_8.png" id="f31"]
+[ext_resource type="Texture2D" uid="uid://cujpb8gljlh3o" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieAttack/FootballZombieAttack_9.png" id="f32"]
+[ext_resource type="Texture2D" uid="uid://dce68yswanrk3" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieAttack/FootballZombieAttack_10.png" id="f33"]
+[ext_resource type="Texture2D" uid="uid://c27kxww00hbyi" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieAttack/FootballZombieAttack_11.png" id="f34"]
+[ext_resource type="Texture2D" uid="uid://dmjx1kcghjmr4" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieAttack/FootballZombieAttack_12.png" id="f35"]
+[ext_resource type="Texture2D" uid="uid://djy8xrd5i3da6" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieAttack/FootballZombieAttack_13.png" id="f36"]
+[ext_resource type="Texture2D" uid="uid://sj5ki65o65cd" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieAttack/FootballZombieAttack_14.png" id="f37"]
+[ext_resource type="Texture2D" uid="uid://b3feuxdmtgp3h" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieAttack/FootballZombieAttack_15.png" id="f38"]
+[ext_resource type="Texture2D" uid="uid://biykb03uymd1x" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieAttack/FootballZombieAttack_16.png" id="f39"]
+[ext_resource type="Texture2D" uid="uid://h4h7lsc6juuf" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieAttack/FootballZombieAttack_17.png" id="f40"]
+[ext_resource type="Texture2D" uid="uid://b56j41knw1rt1" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieAttack/FootballZombieAttack_18.png" id="f41"]
+[ext_resource type="Texture2D" uid="uid://bl6lm4jtgx2q6" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieAttack/FootballZombieAttack_19.png" id="f42"]
+[ext_resource type="Texture2D" uid="uid://b8vw4lk13bbl6" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieDie/FootballZombieDie_0.png" id="f43"]
+[ext_resource type="Texture2D" uid="uid://c8vujex4xotll" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieDie/FootballZombieDie_1.png" id="f44"]
+[ext_resource type="Texture2D" uid="uid://baynyj3vox7id" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieDie/FootballZombieDie_2.png" id="f45"]
+[ext_resource type="Texture2D" uid="uid://dpfa6vkqw0cli" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieDie/FootballZombieDie_3.png" id="f46"]
+[ext_resource type="Texture2D" uid="uid://bp3212c5h4tca" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieDie/FootballZombieDie_4.png" id="f47"]
+[ext_resource type="Texture2D" uid="uid://cfsjh8i188ewk" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieDie/FootballZombieDie_5.png" id="f48"]
+[ext_resource type="Texture2D" uid="uid://demr81r3qhm4c" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieDie/FootballZombieDie_6.png" id="f49"]
+[ext_resource type="Texture2D" uid="uid://crpmicj4m56gd" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieDie/FootballZombieDie_7.png" id="f50"]
+[ext_resource type="Texture2D" uid="uid://bfmk7f2gktikt" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieDie/FootballZombieDie_8.png" id="f51"]
+[ext_resource type="Texture2D" uid="uid://bdtloit5kr14" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieDie/FootballZombieDie_9.png" id="f52"]
+[ext_resource type="Texture2D" uid="uid://b6eogokhlbich" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieDie/FootballZombieDie_10.png" id="f53"]
+[ext_resource type="Texture2D" uid="uid://cwl1pwaxqmndg" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieDie/FootballZombieDie_11.png" id="f54"]
+[ext_resource type="Texture2D" uid="uid://w43bigs83iyd" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieDie/FootballZombieDie_12.png" id="f55"]
+[ext_resource type="Texture2D" uid="uid://drpdubyn8sn6q" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieDie/FootballZombieDie_13.png" id="f56"]
+[ext_resource type="Texture2D" uid="uid://dhofouyl4y8kt" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieDie/FootballZombieDie_14.png" id="f57"]
+[ext_resource type="Texture2D" uid="uid://b8s7ocnwrdd5q" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieDie/FootballZombieDie_15.png" id="f58"]
+[ext_resource type="Texture2D" uid="uid://bnlow1t62lcav" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieLostHead/FootballZombieLostHead_0.png" id="f59"]
+[ext_resource type="Texture2D" uid="uid://7dyy5hvgm83g" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieLostHead/FootballZombieLostHead_1.png" id="f60"]
+[ext_resource type="Texture2D" uid="uid://bv7atawwexmi7" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieLostHead/FootballZombieLostHead_2.png" id="f61"]
+[ext_resource type="Texture2D" uid="uid://dkdoc8nxyyxsc" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieLostHead/FootballZombieLostHead_3.png" id="f62"]
+[ext_resource type="Texture2D" uid="uid://ccw3qkede2h52" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieLostHead/FootballZombieLostHead_4.png" id="f63"]
+[ext_resource type="Texture2D" uid="uid://cprekjqnjst4a" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieLostHead/FootballZombieLostHead_5.png" id="f64"]
+[ext_resource type="Texture2D" uid="uid://bh7axaaytxdi0" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieLostHead/FootballZombieLostHead_6.png" id="f65"]
+[ext_resource type="Texture2D" uid="uid://dvnxie3ouba7x" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieLostHead/FootballZombieLostHead_7.png" id="f66"]
+[ext_resource type="Texture2D" uid="uid://dpn1qn8modoxs" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieLostHead/FootballZombieLostHead_8.png" id="f67"]
+[ext_resource type="Texture2D" uid="uid://dirhko4f4hi7b" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieLostHead/FootballZombieLostHead_9.png" id="f68"]
+[ext_resource type="Texture2D" uid="uid://d0g4d3uivqkm4" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieLostHeadAttack/FootballZombieLostHeadAttack_0.png" id="f69"]
+[ext_resource type="Texture2D" uid="uid://1osb0kk6ewf7" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieLostHeadAttack/FootballZombieLostHeadAttack_1.png" id="f70"]
+[ext_resource type="Texture2D" uid="uid://bun76wkqs6m6y" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieLostHeadAttack/FootballZombieLostHeadAttack_2.png" id="f71"]
+[ext_resource type="Texture2D" uid="uid://cntruhiv8wa0s" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieLostHeadAttack/FootballZombieLostHeadAttack_3.png" id="f72"]
+[ext_resource type="Texture2D" uid="uid://s6dhiwojol1n" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieLostHeadAttack/FootballZombieLostHeadAttack_4.png" id="f73"]
+[ext_resource type="Texture2D" uid="uid://dhpv7l228qojy" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieLostHeadAttack/FootballZombieLostHeadAttack_5.png" id="f74"]
+[ext_resource type="Texture2D" uid="uid://fddlclba5jya" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieLostHeadAttack/FootballZombieLostHeadAttack_6.png" id="f75"]
+[ext_resource type="Texture2D" uid="uid://xbbcvmlc8544" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieLostHeadAttack/FootballZombieLostHeadAttack_7.png" id="f76"]
+[ext_resource type="Texture2D" uid="uid://dl8ff253n1f7d" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieLostHeadAttack/FootballZombieLostHeadAttack_8.png" id="f77"]
+[ext_resource type="Texture2D" uid="uid://dwcmufk4lt8er" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieLostHeadAttack/FootballZombieLostHeadAttack_9.png" id="f78"]
+[ext_resource type="Texture2D" uid="uid://dltxsxqb0alg0" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieLostHelmet/FootballZombieLostHelmet_0.png" id="f79"]
+[ext_resource type="Texture2D" uid="uid://c6u1ug8udch57" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieLostHelmet/FootballZombieLostHelmet_1.png" id="f80"]
+[ext_resource type="Texture2D" uid="uid://bakkuu3q7yqwd" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieLostHelmet/FootballZombieLostHelmet_2.png" id="f81"]
+[ext_resource type="Texture2D" uid="uid://c3ihfpmqn4ilu" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieLostHelmet/FootballZombieLostHelmet_3.png" id="f82"]
+[ext_resource type="Texture2D" uid="uid://dbwc0xhtt4d71" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieLostHelmet/FootballZombieLostHelmet_4.png" id="f83"]
+[ext_resource type="Texture2D" uid="uid://8sqhteqla4yi" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieLostHelmet/FootballZombieLostHelmet_5.png" id="f84"]
+[ext_resource type="Texture2D" uid="uid://b6o1xtf83flgv" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieLostHelmet/FootballZombieLostHelmet_6.png" id="f85"]
+[ext_resource type="Texture2D" uid="uid://ccojxusgctove" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieLostHelmet/FootballZombieLostHelmet_7.png" id="f86"]
+[ext_resource type="Texture2D" uid="uid://digga5mufsbdv" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieLostHelmet/FootballZombieLostHelmet_8.png" id="f87"]
+[ext_resource type="Texture2D" uid="uid://bqmjvavor8lp8" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieLostHelmet/FootballZombieLostHelmet_9.png" id="f88"]
+[ext_resource type="Texture2D" uid="uid://bseaigci1ydyc" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieLostHelmet/FootballZombieLostHelmet_10.png" id="f89"]
+[ext_resource type="Texture2D" uid="uid://bakuc5g8gspp2" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieLostHelmet/FootballZombieLostHelmet_11.png" id="f90"]
+[ext_resource type="Texture2D" uid="uid://c2bukng1mph6w" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieLostHelmet/FootballZombieLostHelmet_12.png" id="f91"]
+[ext_resource type="Texture2D" uid="uid://dga68qlhd1oc3" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieLostHelmet/FootballZombieLostHelmet_13.png" id="f92"]
+[ext_resource type="Texture2D" uid="uid://c6g5f28y6ear3" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieLostHelmet/FootballZombieLostHelmet_14.png" id="f93"]
+[ext_resource type="Texture2D" uid="uid://bxt3asep4ahgi" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieLostHelmet/FootballZombieLostHelmet_15.png" id="f94"]
+[ext_resource type="Texture2D" uid="uid://du56epqxh0tdr" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieLostHelmet/FootballZombieLostHelmet_16.png" id="f95"]
+[ext_resource type="Texture2D" uid="uid://dxpnpac6agyyd" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieLostHelmet/FootballZombieLostHelmet_17.png" id="f96"]
+[ext_resource type="Texture2D" uid="uid://bf65cfp8rv7eq" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieLostHelmet/FootballZombieLostHelmet_18.png" id="f97"]
+[ext_resource type="Texture2D" uid="uid://w1lv78rsqhf4" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieLostHelmet/FootballZombieLostHelmet_19.png" id="f98"]
+[ext_resource type="Texture2D" uid="uid://cmqh5nv3xxqpy" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieLostHelmet/FootballZombieLostHelmet_20.png" id="f99"]
+[ext_resource type="Texture2D" uid="uid://cmomqndhygohs" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieLostHelmet/FootballZombieLostHelmet_21.png" id="f100"]
+[ext_resource type="Texture2D" uid="uid://dwec6swas03ea" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieLostHelmetAttack/FootballZombieLostHelmetAttack_0.png" id="f101"]
+[ext_resource type="Texture2D" uid="uid://c0krkwfmg53mv" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieLostHelmetAttack/FootballZombieLostHelmetAttack_1.png" id="f102"]
+[ext_resource type="Texture2D" uid="uid://ss6dg8ipsbwf" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieLostHelmetAttack/FootballZombieLostHelmetAttack_2.png" id="f103"]
+[ext_resource type="Texture2D" uid="uid://bixwqgluyjrey" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieLostHelmetAttack/FootballZombieLostHelmetAttack_3.png" id="f104"]
+[ext_resource type="Texture2D" uid="uid://cbrvxqwjlx478" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieLostHelmetAttack/FootballZombieLostHelmetAttack_4.png" id="f105"]
+[ext_resource type="Texture2D" uid="uid://b4alq77e8xsdp" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieLostHelmetAttack/FootballZombieLostHelmetAttack_5.png" id="f106"]
+[ext_resource type="Texture2D" uid="uid://bckjtye1fc7hk" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieLostHelmetAttack/FootballZombieLostHelmetAttack_6.png" id="f107"]
+[ext_resource type="Texture2D" uid="uid://bvqbck2he1d7p" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieLostHelmetAttack/FootballZombieLostHelmetAttack_7.png" id="f108"]
+[ext_resource type="Texture2D" uid="uid://b6ltncf173spk" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieLostHelmetAttack/FootballZombieLostHelmetAttack_8.png" id="f109"]
+[ext_resource type="Texture2D" uid="uid://caalce40n4mft" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieLostHelmetAttack/FootballZombieLostHelmetAttack_9.png" id="f110"]
+[ext_resource type="Texture2D" uid="uid://cq2nnsrn6wfpe" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieLostHelmetAttack/FootballZombieLostHelmetAttack_10.png" id="f111"]
+[ext_resource type="Texture2D" uid="uid://ds3frpckves8m" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieLostHelmetAttack/FootballZombieLostHelmetAttack_11.png" id="f112"]
+[ext_resource type="Texture2D" uid="uid://yutji0e1fiao" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieLostHelmetAttack/FootballZombieLostHelmetAttack_12.png" id="f113"]
+[ext_resource type="Texture2D" uid="uid://dladtl8pythbk" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieLostHelmetAttack/FootballZombieLostHelmetAttack_13.png" id="f114"]
+[ext_resource type="Texture2D" uid="uid://cj6bpjj6dp6g1" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieLostHelmetAttack/FootballZombieLostHelmetAttack_14.png" id="f115"]
+[ext_resource type="Texture2D" uid="uid://7ejnvgt6472r" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieLostHelmetAttack/FootballZombieLostHelmetAttack_15.png" id="f116"]
+[ext_resource type="Texture2D" uid="uid://bb5lko2ae4fjb" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieLostHelmetAttack/FootballZombieLostHelmetAttack_16.png" id="f117"]
+[ext_resource type="Texture2D" uid="uid://bpgeb4rhv6v0b" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieLostHelmetAttack/FootballZombieLostHelmetAttack_17.png" id="f118"]
+[ext_resource type="Texture2D" uid="uid://c6cr3ab8wnew8" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieLostHelmetAttack/FootballZombieLostHelmetAttack_18.png" id="f119"]
+[ext_resource type="Texture2D" uid="uid://bo25wotjjqh5g" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieLostHelmetAttack/FootballZombieLostHelmetAttack_19.png" id="f120"]
+[ext_resource type="Texture2D" uid="uid://cfqnj61aeyly0" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieLostHelmetAttack/FootballZombieLostHelmetAttack_20.png" id="f121"]
+[ext_resource type="Texture2D" uid="uid://buspjapq6d4tp" path="res://resources/graphics/Zombies/FootballZombie/FootballZombieLostHelmetAttack/FootballZombieLostHelmetAttack_21.png" id="f122"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_1"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("f1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f22")
+}],
+"loop": 1,
+"name": &"FootballZombie",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("f23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f38")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f39")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f40")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f41")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f42")
+}],
+"loop": 1,
+"name": &"FootballZombieAttack",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("f43")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f44")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f45")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f46")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f47")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f48")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f49")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f50")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f51")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f52")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f53")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f54")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f55")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f56")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f57")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f58")
+}],
+"loop": 1,
+"name": &"FootballZombieDie",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("f59")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f60")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f61")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f62")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f63")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f64")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f65")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f66")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f67")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f68")
+}],
+"loop": 1,
+"name": &"FootballZombieLostHead",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("f69")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f70")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f71")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f72")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f73")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f74")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f75")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f76")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f77")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f78")
+}],
+"loop": 1,
+"name": &"FootballZombieLostHeadAttack",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("f79")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f80")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f81")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f82")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f83")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f84")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f85")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f86")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f87")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f88")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f89")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f90")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f91")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f92")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f93")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f94")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f95")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f96")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f97")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f98")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f99")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f100")
+}],
+"loop": 1,
+"name": &"FootballZombieLostHelmet",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("f101")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f102")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f103")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f104")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f105")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f106")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f107")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f108")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f109")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f110")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f111")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f112")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f113")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f114")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f115")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f116")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f117")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f118")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f119")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f120")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f121")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f122")
+}],
+"loop": 1,
+"name": &"FootballZombieLostHelmetAttack",
+"speed": 10.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1"]
+size = Vector2(92, 157)
+
+[node name="FootballZombie" type="CharacterBody2D" unique_id=203903668]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1204858618]
+texture_filter = 1
+position = Vector2(1.5, 0)
+sprite_frames = SubResource("SpriteFrames_1")
+animation = &"FootballZombie"
+autoplay = "FootballZombie"
+frame_progress = 0.24810547
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=433742976]
+position = Vector2(10, 1.5)
+shape = SubResource("RectangleShape2D_1")

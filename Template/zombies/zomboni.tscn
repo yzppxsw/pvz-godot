@@ -1,0 +1,279 @@
+[gd_scene format=3 uid="uid://8wu9skwi0e1dx"]
+
+[ext_resource type="Texture2D" uid="uid://dw8citj01fu2t" path="res://resources/graphics/Zombies/Zomboni/Zomboni/Zomboni_0.png" id="f1"]
+[ext_resource type="Texture2D" uid="uid://cgdfehl4njrkh" path="res://resources/graphics/Zombies/Zomboni/Zomboni/Zomboni_1.png" id="f2"]
+[ext_resource type="Texture2D" uid="uid://b7yfa1xxsu6k4" path="res://resources/graphics/Zombies/Zomboni/Zomboni/Zomboni_2.png" id="f3"]
+[ext_resource type="Texture2D" uid="uid://ydag74so7wqx" path="res://resources/graphics/Zombies/Zomboni/Zomboni/Zomboni_3.png" id="f4"]
+[ext_resource type="Texture2D" uid="uid://dsx3us35xtk6k" path="res://resources/graphics/Zombies/Zomboni/Zomboni/Zomboni_4.png" id="f5"]
+[ext_resource type="Texture2D" uid="uid://cebw3k83catrx" path="res://resources/graphics/Zombies/Zomboni/Zomboni/Zomboni_5.png" id="f6"]
+[ext_resource type="Texture2D" uid="uid://deadjlcykwmm2" path="res://resources/graphics/Zombies/Zomboni/Zomboni/Zomboni_6.png" id="f7"]
+[ext_resource type="Texture2D" uid="uid://bysl0ypyhdtgb" path="res://resources/graphics/Zombies/Zomboni/Zomboni/Zomboni_7.png" id="f8"]
+[ext_resource type="Texture2D" uid="uid://82w75lc3tlb" path="res://resources/graphics/Zombies/Zomboni/Zomboni/Zomboni_8.png" id="f9"]
+[ext_resource type="Texture2D" uid="uid://dkpdkuttfcwq4" path="res://resources/graphics/Zombies/Zomboni/Zomboni/Zomboni_9.png" id="f10"]
+[ext_resource type="Texture2D" uid="uid://bus1b6p7ikck" path="res://resources/graphics/Zombies/Zomboni/Zomboni/Zomboni_10.png" id="f11"]
+[ext_resource type="Texture2D" uid="uid://b4ichvkl8xv3q" path="res://resources/graphics/Zombies/Zomboni/Zomboni/Zomboni_11.png" id="f12"]
+[ext_resource type="Texture2D" uid="uid://bvlhapqrbxjym" path="res://resources/graphics/Zombies/Zomboni/ZomboniBoomDie/ZomboniBoomDie_0.png" id="f13"]
+[ext_resource type="Texture2D" uid="uid://dbfta26dpfaf2" path="res://resources/graphics/Zombies/Zomboni/ZomboniBoomDie/ZomboniBoomDie_1.png" id="f14"]
+[ext_resource type="Texture2D" uid="uid://c15royv5satp1" path="res://resources/graphics/Zombies/Zomboni/ZomboniBoomDie/ZomboniBoomDie_2.png" id="f15"]
+[ext_resource type="Texture2D" uid="uid://2rni1f7xlywq" path="res://resources/graphics/Zombies/Zomboni/ZomboniBoomDie/ZomboniBoomDie_3.png" id="f16"]
+[ext_resource type="Texture2D" uid="uid://b4toub06hotde" path="res://resources/graphics/Zombies/Zomboni/ZomboniBoomDie/ZomboniBoomDie_4.png" id="f17"]
+[ext_resource type="Texture2D" uid="uid://03gdlleq4idk" path="res://resources/graphics/Zombies/Zomboni/ZomboniBoomDie/ZomboniBoomDie_5.png" id="f18"]
+[ext_resource type="Texture2D" uid="uid://4op3c1blyxmh" path="res://resources/graphics/Zombies/Zomboni/ZomboniBoomDie/ZomboniBoomDie_6.png" id="f19"]
+[ext_resource type="Texture2D" uid="uid://dwb4aretve67j" path="res://resources/graphics/Zombies/Zomboni/ZomboniBoomDie/ZomboniBoomDie_7.png" id="f20"]
+[ext_resource type="Texture2D" uid="uid://dys8lk1lqlj2e" path="res://resources/graphics/Zombies/Zomboni/ZomboniBoomDie/ZomboniBoomDie_8.png" id="f21"]
+[ext_resource type="Texture2D" uid="uid://cskj11plkdaq3" path="res://resources/graphics/Zombies/Zomboni/ZomboniBoomDie/ZomboniBoomDie_9.png" id="f22"]
+[ext_resource type="Texture2D" uid="uid://ikfggppnh4fr" path="res://resources/graphics/Zombies/Zomboni/ZomboniBoomDie/ZomboniBoomDie_10.png" id="f23"]
+[ext_resource type="Texture2D" uid="uid://dys8hx27xji7w" path="res://resources/graphics/Zombies/Zomboni/ZomboniBoomDie/ZomboniBoomDie_11.png" id="f24"]
+[ext_resource type="Texture2D" uid="uid://2b32hqs7juco" path="res://resources/graphics/Zombies/Zomboni/ZomboniBoomDie/ZomboniBoomDie_12.png" id="f25"]
+[ext_resource type="Texture2D" uid="uid://bn1mssxg2pvjl" path="res://resources/graphics/Zombies/Zomboni/ZomboniBoomDie/ZomboniBoomDie_13.png" id="f26"]
+[ext_resource type="Texture2D" uid="uid://dpfgfpyjgetao" path="res://resources/graphics/Zombies/Zomboni/ZomboniBoomDie/ZomboniBoomDie_14.png" id="f27"]
+[ext_resource type="Texture2D" uid="uid://cxylgjkmmptef" path="res://resources/graphics/Zombies/Zomboni/ZomboniBoomDie/ZomboniBoomDie_15.png" id="f28"]
+[ext_resource type="Texture2D" uid="uid://gs7h3g5r085f" path="res://resources/graphics/Zombies/Zomboni/ZomboniDamaged1/ZomboniDamaged1_0.png" id="f29"]
+[ext_resource type="Texture2D" uid="uid://cxhnh0o6h3ck8" path="res://resources/graphics/Zombies/Zomboni/ZomboniDamaged1/ZomboniDamaged1_1.png" id="f30"]
+[ext_resource type="Texture2D" uid="uid://usjra3xrys6d" path="res://resources/graphics/Zombies/Zomboni/ZomboniDamaged1/ZomboniDamaged1_2.png" id="f31"]
+[ext_resource type="Texture2D" uid="uid://bbr1ldpqp07hq" path="res://resources/graphics/Zombies/Zomboni/ZomboniDamaged1/ZomboniDamaged1_3.png" id="f32"]
+[ext_resource type="Texture2D" uid="uid://dn31182h63duh" path="res://resources/graphics/Zombies/Zomboni/ZomboniDamaged1/ZomboniDamaged1_4.png" id="f33"]
+[ext_resource type="Texture2D" uid="uid://wgtf137h2c2f" path="res://resources/graphics/Zombies/Zomboni/ZomboniDamaged1/ZomboniDamaged1_5.png" id="f34"]
+[ext_resource type="Texture2D" uid="uid://dd38oi65wsfx5" path="res://resources/graphics/Zombies/Zomboni/ZomboniDamaged1/ZomboniDamaged1_6.png" id="f35"]
+[ext_resource type="Texture2D" uid="uid://bty5h7aylxp3s" path="res://resources/graphics/Zombies/Zomboni/ZomboniDamaged1/ZomboniDamaged1_7.png" id="f36"]
+[ext_resource type="Texture2D" uid="uid://c6tiv6rtmb3fh" path="res://resources/graphics/Zombies/Zomboni/ZomboniDamaged1/ZomboniDamaged1_8.png" id="f37"]
+[ext_resource type="Texture2D" uid="uid://dxqd0qiv5ofdk" path="res://resources/graphics/Zombies/Zomboni/ZomboniDamaged1/ZomboniDamaged1_9.png" id="f38"]
+[ext_resource type="Texture2D" uid="uid://dsmepgs3v613y" path="res://resources/graphics/Zombies/Zomboni/ZomboniDamaged1/ZomboniDamaged1_10.png" id="f39"]
+[ext_resource type="Texture2D" uid="uid://dof0rvwjyltlx" path="res://resources/graphics/Zombies/Zomboni/ZomboniDamaged2/ZomboniDamaged2_0.png" id="f40"]
+[ext_resource type="Texture2D" uid="uid://bxa27ys7a5nlu" path="res://resources/graphics/Zombies/Zomboni/ZomboniDamaged2/ZomboniDamaged2_1.png" id="f41"]
+[ext_resource type="Texture2D" uid="uid://c2j6vqclvt04k" path="res://resources/graphics/Zombies/Zomboni/ZomboniDamaged2/ZomboniDamaged2_2.png" id="f42"]
+[ext_resource type="Texture2D" uid="uid://bdbnlf7nx477y" path="res://resources/graphics/Zombies/Zomboni/ZomboniDamaged2/ZomboniDamaged2_3.png" id="f43"]
+[ext_resource type="Texture2D" uid="uid://b1u4e0y105ccw" path="res://resources/graphics/Zombies/Zomboni/ZomboniDamaged2/ZomboniDamaged2_4.png" id="f44"]
+[ext_resource type="Texture2D" uid="uid://boq12fugbx3cl" path="res://resources/graphics/Zombies/Zomboni/ZomboniDamaged2/ZomboniDamaged2_5.png" id="f45"]
+[ext_resource type="Texture2D" uid="uid://cmdqla6i6a2sv" path="res://resources/graphics/Zombies/Zomboni/ZomboniDamaged2/ZomboniDamaged2_6.png" id="f46"]
+[ext_resource type="Texture2D" uid="uid://doqubcdg3540l" path="res://resources/graphics/Zombies/Zomboni/ZomboniDamaged2/ZomboniDamaged2_7.png" id="f47"]
+[ext_resource type="Texture2D" uid="uid://ffeaslbf7cc3" path="res://resources/graphics/Zombies/Zomboni/ZomboniDamaged2/ZomboniDamaged2_8.png" id="f48"]
+[ext_resource type="Texture2D" uid="uid://302w0bx4ptow" path="res://resources/graphics/Zombies/Zomboni/ZomboniDamaged2/ZomboniDamaged2_9.png" id="f49"]
+[ext_resource type="Texture2D" uid="uid://depuyqysfewjp" path="res://resources/graphics/Zombies/Zomboni/ZomboniDamaged2/ZomboniDamaged2_10.png" id="f50"]
+[ext_resource type="Texture2D" uid="uid://bd72we4pys7eq" path="res://resources/graphics/Zombies/Zomboni/ZomboniDie/ZomboniDie_0.png" id="f51"]
+[ext_resource type="Texture2D" uid="uid://bgscflstb5k7a" path="res://resources/graphics/Zombies/Zomboni/ZomboniDie/ZomboniDie_1.png" id="f52"]
+[ext_resource type="Texture2D" uid="uid://ci15v7ydj4eh4" path="res://resources/graphics/Zombies/Zomboni/ZomboniDie/ZomboniDie_2.png" id="f53"]
+[ext_resource type="Texture2D" uid="uid://b75c02wjsy4fj" path="res://resources/graphics/Zombies/Zomboni/ZomboniDie/ZomboniDie_3.png" id="f54"]
+[ext_resource type="Texture2D" uid="uid://c1hr4g3a7bjbn" path="res://resources/graphics/Zombies/Zomboni/ZomboniDie/ZomboniDie_4.png" id="f55"]
+[ext_resource type="Texture2D" uid="uid://d034qrq5fcbfl" path="res://resources/graphics/Zombies/Zomboni/ZomboniDie/ZomboniDie_5.png" id="f56"]
+[ext_resource type="Texture2D" uid="uid://clnkpirv6yxg5" path="res://resources/graphics/Zombies/Zomboni/ZomboniDie/ZomboniDie_6.png" id="f57"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_1"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("f1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f12")
+}
+],
+"loop": 1,
+"name": &"Zomboni",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("f13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f28")
+}
+],
+"loop": 1,
+"name": &"ZomboniBoomDie",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("f29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f38")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f39")
+}
+],
+"loop": 1,
+"name": &"ZomboniDamaged1",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("f40")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f41")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f42")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f43")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f44")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f45")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f46")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f47")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f48")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f49")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f50")
+}
+],
+"loop": 1,
+"name": &"ZomboniDamaged2",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("f51")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f52")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f53")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f54")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f55")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f56")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f57")
+}
+],
+"loop": 1,
+"name": &"ZomboniDie",
+"speed": 10.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1"]
+size = Vector2(171, 165)
+
+[node name="Zomboni" type="CharacterBody2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+sprite_frames = SubResource("SpriteFrames_1")
+animation = &"Zomboni"
+autoplay = "Zomboni"
+offset = Vector2(0, 0)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(2.5, 1.0)
+shape = SubResource("RectangleShape2D_1")

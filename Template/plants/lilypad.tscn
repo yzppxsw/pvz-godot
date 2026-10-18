@@ -1,0 +1,78 @@
+[gd_scene format=3 uid="uid://b68vec0x2l5ke"]
+
+[ext_resource type="Texture2D" uid="uid://742pgk5w84yn" path="res://resources/graphics/Plants/LilyPad/LilyPad_0.png" id="1_upr3g"]
+[ext_resource type="Texture2D" uid="uid://bhwwdcd8t6jm6" path="res://resources/graphics/Plants/LilyPad/LilyPad_1.png" id="2_40l30"]
+[ext_resource type="Texture2D" uid="uid://ce824i1ynberx" path="res://resources/graphics/Plants/LilyPad/LilyPad_2.png" id="3_jjcdk"]
+[ext_resource type="Texture2D" uid="uid://berile1vedk1s" path="res://resources/graphics/Plants/LilyPad/LilyPad_3.png" id="4_y398y"]
+[ext_resource type="Texture2D" uid="uid://dyavgfit6yqo0" path="res://resources/graphics/Plants/LilyPad/LilyPad_4.png" id="5_f0pns"]
+[ext_resource type="Texture2D" uid="uid://dsmc5gttkq43d" path="res://resources/graphics/Plants/LilyPad/LilyPad_5.png" id="6_rylmq"]
+[ext_resource type="Texture2D" uid="uid://e0wb60qxhwcc" path="res://resources/graphics/Plants/LilyPad/LilyPad_6.png" id="7_yok7s"]
+[ext_resource type="Texture2D" uid="uid://crrkrnjsublls" path="res://resources/graphics/Plants/LilyPad/LilyPad_7.png" id="8_oazbt"]
+[ext_resource type="Texture2D" uid="uid://ckfg1xn3km60e" path="res://resources/graphics/Plants/LilyPad/LilyPad_8.png" id="9_d1l9v"]
+[ext_resource type="Texture2D" uid="uid://s7miqkof3xow" path="res://resources/graphics/Plants/LilyPad/LilyPad_9.png" id="10_xgi68"]
+[ext_resource type="Texture2D" uid="uid://q4kwre3q7jqf" path="res://resources/graphics/Plants/LilyPad/LilyPad_10.png" id="11_z9xhf"]
+[ext_resource type="Texture2D" uid="uid://wodsc1m7fkpu" path="res://resources/graphics/Plants/LilyPad/LilyPad_11.png" id="12_ezqbe"]
+[ext_resource type="Texture2D" uid="uid://co0466lm22h7h" path="res://resources/graphics/Plants/LilyPad/LilyPad_12.png" id="13_f7ccz"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_2m10s"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_upr3g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_40l30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_jjcdk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_y398y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_f0pns")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_rylmq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_yok7s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_oazbt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_d1l9v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_xgi68")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_z9xhf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_ezqbe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_f7ccz")
+}],
+"loop": 1,
+"name": &"LilyPad",
+"speed": 10.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ixnka"]
+size = Vector2(77, 56)
+
+[node name="LilyPad" type="Area2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+sprite_frames = SubResource("SpriteFrames_2m10s")
+animation = &"LilyPad"
+autoplay = "LilyPad"
+offset = Vector2(0, -32)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -28)
+shape = SubResource("RectangleShape2D_ixnka")

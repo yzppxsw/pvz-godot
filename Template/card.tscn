@@ -1,0 +1,28 @@
+[gd_scene format=3 uid="uid://dessefdcbxl43"]
+
+[ext_resource type="Script" uid="uid://bbuudlx6jjfty" path="res://Scripts/ui/card.gd" id="1_s6arx"]
+[ext_resource type="Texture2D" uid="uid://b14pnm7uagj5b" path="res://resources/graphics/Cards/ordered/01_peashooter.png" id="2_s6arx"]
+[ext_resource type="FontFile" uid="uid://b3aja38hu52t2" path="res://resources/DroidSansFallback.ttf" id="3_07vcp"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_gfm8k"]
+size = Vector2(95.555565, 137.77779)
+
+[node name="Card" type="Area2D" unique_id=600090838]
+scale = Vector2(0.45, 0.45)
+script = ExtResource("1_s6arx")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=791467333]
+texture = ExtResource("2_s6arx")
+centered = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=16470758]
+position = Vector2(50.000008, 68.88889)
+shape = SubResource("RectangleShape2D_gfm8k")
+
+[node name="suncost" type="Label" parent="." unique_id=1077861440]
+offset_left = 20.0
+offset_top = 108.88889
+offset_right = 60.0
+offset_bottom = 134.11111
+theme_override_colors/font_color = Color(0.0121183405, 0.0121183405, 0.0121183405, 1)
+theme_override_fonts/font = ExtResource("3_07vcp")

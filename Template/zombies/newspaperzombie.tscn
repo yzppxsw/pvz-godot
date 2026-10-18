@@ -1,0 +1,449 @@
+[gd_scene format=3 uid="uid://js1j1ay525rb"]
+
+[ext_resource type="Texture2D" uid="uid://c1socbrqomfol" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombie/NewspaperZombie_0.png" id="f1"]
+[ext_resource type="Texture2D" uid="uid://db12n286rels" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombie/NewspaperZombie_1.png" id="f2"]
+[ext_resource type="Texture2D" uid="uid://bpog72i01j2i8" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombie/NewspaperZombie_2.png" id="f3"]
+[ext_resource type="Texture2D" uid="uid://cxrblonuw41dd" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombie/NewspaperZombie_3.png" id="f4"]
+[ext_resource type="Texture2D" uid="uid://yra3sk28ha7a" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombie/NewspaperZombie_4.png" id="f5"]
+[ext_resource type="Texture2D" uid="uid://br48k74xlw73r" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombie/NewspaperZombie_5.png" id="f6"]
+[ext_resource type="Texture2D" uid="uid://b7jj3gpil07rc" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombie/NewspaperZombie_6.png" id="f7"]
+[ext_resource type="Texture2D" uid="uid://cegjt5np8ftgo" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombie/NewspaperZombie_7.png" id="f8"]
+[ext_resource type="Texture2D" uid="uid://d2mwjwil4bteh" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombie/NewspaperZombie_8.png" id="f9"]
+[ext_resource type="Texture2D" uid="uid://fmq4coo4qgiy" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombie/NewspaperZombie_9.png" id="f10"]
+[ext_resource type="Texture2D" uid="uid://c4kl47ajoqx4f" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombie/NewspaperZombie_10.png" id="f11"]
+[ext_resource type="Texture2D" uid="uid://6tmr0nkr0qn3" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombie/NewspaperZombie_11.png" id="f12"]
+[ext_resource type="Texture2D" uid="uid://c7vr1q4smuv6w" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombie/NewspaperZombie_12.png" id="f13"]
+[ext_resource type="Texture2D" uid="uid://c1i7jaa7hv6ej" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombie/NewspaperZombie_13.png" id="f14"]
+[ext_resource type="Texture2D" uid="uid://8e4a4qin5hqu" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombie/NewspaperZombie_14.png" id="f15"]
+[ext_resource type="Texture2D" uid="uid://coxnevvktu2l3" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombie/NewspaperZombie_15.png" id="f16"]
+[ext_resource type="Texture2D" uid="uid://dlxwbcxshc0gh" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombie/NewspaperZombie_16.png" id="f17"]
+[ext_resource type="Texture2D" uid="uid://b128cjb6eptoy" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombie/NewspaperZombie_17.png" id="f18"]
+[ext_resource type="Texture2D" uid="uid://b6vry51nt01a1" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombie/NewspaperZombie_18.png" id="f19"]
+[ext_resource type="Texture2D" uid="uid://dc1j1hh6uu54y" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombieAttack/NewspaperZombieAttack_0.png" id="f20"]
+[ext_resource type="Texture2D" uid="uid://ds6m63cq6vfjk" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombieAttack/NewspaperZombieAttack_1.png" id="f21"]
+[ext_resource type="Texture2D" uid="uid://dqq4m5bj2eb2h" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombieAttack/NewspaperZombieAttack_2.png" id="f22"]
+[ext_resource type="Texture2D" uid="uid://ddj733nx0re0q" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombieAttack/NewspaperZombieAttack_3.png" id="f23"]
+[ext_resource type="Texture2D" uid="uid://byft1wpdh5wr7" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombieAttack/NewspaperZombieAttack_4.png" id="f24"]
+[ext_resource type="Texture2D" uid="uid://bamrv0wtexu0d" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombieAttack/NewspaperZombieAttack_5.png" id="f25"]
+[ext_resource type="Texture2D" uid="uid://dnedfmbw6e2ng" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombieAttack/NewspaperZombieAttack_6.png" id="f26"]
+[ext_resource type="Texture2D" uid="uid://bjw5qviejgo5h" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombieAttack/NewspaperZombieAttack_7.png" id="f27"]
+[ext_resource type="Texture2D" uid="uid://cuu6ue7u32s8c" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombieDie/NewspaperZombieDie_0.png" id="f28"]
+[ext_resource type="Texture2D" uid="uid://dqushbmo1nvtd" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombieDie/NewspaperZombieDie_1.png" id="f29"]
+[ext_resource type="Texture2D" uid="uid://bjumvsxjmdn77" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombieDie/NewspaperZombieDie_2.png" id="f30"]
+[ext_resource type="Texture2D" uid="uid://clrex62ptm4wx" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombieDie/NewspaperZombieDie_3.png" id="f31"]
+[ext_resource type="Texture2D" uid="uid://dg78i1bcmih5b" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombieDie/NewspaperZombieDie_4.png" id="f32"]
+[ext_resource type="Texture2D" uid="uid://cfr4x11twebrg" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombieDie/NewspaperZombieDie_5.png" id="f33"]
+[ext_resource type="Texture2D" uid="uid://cukqs26tw652i" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombieDie/NewspaperZombieDie_6.png" id="f34"]
+[ext_resource type="Texture2D" uid="uid://dab0ptdjxrkag" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombieDie/NewspaperZombieDie_7.png" id="f35"]
+[ext_resource type="Texture2D" uid="uid://ds21xdptxvw50" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombieDie/NewspaperZombieDie_8.png" id="f36"]
+[ext_resource type="Texture2D" uid="uid://dutvlgmkw7fxn" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombieDie/NewspaperZombieDie_9.png" id="f37"]
+[ext_resource type="Texture2D" uid="uid://cn5i6ykqqsydt" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombieDie/NewspaperZombieDie_10.png" id="f38"]
+[ext_resource type="Texture2D" uid="uid://dxrn38ck1pl1o" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombieLostHead/NewspaperZombieLostHead_0.png" id="f39"]
+[ext_resource type="Texture2D" uid="uid://bo37f1oror255" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombieLostHead/NewspaperZombieLostHead_1.png" id="f40"]
+[ext_resource type="Texture2D" uid="uid://bh5rnnma8ahq2" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombieLostHead/NewspaperZombieLostHead_2.png" id="f41"]
+[ext_resource type="Texture2D" uid="uid://ljg82mtco8ur" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombieLostHead/NewspaperZombieLostHead_3.png" id="f42"]
+[ext_resource type="Texture2D" uid="uid://cohowkorsau1m" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombieLostHead/NewspaperZombieLostHead_4.png" id="f43"]
+[ext_resource type="Texture2D" uid="uid://btwmxafsqm4ho" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombieLostHead/NewspaperZombieLostHead_5.png" id="f44"]
+[ext_resource type="Texture2D" uid="uid://cjysqdx4d1jxc" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombieLostHead/NewspaperZombieLostHead_6.png" id="f45"]
+[ext_resource type="Texture2D" uid="uid://cjiyt2soa0ivn" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombieLostHead/NewspaperZombieLostHead_7.png" id="f46"]
+[ext_resource type="Texture2D" uid="uid://fyfsx86y17fa" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombieLostHead/NewspaperZombieLostHead_8.png" id="f47"]
+[ext_resource type="Texture2D" uid="uid://p4ad384hklwf" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombieLostHead/NewspaperZombieLostHead_9.png" id="f48"]
+[ext_resource type="Texture2D" uid="uid://debt6an818rgx" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombieLostHead/NewspaperZombieLostHead_10.png" id="f49"]
+[ext_resource type="Texture2D" uid="uid://b2l0ho3kd6jdt" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombieLostHead/NewspaperZombieLostHead_11.png" id="f50"]
+[ext_resource type="Texture2D" uid="uid://spnrxbdq5x6y" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombieLostHead/NewspaperZombieLostHead_12.png" id="f51"]
+[ext_resource type="Texture2D" uid="uid://d36p45b47nubv" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombieLostHead/NewspaperZombieLostHead_13.png" id="f52"]
+[ext_resource type="Texture2D" uid="uid://bk4hdcel2jkxp" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombieLostHead/NewspaperZombieLostHead_14.png" id="f53"]
+[ext_resource type="Texture2D" uid="uid://b8rdsdyr8ptij" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombieLostHead/NewspaperZombieLostHead_15.png" id="f54"]
+[ext_resource type="Texture2D" uid="uid://c0sn3jbc0mi2n" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombieLostHeadAttack/NewspaperZombieLostHeadAttack_0.png" id="f55"]
+[ext_resource type="Texture2D" uid="uid://1pnf2jxvjhvs" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombieLostHeadAttack/NewspaperZombieLostHeadAttack_1.png" id="f56"]
+[ext_resource type="Texture2D" uid="uid://dodpklw44w7if" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombieLostHeadAttack/NewspaperZombieLostHeadAttack_2.png" id="f57"]
+[ext_resource type="Texture2D" uid="uid://d0cp1gho5uus7" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombieLostHeadAttack/NewspaperZombieLostHeadAttack_3.png" id="f58"]
+[ext_resource type="Texture2D" uid="uid://dxber2uxr8eij" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombieLostHeadAttack/NewspaperZombieLostHeadAttack_4.png" id="f59"]
+[ext_resource type="Texture2D" uid="uid://cbcpq6ffuiyrp" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombieLostHeadAttack/NewspaperZombieLostHeadAttack_5.png" id="f60"]
+[ext_resource type="Texture2D" uid="uid://wwurd1ulf38y" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombieLostHeadAttack/NewspaperZombieLostHeadAttack_6.png" id="f61"]
+[ext_resource type="Texture2D" uid="uid://doiygt40cxwb3" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombieLostNewspaper/NewspaperZombieLostNewspaper_0.png" id="f62"]
+[ext_resource type="Texture2D" uid="uid://b6p175kvxbv7t" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombieLostNewspaper/NewspaperZombieLostNewspaper_1.png" id="f63"]
+[ext_resource type="Texture2D" uid="uid://db3u0flo4fbbh" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombieLostNewspaper/NewspaperZombieLostNewspaper_2.png" id="f64"]
+[ext_resource type="Texture2D" uid="uid://cfpb5vxsxhrun" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombieLostNewspaper/NewspaperZombieLostNewspaper_3.png" id="f65"]
+[ext_resource type="Texture2D" uid="uid://vhs7mutuxyec" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombieLostNewspaper/NewspaperZombieLostNewspaper_4.png" id="f66"]
+[ext_resource type="Texture2D" uid="uid://dcl64hms7bwti" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombieLostNewspaper/NewspaperZombieLostNewspaper_5.png" id="f67"]
+[ext_resource type="Texture2D" uid="uid://cde5rylgytwl1" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombieLostNewspaper/NewspaperZombieLostNewspaper_6.png" id="f68"]
+[ext_resource type="Texture2D" uid="uid://kwkpsr0u0t6r" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombieLostNewspaper/NewspaperZombieLostNewspaper_7.png" id="f69"]
+[ext_resource type="Texture2D" uid="uid://bpdxe46n6dd4k" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombieLostNewspaper/NewspaperZombieLostNewspaper_8.png" id="f70"]
+[ext_resource type="Texture2D" uid="uid://quybwf6gp15n" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombieLostNewspaper/NewspaperZombieLostNewspaper_9.png" id="f71"]
+[ext_resource type="Texture2D" uid="uid://c4cnfchydhds3" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombieLostNewspaper/NewspaperZombieLostNewspaper_10.png" id="f72"]
+[ext_resource type="Texture2D" uid="uid://ckr3tss86pv2r" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombieLostNewspaper/NewspaperZombieLostNewspaper_11.png" id="f73"]
+[ext_resource type="Texture2D" uid="uid://de6tui28yfr1h" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombieLostNewspaper/NewspaperZombieLostNewspaper_12.png" id="f74"]
+[ext_resource type="Texture2D" uid="uid://dfxnqwpx0f6xn" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombieLostNewspaper/NewspaperZombieLostNewspaper_13.png" id="f75"]
+[ext_resource type="Texture2D" uid="uid://blr6gbgbp3xnk" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombieLostNewspaper/NewspaperZombieLostNewspaper_14.png" id="f76"]
+[ext_resource type="Texture2D" uid="uid://8baifoe4a1jy" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombieNoPaper/NewspaperZombieNoPaper_0.png" id="f77"]
+[ext_resource type="Texture2D" uid="uid://duchgiha5hq1" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombieNoPaper/NewspaperZombieNoPaper_1.png" id="f78"]
+[ext_resource type="Texture2D" uid="uid://b6hrjdpbgfkfj" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombieNoPaper/NewspaperZombieNoPaper_2.png" id="f79"]
+[ext_resource type="Texture2D" uid="uid://dwtyr2qsbpf8s" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombieNoPaper/NewspaperZombieNoPaper_3.png" id="f80"]
+[ext_resource type="Texture2D" uid="uid://c0p4rejrcmylp" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombieNoPaper/NewspaperZombieNoPaper_4.png" id="f81"]
+[ext_resource type="Texture2D" uid="uid://k7mpnt35ufti" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombieNoPaper/NewspaperZombieNoPaper_5.png" id="f82"]
+[ext_resource type="Texture2D" uid="uid://b450hqd60x2pt" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombieNoPaper/NewspaperZombieNoPaper_6.png" id="f83"]
+[ext_resource type="Texture2D" uid="uid://c747uacosk1ov" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombieNoPaper/NewspaperZombieNoPaper_7.png" id="f84"]
+[ext_resource type="Texture2D" uid="uid://bo0tjbxkcn384" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombieNoPaper/NewspaperZombieNoPaper_8.png" id="f85"]
+[ext_resource type="Texture2D" uid="uid://bpntmki36hurq" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombieNoPaper/NewspaperZombieNoPaper_9.png" id="f86"]
+[ext_resource type="Texture2D" uid="uid://kpbllc1h6o8d" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombieNoPaper/NewspaperZombieNoPaper_10.png" id="f87"]
+[ext_resource type="Texture2D" uid="uid://5c17lcbrbgl7" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombieNoPaper/NewspaperZombieNoPaper_11.png" id="f88"]
+[ext_resource type="Texture2D" uid="uid://n26na0failtl" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombieNoPaper/NewspaperZombieNoPaper_12.png" id="f89"]
+[ext_resource type="Texture2D" uid="uid://ds8grvcm7di32" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombieNoPaper/NewspaperZombieNoPaper_13.png" id="f90"]
+[ext_resource type="Texture2D" uid="uid://b6m5bgub7e3sm" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombieNoPaperAttack/NewspaperZombieNoPaperAttack_0.png" id="f91"]
+[ext_resource type="Texture2D" uid="uid://6r3c6acluavx" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombieNoPaperAttack/NewspaperZombieNoPaperAttack_1.png" id="f92"]
+[ext_resource type="Texture2D" uid="uid://bpj0ick3te43b" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombieNoPaperAttack/NewspaperZombieNoPaperAttack_2.png" id="f93"]
+[ext_resource type="Texture2D" uid="uid://g5sskt8rrnkh" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombieNoPaperAttack/NewspaperZombieNoPaperAttack_3.png" id="f94"]
+[ext_resource type="Texture2D" uid="uid://duvuy61v6u6xr" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombieNoPaperAttack/NewspaperZombieNoPaperAttack_4.png" id="f95"]
+[ext_resource type="Texture2D" uid="uid://dbxig1qgdba6j" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombieNoPaperAttack/NewspaperZombieNoPaperAttack_5.png" id="f96"]
+[ext_resource type="Texture2D" uid="uid://btlykxrqd74yu" path="res://resources/graphics/Zombies/NewspaperZombie/NewspaperZombieNoPaperAttack/NewspaperZombieNoPaperAttack_6.png" id="f97"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_1"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("f1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f19")
+}],
+"loop": 1,
+"name": &"NewspaperZombie",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("f20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f27")
+}],
+"loop": 1,
+"name": &"NewspaperZombieAttack",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("f28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f38")
+}],
+"loop": 1,
+"name": &"NewspaperZombieDie",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("f39")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f40")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f41")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f42")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f43")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f44")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f45")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f46")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f47")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f48")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f49")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f50")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f51")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f52")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f53")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f54")
+}],
+"loop": 1,
+"name": &"NewspaperZombieLostHead",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("f55")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f56")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f57")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f58")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f59")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f60")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f61")
+}],
+"loop": 1,
+"name": &"NewspaperZombieLostHeadAttack",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("f62")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f63")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f64")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f65")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f66")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f67")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f68")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f69")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f70")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f71")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f72")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f73")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f74")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f75")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f76")
+}],
+"loop": 0,
+"name": &"NewspaperZombieLostNewspaper",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("f77")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f78")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f79")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f80")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f81")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f82")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f83")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f84")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f85")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f86")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f87")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f88")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f89")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f90")
+}],
+"loop": 1,
+"name": &"NewspaperZombieNoPaper",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("f91")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f92")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f93")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f94")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f95")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f96")
+}, {
+"duration": 1.0,
+"texture": ExtResource("f97")
+}],
+"loop": 1,
+"name": &"NewspaperZombieNoPaperAttack",
+"speed": 10.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1"]
+size = Vector2(93, 123)
+
+[node name="NewspaperZombie" type="CharacterBody2D" unique_id=952240927]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1818266026]
+texture_filter = 1
+sprite_frames = SubResource("SpriteFrames_1")
+animation = &"NewspaperZombie"
+autoplay = "NewspaperZombie"
+frame_progress = 0.12696816
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1792886964]
+position = Vector2(-13.5, 14.5)
+shape = SubResource("RectangleShape2D_1")

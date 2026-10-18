@@ -1,0 +1,81 @@
+[gd_scene format=3 uid="uid://btw8iecstlk4q"]
+
+[ext_resource type="Script" uid="uid://l3eu4l8bcox4" path="res://Scripts/plants/peashooter.gd" id="1_al6uf"]
+[ext_resource type="Texture2D" uid="uid://coe732wdqsefu" path="res://resources/graphics/Plants/Peashooter/Peashooter_0.png" id="1_elmbd"]
+[ext_resource type="Texture2D" uid="uid://nfhgpcdicafk" path="res://resources/graphics/Plants/Peashooter/Peashooter_1.png" id="2_q8g7e"]
+[ext_resource type="Texture2D" uid="uid://c3l7177gfpg5s" path="res://resources/graphics/Plants/Peashooter/Peashooter_2.png" id="3_aa04d"]
+[ext_resource type="Texture2D" uid="uid://cylv8g8cqawn8" path="res://resources/graphics/Plants/Peashooter/Peashooter_3.png" id="4_4syj2"]
+[ext_resource type="Texture2D" uid="uid://537hbgfvks2n" path="res://resources/graphics/Plants/Peashooter/Peashooter_4.png" id="5_xf6fc"]
+[ext_resource type="Texture2D" uid="uid://cs01q8lijqyhg" path="res://resources/graphics/Plants/Peashooter/Peashooter_5.png" id="6_vwyj4"]
+[ext_resource type="Texture2D" uid="uid://cp2ugdburop51" path="res://resources/graphics/Plants/Peashooter/Peashooter_6.png" id="7_tx0my"]
+[ext_resource type="Texture2D" uid="uid://cbjim3f1gqcig" path="res://resources/graphics/Plants/Peashooter/Peashooter_7.png" id="8_lyn82"]
+[ext_resource type="Texture2D" uid="uid://cywihtpvi1vxk" path="res://resources/graphics/Plants/Peashooter/Peashooter_8.png" id="9_g02i2"]
+[ext_resource type="Texture2D" uid="uid://bgh4wdcthdivj" path="res://resources/graphics/Plants/Peashooter/Peashooter_9.png" id="10_d0nt2"]
+[ext_resource type="Texture2D" uid="uid://ds38g80ylajlm" path="res://resources/graphics/Plants/Peashooter/Peashooter_10.png" id="11_uw1b4"]
+[ext_resource type="Texture2D" uid="uid://cfbf6x5c7i4ej" path="res://resources/graphics/Plants/Peashooter/Peashooter_11.png" id="12_atd3u"]
+[ext_resource type="Texture2D" uid="uid://ckqxtymukwdwp" path="res://resources/graphics/Plants/Peashooter/Peashooter_12.png" id="13_nwp74"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_mgf14"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_elmbd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_q8g7e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_aa04d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_4syj2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_xf6fc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_vwyj4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_tx0my")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_lyn82")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_g02i2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_d0nt2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_uw1b4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_atd3u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_nwp74")
+}],
+"loop": 1,
+"name": &"Idel",
+"speed": 10.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1ulfw"]
+size = Vector2(53, 70)
+
+[node name="Peashoter" type="Area2D" unique_id=656547970]
+script = ExtResource("1_al6uf")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=464467815]
+texture_filter = 1
+sprite_frames = SubResource("SpriteFrames_mgf14")
+animation = &"Idel"
+autoplay = "Idel"
+frame_progress = 0.6150984
+offset = Vector2(0, -36)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1305597808]
+position = Vector2(-1, -35)
+shape = SubResource("RectangleShape2D_1ulfw")

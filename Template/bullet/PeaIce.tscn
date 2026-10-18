@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://cwqwj2dwhed4d"]
+
+[ext_resource type="Script" uid="uid://dfh1vuoorupdw" path="res://Scripts/bullets/pea_ice.gd" id="1_gsqvy"]
+[ext_resource type="Texture2D" uid="uid://bvpr0s3yu44nu" path="res://resources/graphics/Bullets/PeaIce/PeaIce_0.png" id="1_iqkf0"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_mgf14"]
+
+[node name="PeaIce" type="Area2D" unique_id=270270253]
+script = ExtResource("1_gsqvy")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1320028090]
+texture = ExtResource("1_iqkf0")
+offset = Vector2(-12, 0)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=11906528]
+shape = SubResource("CircleShape2D_mgf14")
+
+[connection signal="body_entered" from="." to="." method="_on_Area2D_body_entered"]

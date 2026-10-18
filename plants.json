@@ -1,0 +1,349 @@
+{
+	"meta": {
+		"name": "植物数据清单",
+		"game": "植物大战僵尸 1 代",
+		"order_by": "原版冒险模式解锁顺序（经网络查证）",
+		"cooldown_unit": "秒"
+	},
+	"plants": [
+		{
+			"id": 1.0,
+			"key": "peashooter",
+			"name_cn": "豌豆射手",
+			"name_en": "Peashooter",
+			"unlock": "1-1",
+			"sun_cost": 100.0,
+			"cooldown_s": 7.5,
+			"card": "res://resources/graphics/Cards/ordered/01_peashooter.png",
+			"scene": "res://Template/plants/peashooter.tscn"
+		},
+		{
+			"id": 2.0,
+			"key": "sunflower",
+			"name_cn": "向日葵",
+			"name_en": "Sunflower",
+			"unlock": "1-1",
+			"sun_cost": 50.0,
+			"cooldown_s": 7.5,
+			"card": "res://resources/graphics/Cards/ordered/02_sunflower.png",
+			"scene": "res://Template/plants/sunflower.tscn"
+		},
+		{
+			"id": 3.0,
+			"key": "cherrybomb",
+			"name_cn": "樱桃炸弹",
+			"name_en": "Cherry Bomb",
+			"unlock": "1-2",
+			"sun_cost": 150.0,
+			"cooldown_s": 50.0,
+			"card": "res://resources/graphics/Cards/ordered/03_cherrybomb.png",
+			"scene": "res://Template/plants/cherrybomb.tscn"
+		},
+		{
+			"id": 4.0,
+			"key": "wallnut",
+			"name_cn": "坚果墙",
+			"name_en": "Wall-nut",
+			"unlock": "1-3",
+			"sun_cost": 50.0,
+			"cooldown_s": 30.0,
+			"card": "res://resources/graphics/Cards/ordered/04_wallnut.png",
+			"scene": "res://Template/plants/wallnut.tscn"
+		},
+		{
+			"id": 5.0,
+			"key": "potatomine",
+			"name_cn": "土豆雷",
+			"name_en": "Potato Mine",
+			"unlock": "1-5",
+			"sun_cost": 25.0,
+			"cooldown_s": 30.0,
+			"card": "res://resources/graphics/Cards/ordered/05_potatomine.png",
+			"scene": "res://Template/plants/potatomine.tscn"
+		},
+		{
+			"id": 6.0,
+			"key": "snowpea",
+			"name_cn": "寒冰射手",
+			"name_en": "Snow Pea",
+			"unlock": "1-6",
+			"sun_cost": 175.0,
+			"cooldown_s": 7.5,
+			"card": "res://resources/graphics/Cards/ordered/06_snowpea.png",
+			"scene": "res://Template/plants/snowpea.tscn"
+		},
+		{
+			"id": 7.0,
+			"key": "chomper",
+			"name_cn": "大嘴花",
+			"name_en": "Chomper",
+			"unlock": "1-7",
+			"sun_cost": 150.0,
+			"cooldown_s": 7.5,
+			"card": "res://resources/graphics/Cards/ordered/07_chomper.png",
+			"scene": "res://Template/plants/chomper.tscn"
+		},
+		{
+			"id": 8.0,
+			"key": "repeaterpea",
+			"name_cn": "双发射手",
+			"name_en": "Repeater",
+			"unlock": "1-8",
+			"sun_cost": 200.0,
+			"cooldown_s": 7.5,
+			"card": "res://resources/graphics/Cards/ordered/08_repeaterpea.png",
+			"scene": "res://Template/plants/repeaterpea.tscn"
+		},
+		{
+			"id": 9.0,
+			"key": "puffshroom",
+			"name_cn": "小喷菇",
+			"name_en": "Puff-shroom",
+			"unlock": "1-10",
+			"sun_cost": 0.0,
+			"cooldown_s": 2.0,
+			"card": "res://resources/graphics/Cards/ordered/09_puffshroom.png",
+			"scene": "res://Template/plants/puffshroom.tscn"
+		},
+		{
+			"id": 10.0,
+			"key": "sunshroom",
+			"name_cn": "阳光菇",
+			"name_en": "Sun-shroom",
+			"unlock": "2-1",
+			"sun_cost": 25.0,
+			"cooldown_s": 7.5,
+			"card": "res://resources/graphics/Cards/ordered/10_sunshroom.png",
+			"scene": "res://Template/plants/sunshroom.tscn"
+		},
+		{
+			"id": 11.0,
+			"key": "fumeshroom",
+			"name_cn": "大喷菇",
+			"name_en": "Fume-shroom",
+			"unlock": "2-2",
+			"sun_cost": 75.0,
+			"cooldown_s": 7.5,
+			"card": "res://resources/graphics/Cards/ordered/11_fumeshroom.png",
+			"scene": "res://Template/plants/fumeshroom.tscn"
+		},
+		{
+			"id": 12.0,
+			"key": "gravebuster",
+			"name_cn": "墓碑吞噬者",
+			"name_en": "Grave Buster",
+			"unlock": "2-3",
+			"sun_cost": 75.0,
+			"cooldown_s": 7.5,
+			"card": "res://resources/graphics/Cards/ordered/12_gravebuster.png",
+			"scene": "res://Template/plants/gravebuster.tscn"
+		},
+		{
+			"id": 13.0,
+			"key": "hypnoshroom",
+			"name_cn": "催眠菇",
+			"name_en": "Hypno-shroom",
+			"unlock": "2-5",
+			"sun_cost": 75.0,
+			"cooldown_s": 30.0,
+			"card": "res://resources/graphics/Cards/ordered/13_hypnoshroom.png",
+			"scene": "res://Template/plants/hypnoshroom.tscn"
+		},
+		{
+			"id": 14.0,
+			"key": "scaredyshroom",
+			"name_cn": "胆小菇",
+			"name_en": "Scaredy-shroom",
+			"unlock": "2-6",
+			"sun_cost": 25.0,
+			"cooldown_s": 7.5,
+			"card": "res://resources/graphics/Cards/ordered/14_scaredyshroom.png",
+			"scene": "res://Template/plants/scaredyshroom.tscn"
+		},
+		{
+			"id": 15.0,
+			"key": "iceshroom",
+			"name_cn": "寒冰菇",
+			"name_en": "Ice-shroom",
+			"unlock": "2-7",
+			"sun_cost": 75.0,
+			"cooldown_s": 50.0,
+			"card": "res://resources/graphics/Cards/ordered/15_iceshroom.png",
+			"scene": "res://Template/plants/iceshroom.tscn"
+		},
+		{
+			"id": 16.0,
+			"key": "doomshroom",
+			"name_cn": "毁灭菇",
+			"name_en": "Doom-shroom",
+			"unlock": "2-8",
+			"sun_cost": 125.0,
+			"cooldown_s": 50.0,
+			"card": "res://resources/graphics/Cards/ordered/16_doomshroom.png",
+			"scene": "res://Template/plants/doomshroom.tscn"
+		},
+		{
+			"id": 17.0,
+			"key": "lilypad",
+			"name_cn": "荷叶",
+			"name_en": "Lily Pad",
+			"unlock": "2-10",
+			"sun_cost": 25.0,
+			"cooldown_s": 7.5,
+			"card": "res://resources/graphics/Cards/ordered/17_lilypad.png",
+			"scene": "res://Template/plants/lilypad.tscn"
+		},
+		{
+			"id": 18.0,
+			"key": "squash",
+			"name_cn": "倭瓜",
+			"name_en": "Squash",
+			"unlock": "3-1",
+			"sun_cost": 50.0,
+			"cooldown_s": 30.0,
+			"card": "res://resources/graphics/Cards/ordered/18_squash.png",
+			"scene": "res://Template/plants/squash.tscn"
+		},
+		{
+			"id": 19.0,
+			"key": "threepeashooter",
+			"name_cn": "三线射手",
+			"name_en": "Threepeater",
+			"unlock": "3-2",
+			"sun_cost": 325.0,
+			"cooldown_s": 7.5,
+			"card": "res://resources/graphics/Cards/ordered/19_threepeashooter.png",
+			"scene": "res://Template/plants/threepeashooter.tscn"
+		},
+		{
+			"id": 20.0,
+			"key": "tangleklep",
+			"name_cn": "缠绕海草",
+			"name_en": "Tangle Kelp",
+			"unlock": "3-3",
+			"sun_cost": 25.0,
+			"cooldown_s": 30.0,
+			"card": "res://resources/graphics/Cards/ordered/20_tangleklep.png",
+			"scene": "res://Template/plants/tangleklep.tscn"
+		},
+		{
+			"id": 21.0,
+			"key": "jalapeno",
+			"name_cn": "火爆辣椒",
+			"name_en": "Jalapeno",
+			"unlock": "3-5",
+			"sun_cost": 125.0,
+			"cooldown_s": 50.0,
+			"card": "res://resources/graphics/Cards/ordered/21_jalapeno.png",
+			"scene": "res://Template/plants/jalapeno.tscn"
+		},
+		{
+			"id": 22.0,
+			"key": "spikeweed",
+			"name_cn": "地刺",
+			"name_en": "Spikeweed",
+			"unlock": "3-6",
+			"sun_cost": 100.0,
+			"cooldown_s": 7.5,
+			"card": "res://resources/graphics/Cards/ordered/22_spikeweed.png",
+			"scene": "res://Template/plants/spikeweed.tscn"
+		},
+		{
+			"id": 23.0,
+			"key": "torchwood",
+			"name_cn": "火炬树桩",
+			"name_en": "Torchwood",
+			"unlock": "3-7",
+			"sun_cost": 175.0,
+			"cooldown_s": 7.5,
+			"card": "res://resources/graphics/Cards/ordered/23_torchwood.png",
+			"scene": "res://Template/plants/torchwood.tscn"
+		},
+		{
+			"id": 24.0,
+			"key": "tallnut",
+			"name_cn": "高坚果",
+			"name_en": "Tall-nut",
+			"unlock": "3-8",
+			"sun_cost": 125.0,
+			"cooldown_s": 30.0,
+			"card": "res://resources/graphics/Cards/ordered/24_tallnut.png",
+			"scene": "res://Template/plants/tallnut.tscn"
+		},
+		{
+			"id": 25.0,
+			"key": "seashroom",
+			"name_cn": "海蘑菇",
+			"name_en": "Sea-shroom",
+			"unlock": "4-1",
+			"sun_cost": 0.0,
+			"cooldown_s": 2.0,
+			"card": "res://resources/graphics/Cards/ordered/25_seashroom.png",
+			"scene": "res://Template/plants/seashroom.tscn"
+		},
+		{
+			"id": 26.0,
+			"key": "starfruit",
+			"name_cn": "杨桃",
+			"name_en": "Starfruit",
+			"unlock": "4-6",
+			"sun_cost": 125.0,
+			"cooldown_s": 7.5,
+			"card": "res://resources/graphics/Cards/ordered/26_starfruit.png",
+			"scene": "res://Template/plants/starfruit.tscn"
+		},
+		{
+			"id": 27.0,
+			"key": "pumpkinhead",
+			"name_cn": "南瓜头",
+			"name_en": "Pumpkin",
+			"unlock": "4-7",
+			"sun_cost": 125.0,
+			"cooldown_s": 30.0,
+			"card": "res://resources/graphics/Cards/ordered/27_pumpkinhead.png",
+			"scene": "res://Template/plants/pumpkinhead.tscn"
+		},
+		{
+			"id": 28.0,
+			"key": "coffeebean",
+			"name_cn": "咖啡豆",
+			"name_en": "Coffee Bean",
+			"unlock": "5-3",
+			"sun_cost": 75.0,
+			"cooldown_s": 7.5,
+			"card": "res://resources/graphics/Cards/ordered/28_coffeebean.png",
+			"scene": "res://Template/plants/coffeebean.tscn"
+		},
+		{
+			"id": 29.0,
+			"key": "garlic",
+			"name_cn": "大蒜",
+			"name_en": "Garlic",
+			"unlock": "5-5",
+			"sun_cost": 50.0,
+			"cooldown_s": 7.5,
+			"card": "res://resources/graphics/Cards/ordered/29_garlic.png",
+			"scene": "res://Template/plants/garlic.tscn"
+		}
+	],
+	"special": [
+		{
+			"id": 100.0,
+			"key": "giantwallnut",
+			"name_cn": "巨型坚果",
+			"name_en": "Giant Wall-nut",
+			"sun_cost": 150.0,
+			"cooldown_s": 30.0,
+			"card": "res://resources/graphics/Cards/ordered/special/01_giantwallnut.png"
+		},
+		{
+			"id": 101.0,
+			"key": "redwallnut",
+			"name_cn": "红坚果",
+			"name_en": "Red Wall-nut (Doom Nut)",
+			"sun_cost": 50.0,
+			"cooldown_s": 30.0,
+			"card": "res://resources/graphics/Cards/ordered/special/02_redwallnut.png"
+		}
+	]
+}
