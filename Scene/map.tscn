@@ -8,6 +8,7 @@
 [ext_resource type="Script" uid="uid://d0ywrhwt7lw45" path="res://Scripts/zombies/zombiespawner.gd" id="6_54rcs"]
 [ext_resource type="Script" uid="uid://dqlsh0l3i84q0" path="res://Scripts/sun/sunspawner.gd" id="7_31wal"]
 [ext_resource type="Script" uid="uid://xe56h2xyk7ve" path="res://Scripts/map/home.gd" id="8_qftbs"]
+[ext_resource type="PackedScene" uid="uid://dsxff6s7r6oqm" path="res://Template/gameover.tscn" id="9_5vj6g"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_mgf14"]
 size = Vector2(729, 493)
@@ -22,7 +23,7 @@ level = 4
 [node name="Lawn" type="Area2D" parent="." unique_id=1692946844]
 
 [node name="Sprite2D" type="Sprite2D" parent="Lawn" unique_id=2105059883]
-position = Vector2(-200, 0)
+position = Vector2(-201, 1)
 texture = ExtResource("1_7ap1n")
 centered = false
 
@@ -53,3 +54,7 @@ script = ExtResource("8_qftbs")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Home" unique_id=1384021057]
 position = Vector2(2.5, 328)
 shape = SubResource("RectangleShape2D_gfm8k")
+
+[node name="Gameover" parent="." unique_id=69981392 instance=ExtResource("9_5vj6g")]
+visible = false
+position = Vector2(255, 230)

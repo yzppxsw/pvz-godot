@@ -14,3 +14,4 @@ func zombie_come_home(body: Node2D) -> void:
 	if body is Zombie:
 		print("zombie come home")
 		Gamedata.game_over = true
+		Gamedata.game_over_changed.emit()

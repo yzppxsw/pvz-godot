@@ -8,6 +8,7 @@ const SHOLVE_SCENE:=preload("res://Template/sholve_box.tscn")
 
 func _ready() -> void:
 	Gamedata.Game_started.connect(_on_Game_started)
+	Gamedata.game_over_changed.connect(_on_game_over_changed)
 	await move_to(Vector2(750, 300), 0.7)
 	set_up_card_select()
 	set_up_choosebox()
@@ -53,3 +54,8 @@ func set_up_sholve_box() ->void:
 	var tween = create_tween()
 	tween.tween_property(sholve, "position", target_pos, 0.5)
 	tween.set_trans(Tween.TRANS_QUAD).set_ease(Tween.EASE_OUT)
+
+func _on_game_over_changed() -> void:
+	if Gamedata.game_over:
+		move_to(Vector2(250, 300), 0.7)
+		get_node("../Gameover").visible = true
