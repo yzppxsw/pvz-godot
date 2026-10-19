@@ -14,7 +14,7 @@ func _on_Game_started()->void:
 	spawn_sunshine()
 
 func spawn_sunshine()->void:
-	if Gamedata.is_daytime:
+	if Gamedata.is_daytime and not Gamedata.game_over:
 		var sun := Sun.instantiate()
 		add_child(sun)
 		sun.position = Vector2(randi_range(100, 800), randi_range(0, 20))

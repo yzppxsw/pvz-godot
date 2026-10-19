@@ -8,6 +8,7 @@ var animation: AnimatedSprite2D =null
 
 var is_dying: bool = false
 
+var is_home: bool = false
 func _ready()->void:
 	super()
 	animation = $AnimatedSprite2D
@@ -29,13 +30,16 @@ func _process(delta: float)->void:
 			animation.play("ZombieAttack")
 			attack_cd-=delta
 			position.x +=0
-			if attack_cd<=0:
-				attack_cd=ATTACK_CD
-				var target = find_target(target_group)
-				if target:
-					target.take_damage(damage)
-			if not has_target_ahead(target_group):
-				state = State.WALK
+			if not is_home:
+				if attack_cd<=0:
+					attack_cd=ATTACK_CD
+					var target = find_target(target_group)
+					if target:
+						target.take_damage(damage)
+				if not has_target_ahead(target_group):
+					state = State.WALK
+			else:
+				return
 		State.DIE:
 			remove_from_group("zombies")
 			if is_dying:
@@ -65,3 +69,7 @@ func find_target(group: String)->Node2D:
 				if nearest == null or d.x < nearest.global_position.x - global_position.x:
 					nearest = target as Node2D 
 	return nearest
+
+func enter_attack_state()->void:
+	state = State.ATTACK
+	print("enter attack state")
