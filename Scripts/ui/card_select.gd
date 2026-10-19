@@ -2,7 +2,7 @@ extends Node2D
 
 @warning_ignore("integer_division")  # 整数除法，结果为整数，向下取整
 
-@export var unlock_card_id: int = 1
+@export var unlock_card_id: int = 16
 
 var pool_cards: Array[Node]=[]
 
@@ -35,14 +35,10 @@ func set_up_cardpool():
 		card.position=Vector2(col*(CARD_W+gap.x)+start_pos.x,row*(CARD_H+gap.y)+start_pos.y)
 		add_child(card)
 		pool_cards.append(card)
-		card.card_clicked.connect(on_card_clicked)
 		card.set_up()
 
 func _process(_delta: float) -> void:
 	pass
-
-func on_card_clicked(card_id: int) -> void:
-	get_parent().set_up_cards()
 
 func refresh_pool_color() -> void:     # 新增:按数组给池卡上色
 	for card in pool_cards:

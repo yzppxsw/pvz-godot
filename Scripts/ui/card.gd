@@ -1,7 +1,5 @@
 extends Area2D
 
-signal card_clicked
-
 @export var card_id: int = 1
 
 @onready var Card_texture: Sprite2D=$Sprite2D

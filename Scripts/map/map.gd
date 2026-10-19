@@ -40,6 +40,7 @@ func _ready() -> void:
 	elif level==5 or level==6:
 			Rows=6
 
+	Gamedata.plant_grid.clear()
 	for i in range(Rows):
 		Gamedata.plant_grid.append([]) 
 		for j in range(Cols):
