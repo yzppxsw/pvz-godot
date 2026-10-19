@@ -11,7 +11,7 @@ signal delete_mode_completed
 signal game_over_changed
 
 var level_score: int = 0
-var level: int = 1
+var level: int = 2
 var game_over: bool = false
 var is_daytime: bool = true
 var game_started: bool = false
