@@ -1,6 +1,6 @@
 extends Area2D
 
-@export var card_id: int = 1
+@export var card_id: int =1
 
 @onready var Card_texture: Sprite2D=$Sprite2D
 
