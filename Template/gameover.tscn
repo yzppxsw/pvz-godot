@@ -2,6 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://1raw8t0lqcyf" path="res://resources/graphics/Screen/GameLose_transparent.png" id="1_5vpo5"]
 [ext_resource type="Texture2D" uid="uid://bwbamdegagirp" path="res://resources/graphics/Screen/restartButton.png" id="2_hlfog"]
+[ext_resource type="Script" uid="uid://dny864hv4gxs6" path="res://Scripts/ui/reset.gd" id="2_yvh5e"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_mgf14"]
 size = Vector2(201, 37)
@@ -11,12 +12,13 @@ size = Vector2(201, 37)
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=148540646]
 texture = ExtResource("1_5vpo5")
 
-[node name="Area2D" type="Area2D" parent="." unique_id=632950279]
+[node name="Reset" type="Area2D" parent="." unique_id=632950279]
+script = ExtResource("2_yvh5e")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=1753039868]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Reset" unique_id=1753039868]
 position = Vector2(0.5, 311.5)
 shape = SubResource("RectangleShape2D_mgf14")
 
-[node name="Sprite2D" type="Sprite2D" parent="Area2D" unique_id=239236443]
+[node name="Sprite2D" type="Sprite2D" parent="Reset" unique_id=239236443]
 position = Vector2(0, 313)
 texture = ExtResource("2_hlfog")

@@ -35,7 +35,7 @@ shape = SubResource("RectangleShape2D_mgf14")
 script = ExtResource("8_qftbs")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Home" unique_id=1384021057]
-position = Vector2(2.5, 328)
+position = Vector2(-3, 328)
 shape = SubResource("RectangleShape2D_gfm8k")
 
 [node name="highlight" type="Node2D" parent="." unique_id=1930962211]
@@ -57,4 +57,5 @@ script = ExtResource("7_31wal")
 
 [node name="Gameover" parent="." unique_id=69981392 instance=ExtResource("9_5vj6g")]
 visible = false
+z_index = 10
 position = Vector2(255, 230)

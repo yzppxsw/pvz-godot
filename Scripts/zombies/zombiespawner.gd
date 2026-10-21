@@ -53,6 +53,7 @@ func run_level(level: int)->void:
 			await get_tree().create_timer(WAVE_SPAWN_GAP).timeout
 		zombie_wave += 1
 	all_waves_spawned.emit()
+	is_level_cleared()
 
 func spawn_zombie()->void:
 	var zombie := ZOMBIE_SCENE.instantiate()
@@ -67,3 +68,14 @@ func pick_row()->int:
 		return randi_range(1, 3)
 	else:
 		return randi_range(0, ROWS_Y_NORMAL.size() - 1)
+
+func is_level_cleared()->void:
+	while true:
+		await get_tree().create_timer(0.1).timeout
+		if Gamedata.game_over:
+			return
+		if get_tree().get_nodes_in_group("zombies").is_empty():
+			Gamedata.level_cleared = true
+			Gamedata.level_cleared_changed.emit()
+			print("level cleared")
+			return

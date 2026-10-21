@@ -12,7 +12,7 @@ func shoot() -> void:
 	while true:
 		var shoot_cd:=randf_range(0.8,1.5)
 		await get_tree().create_timer(shoot_cd).timeout
-		if not has_zombie_ahead():
+		if not has_zombie_ahead() or Gamedata.game_over or Gamedata.level_cleared:
 			continue
 		fire()
 	

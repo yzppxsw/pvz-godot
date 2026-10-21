@@ -27,7 +27,7 @@ func _ready() -> void:
 	Gamedata.selection_changed.connect(set_up_cards)  # 新增:监听选择变化信号
 	Gamedata.card_clicked_onGame.connect(refresh_card)
 	Gamedata.sun_changed.connect(sun_changed)
-
+	Gamedata.Game_started.connect(refresh_all_cards)  # 游戏开始时设置卡片
 
 func set_up_cards() -> void:
 	if Gamedata.game_started:
@@ -41,15 +41,27 @@ func set_up_cards() -> void:
 			card.card_id = Gamedata.card_selected[i]
 			$SlotContainer.add_child(card)               # 放进容器,不是直接加
 			card.position = CARD_POS_START + Vector2(i * 51, 0)
+		refresh_all_cards()  # 刷新所有卡片状态
 
 func refresh_card(is_cd: bool,_card_id: int) -> void:
 	for card in $SlotContainer.get_children():      # 遍历所有槽卡
-		if card.card_id == _card_id:                # 找到点击的那张
-			if is_cd:
-				card.Card_texture.modulate = Color.from_hsv(0, 0, 0.2)   # 冷却中 → 灰
-			else:
-				card.Card_texture.modulate = Color.from_hsv(0, 0, 1)     # 恢复 → 白
-			return                                   # 找到就停,别继续找
+		if card.card_id == _card_id:
+			card.is_cd = is_cd
+			_refresh_one(card)      # ← 交给统一判断
+			return                                  # 找到就停,别继续找
 
 func sun_changed() -> void:
 	$sun.text=str(Gamedata.sun)
+	refresh_all_cards()  # 太阳变化时刷新所有卡片状态
+
+func _refresh_one(card) -> void:
+	if not Gamedata.game_started:
+		card.Card_texture.modulate = Color.from_hsv(0, 0, 1)     # 白
+	elif card.is_cd or Gamedata.sun < card.sun_cost:
+		card.Card_texture.modulate = Color.from_hsv(0, 0, 0.2)   # 灰
+	else:
+		card.Card_texture.modulate = Color.from_hsv(0, 0, 1)     # 白
+
+func refresh_all_cards() -> void:
+	for card in $SlotContainer.get_children():
+		_refresh_one(card)

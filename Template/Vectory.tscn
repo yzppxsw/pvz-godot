@@ -1,0 +1,59 @@
+[gd_scene format=3 uid="uid://ki0ebdpxo1q2"]
+
+[ext_resource type="Texture2D" uid="uid://dp7ybbreq7swf" path="res://resources/graphics/Screen/AwardScreen_900x600.jpg" id="1_6vgik"]
+[ext_resource type="Script" uid="uid://ch0qsscur2gev" path="res://Scripts/ui/vectory.gd" id="1_mjs00"]
+[ext_resource type="PackedScene" uid="uid://dessefdcbxl43" path="res://Template/card.tscn" id="2_nn5pp"]
+[ext_resource type="Texture2D" uid="uid://bilxce762jp6x" path="res://resources/graphics/Screen/universalButton.png" id="4_755mu"]
+[ext_resource type="Script" uid="uid://c58xry2die2ip" path="res://Scripts/ui/nextlevel.gd" id="4_dtt8k"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_mgf14"]
+size = Vector2(211, 43)
+
+[node name="Vectory" type="Node2D" unique_id=2072825374]
+script = ExtResource("1_mjs00")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=418217354]
+texture = ExtResource("1_6vgik")
+offset = Vector2(450, 300)
+
+[node name="Card" parent="." unique_id=600090838 instance=ExtResource("2_nn5pp")]
+position = Vector2(399, 130)
+scale = Vector2(1, 1)
+
+[node name="congralation" type="Label" parent="." unique_id=1514478272]
+modulate = Color(0.75, 0.48, 0.20999998, 1)
+offset_left = 325.0
+offset_top = 27.0
+offset_right = 581.0
+offset_bottom = 72.0
+theme_override_font_sizes/font_size = 32
+text = "你得到一株新植物"
+
+[node name="describe" type="Label" parent="." unique_id=88049377]
+modulate = Color(0.14, 0.14, 0.14, 1)
+offset_left = 336.0
+offset_top = 365.0
+offset_right = 563.0
+offset_bottom = 452.0
+autowrap_mode = 3
+
+[node name="Nextlevel" type="Area2D" parent="." unique_id=183297298]
+script = ExtResource("4_dtt8k")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Nextlevel" unique_id=2139494810]
+position = Vector2(449.5, 542.5)
+shape = SubResource("RectangleShape2D_mgf14")
+
+[node name="Sprite2D" type="Sprite2D" parent="Nextlevel" unique_id=1855596545]
+position = Vector2(450, 543)
+scale = Vector2(2, 2)
+texture = ExtResource("4_755mu")
+
+[node name="Label" type="Label" parent="Nextlevel" unique_id=1731939369]
+modulate = Color(0.27, 0.18495001, 0.09990001, 1)
+offset_left = 413.0
+offset_top = 526.0
+offset_right = 485.0
+offset_bottom = 560.0
+theme_override_font_sizes/font_size = 24
+text = "下一关"
