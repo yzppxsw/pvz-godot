@@ -13,4 +13,3 @@ func click_menu_button(_viewport: Node, event: InputEvent, _shape_idx: int) -> v
 	if event.is_action_pressed("click"):
 		Gamedata.next_level()
 		pressed.emit()
-		get_tree().reload_current_scene()

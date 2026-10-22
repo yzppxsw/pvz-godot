@@ -1,6 +1,7 @@
 extends Node2D
 
 const ZOMBIE_SCENE := preload("res://Template/zombies/normalzombie.tscn")
+const VECTORY_SCENE := preload("res://Template/Vectory.tscn")
 const SPAWN_X :int= 950
 const ROWS_Y_NORMAL := [182, 280, 379, 477, 576]
 
@@ -77,5 +78,7 @@ func is_level_cleared()->void:
 		if get_tree().get_nodes_in_group("zombies").is_empty():
 			Gamedata.level_cleared = true
 			Gamedata.level_cleared_changed.emit()
-			print("level cleared")
+			#print("level cleared")
+			await get_tree().create_timer(1.5).timeout
+			get_tree().change_scene_to_packed(VECTORY_SCENE)
 			return
