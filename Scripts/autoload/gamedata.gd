@@ -48,7 +48,6 @@ func reset_level() -> void:
 	level_score = 0
 	sun = 50 
 	card_selected.clear()
-	plant_grid.clear()
 	delete_mode = false
 	holding_plant_id=-1
 	holding_plant=null
@@ -59,3 +58,8 @@ func next_level() -> void:
 	level += 1
 	reset_level()
 	print("next level:", level)
+
+func init_level_1_6() -> void:
+	reset_level()
+	game_started=true
+	Gamedata.Game_started.emit()

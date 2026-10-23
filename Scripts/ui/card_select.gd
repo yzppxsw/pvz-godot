@@ -2,7 +2,7 @@ extends Node2D
 
 @warning_ignore("integer_division")  # 整数除法，结果为整数，向下取整
 
-@export var unlock_card_id: int = 16
+@export var unlock_card_id: int = 1 # 解锁的卡片id
 
 var pool_cards: Array[Node]=[]
 
@@ -21,6 +21,7 @@ const Card_Scene:=preload("res://Template/card.tscn")
 
 
 func _ready() -> void:
+	unlock_card_id=Gamedata.level
 	set_up_cardpool()
 	Gamedata.selection_changed.connect(refresh_pool_color)
 	$StartButton.pressed.connect(GameStartButton)

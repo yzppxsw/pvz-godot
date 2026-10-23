@@ -28,20 +28,13 @@ func _ready() -> void:
 	Gamedata.card_clicked_onGame.connect(refresh_card)
 	Gamedata.sun_changed.connect(sun_changed)
 	Gamedata.Game_started.connect(refresh_all_cards)  # 游戏开始时设置卡片
+	rebuild_slots()
 
 func set_up_cards() -> void:
+	print("set_up_cards")
 	if Gamedata.game_started:
 		return
-	else:
-		for child in $SlotContainer.get_children():      # 先清掉旧槽卡
-			child.queue_free()
-
-		for i in range(Gamedata.card_selected.size()):   # 再按数组重建
-			var card = Card_Scene.instantiate()
-			card.card_id = Gamedata.card_selected[i]
-			$SlotContainer.add_child(card)               # 放进容器,不是直接加
-			card.position = CARD_POS_START + Vector2(i * 51, 0)
-		refresh_all_cards()  # 刷新所有卡片状态
+	rebuild_slots()
 
 func refresh_card(is_cd: bool,_card_id: int) -> void:
 	for card in $SlotContainer.get_children():      # 遍历所有槽卡
@@ -65,3 +58,13 @@ func _refresh_one(card) -> void:
 func refresh_all_cards() -> void:
 	for card in $SlotContainer.get_children():
 		_refresh_one(card)
+
+func rebuild_slots() -> void:
+	for child in $SlotContainer.get_children():
+		child.queue_free()
+	for i in range(Gamedata.card_selected.size()):
+		var card = Card_Scene.instantiate()
+		card.card_id = Gamedata.card_selected[i]
+		$SlotContainer.add_child(card)
+		card.position = CARD_POS_START + Vector2(i * 51, 0)
+	refresh_all_cards()      # 顺便应用阳光/冷却的灰色状态

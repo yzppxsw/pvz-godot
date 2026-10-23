@@ -79,6 +79,6 @@ func is_level_cleared()->void:
 			Gamedata.level_cleared = true
 			Gamedata.level_cleared_changed.emit()
 			#print("level cleared")
-			await get_tree().create_timer(1.5).timeout
+			await get_tree().create_timer(3).timeout
 			get_tree().change_scene_to_packed(VECTORY_SCENE)
 			return

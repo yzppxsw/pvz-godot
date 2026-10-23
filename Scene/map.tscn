@@ -9,6 +9,7 @@
 [ext_resource type="Script" uid="uid://dqlsh0l3i84q0" path="res://Scripts/sun/sunspawner.gd" id="7_31wal"]
 [ext_resource type="Script" uid="uid://xe56h2xyk7ve" path="res://Scripts/map/home.gd" id="8_qftbs"]
 [ext_resource type="PackedScene" uid="uid://dsxff6s7r6oqm" path="res://Template/gameover.tscn" id="9_5vj6g"]
+[ext_resource type="PackedScene" uid="uid://c4xj36indunt1" path="res://Template/car.tscn" id="10_ysgi6"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_mgf14"]
 size = Vector2(729, 493)
@@ -23,12 +24,12 @@ level = 4
 [node name="Lawn" type="Area2D" parent="." unique_id=1692946844]
 
 [node name="Sprite2D" type="Sprite2D" parent="Lawn" unique_id=2105059883]
-position = Vector2(-201, 1)
+position = Vector2(-200, 0)
 texture = ExtResource("1_7ap1n")
 centered = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Lawn" unique_id=1444273652]
-position = Vector2(418, 328)
+position = Vector2(420, 330)
 shape = SubResource("RectangleShape2D_mgf14")
 
 [node name="Home" type="Area2D" parent="." unique_id=1180054075]
@@ -59,3 +60,7 @@ script = ExtResource("7_31wal")
 visible = false
 z_index = 10
 position = Vector2(255, 230)
+
+[node name="Car" parent="." unique_id=164347090 instance=ExtResource("10_ysgi6")]
+z_index = 11
+position = Vector2(21, 342)

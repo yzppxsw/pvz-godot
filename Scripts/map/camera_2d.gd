@@ -10,8 +10,9 @@ func _ready() -> void:
 	Gamedata.Game_started.connect(_on_Game_started)
 	Gamedata.game_over_changed.connect(_on_game_over_changed)
 	await move_to(Vector2(750, 300), 0.7)
-	set_up_card_select()
-	set_up_choosebox()
+	set_up_ui()
+	# set_up_card_select()
+	# set_up_choosebox()
 	# set_up_shoulve()
 
 func move_to(target: Vector2,duration: float) -> void:              #游戏相机移动
@@ -32,6 +33,8 @@ func set_up_card_select() -> void:
 	tween.set_trans(Tween.TRANS_BACK).set_ease(Tween.EASE_OUT)
 
 func _on_Game_started() -> void:
+	if Gamedata.level<=6:
+		return
 	move_to(Vector2(450, 300), 0.7)        	# 卡片池移动到正确位置
 	$CardSelect.queue_free()    # 卡片池移动完成后，删除卡片池节点
 	await get_tree().create_timer(0.7).timeout # 等待0.7秒，确保卡片池节点被删除
@@ -59,3 +62,18 @@ func _on_game_over_changed() -> void:
 	if Gamedata.game_over:
 		move_to(Vector2(250, 300), 0.7)
 		get_node("../Gameover").visible = true
+
+func set_up_ui() ->void:
+	if Gamedata.level<=6:
+		Gamedata.init_level_1_6()
+		for i in range(Gamedata.level):
+			Gamedata.card_selected.append(i+1)
+		print(Gamedata.card_selected)
+		print(Gamedata.game_started)
+		move_to(Vector2(450, 300), 0.7)
+		set_up_sholve_box()
+		set_up_choosebox()
+		Gamedata.selection_changed.emit()
+	else:
+		set_up_card_select()
+		set_up_choosebox()
